@@ -1,0 +1,206 @@
+write-host 'PowerShellCalculator for ACE-III'
+write-host '====================='
+write-host 'for_help_enter: H'
+[int]$A1 = Read-Host -Prompt 'Please, enter value for orientation in
+time [0-5] '
+if ($A1 -gt 5) {
+write-host "The value $A1 is greater than 5"
+}
+elseif ($A1 -lt 0) {
+write-host "The value $A1 is less than 0"
+}
+[int]$A2 = Read-Host -Prompt 'Please, enter value for orientation in
+place [0-5]'
+if ($A2 -gt 5) {
+write-host "The value $A2 is greater than 5"
+}
+elseif ($A2 -lt 0) {
+write-host "The value $A1 is less than 0"
+}
+[int]$A3 = Read-Host -Prompt 'Please, enter value for registration
+[0-3]'
+if ($A3 -gt 3) {
+write-host "The value $A3 is greater than 3"
+}
+elseif ($A3 -lt 0) {
+write-host "The value $A3 is less than 0"
+}
+[int]$A4 = Read-Host -Prompt 'Please, enter value for serial 7
+subtraction [0-5]'
+if ($A4 -gt 5) {
+write-host "The value $A4 is greater than 5"
+}
+elseif ($A4 -lt 0) {
+write-host "The value $A4 is less than 0"
+}
+[int]$M1 = Read-Host -Prompt 'Please, enter value for recall of 3 item
+[0-3]'
+if ($M1 -gt 3) {
+write-host "The value $M1 is greater than 3"
+}
+elseif ($M1 -lt 0) {
+write-host "The value $M1 is less than 0"
+}
+[int]$F1 = Read-Host -Prompt 'Please, enter value for letter fluency
+[0-7]'
+if ($F1 -gt 7) {
+write-host "The value $F1 is greater than 7"
+}
+elseif ($A1 -lt 0) {
+write-host "The value $F1 is less than 0"
+}
+[int]$F2 = Read-Host -Prompt 'Please, enter value for category fluency
+[0-7]'
+if ($F2 -gt 7) {
+write-host "The value $F2 is greater than 7"
+}
+elseif ($F2 -lt 0) {
+write-host "The value $F2 is less than 0"
+}
+[int]$M2 = Read-Host -Prompt 'Please, enter value for anterograde memory
+[0-7]'
+if ($M2 -gt 7) {
+write-host "The value $M2 is greater than 7"
+}
+elseif ($M2 -lt 0) {
+write-host "The value $M2 is less than 0"
+}
+[int]$M3 = Read-Host -Prompt 'Please, enter value for retrograde memory
+[0-4]'
+if ($M3 -gt 5) {
+write-host "The value $M3 is greater than 4"
+}
+elseif ($M3 -lt 0) {
+write-host "The value $M3 is less than 0"
+}
+[int]$L1 = Read-Host -Prompt 'Please, enter value for comprehension
+[0-3]'
+if ($L1 -gt 3) {
+write-host "The value $L1 is greater than 3"
+}
+elseif ($L1 -lt 0) {
+write-host "The value $L1 is less than 0"
+}
+[int]$L2 = Read-Host -Prompt 'Please, enter value for writing [0-2]'
+if ($L2 -gt 2) {
+write-host "The value $L2 is greater than 2"
+}
+elseif ($L2 -lt 0) {
+write-host "The value $A1 is less than 0"
+}
+[int]$L3 = Read-Host -Prompt 'Please, enter value for single word
+repitition [0-2]'
+if ($L3 -gt 2) {
+write-host "The value $L3 is greater than 2"
+}
+elseif ($A1 -lt 0) {
+write-host "The value $L3 is less than 0"
+}
+[int]$L4 = Read-Host -Prompt 'Please, enter value for proverb repition
+[0-2]'
+if ($L4 -gt 2) {
+write-host "The value $L4 is greater than 2"
+}
+elseif ($L4 -lt 0) {
+write-host "The value $L4 is less than 0"
+}
+[int]$L5 = Read-Host -Prompt 'Please, enter value for object naming
+[0-12]'
+if ($L5 -gt 12) {
+write-host "The value $L5 is greater than 12"
+}
+elseif ($A1 -lt 0) {
+write-host "The value $L5 is less than 0"
+}
+[int]$L6 = Read-Host -Prompt 'Please, enter value for comprehension
+[0-4]'
+if ($L6 -gt 4) {
+write-host "The value $L6 is greater than 5"
+}
+elseif ($L6 -lt 0) {
+write-host "The value $L6 is less than 0"
+}
+[int]$L7 = Read-Host -Prompt 'Please, enter value for reading [0-1]'
+if ($L7 -gt 1) {
+write-host "The value $L7 is greater than 1"
+}
+elseif ($L7 -lt 0) {
+write-host "The value $L7 is less than 0"
+}
+[int]$V1 = Read-Host -Prompt 'Please, enter value for intersecting
+infinity loops [0-1]'
+if ($V1 -gt 1) {
+write-host "The value $V1 is greater than 1"
+}
+elseif ($V1 -lt 0) {
+write-host "The value $V1 is less than 0"
+}
+[int]$V2 = Read-Host -Prompt 'Please, enter value for 3D wire cube
+[0-2]'
+if ($V2 -gt 2) {
+write-host "The value $V2 is greater than 5"
+}
+elseif ($V2 -lt 0) {
+write-host "The value $V2 is less than 0"
+}
+[int]$V3 = Read-Host -Prompt 'Please, enter value for clock-drawing test
+[0-5]'
+if ($V3 -gt 5) {
+write-host "The value $V3 is greater than 5"
+}
+elseif ($A1 -lt 0) {
+write-host "The value $V3 is less than 0"
+}
+[int]$V4 = Read-Host -Prompt 'Please, enter value for counting dots
+[0-4]'
+if ($V4 -gt 4) {
+write-host "The value $V4 is greater than 4"
+}
+elseif ($v4 -lt 0) {
+write-host "The value $V4 is less than 0"
+}
+[int]$V5 = Read-Host -Prompt 'Please, enter value for identifying
+letters [0-4]'
+if ($V5 -gt 4) {
+write-host "The value $V5 is greater than 4"
+}
+elseif ($V5 -lt 0) {
+write-host "The value $V5 is less than 0"
+}
+[int]$M4 = Read-Host -Prompt 'Please, enter value for recall of name &
+address [0-7]'
+if ($M4 -gt 7) {
+write-host "The value $M4 is greater than 7"
+}
+elseif ($M4 -lt 0) {
+write-host "The value $M4 is less than 0"
+}
+[int]$M5 = Read-Host -Prompt 'Please, enter value for recognition [0-5]'
+if ($M5 -gt 5) {
+write-host "The value $M5 is greater than 5"
+}
+elseif ($M5 -lt 0) {
+write-host "The value $M5 is less than 0"
+}
+[int]$sum = [int]$A1 + [int]$A2 + [int]$A3 + [int]$A4 + [int]$M1 +
+[int]$F1 + [int]$F2 + [int]$M2 + [int]$M3 + [int]$L1 + [int]$L2 +
+[int]$L3 + [int]$L4 + [int]$L5 + [int]$L6 + [int]$L7 + [int]$V1 +
+[int]$V2 + [int]$V3 + [int]$V4 + [int]$V5 + [int]$M4 + [int]$M5
+Write-Host 'The total score of ACE-III is'$sum '/100'
+[int]$sumA = [int]$A1 + [int]$A2 + [int]$A3 + [int]$A4
+write-host 'Attention:' $sumA '/18'
+[int]$sumM = [int]$M1 + [int]$M2 + [int]$M3 + [int]$M4 + [int]$M5
+write-host 'Memory' $sumM '/26'
+[int]$SumF = [int]$F1 + [int]$F2
+write-Host 'Fluency' $sumF '/14'
+[int]$sumL = [int]$L1 + [int]$L2 + [int]$L3 + [int]$L4 + [int]$L5 +
+[int]$L6 + [int]$L7
+Write-Host 'Language:' $sumL '/26'
+[int]$sumV = [int]$V1 + [int]$V2 + [int]$V3 + [int]$V4 + [int]$V5
+Write-Host 'Visuospatial:' $sumV '/16'
+if ($sum -gt 100) {
+write-host "The value of ACE-III $sum is invalid"
+}
+elseif ($sum -lt 0) {
+write-host "The value of ACE-III $summ is invalid"
+}
