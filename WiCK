@@ -89,14 +89,14 @@ elseif ($L2 -lt 0) {
 write-host "The value $A1 is less than 0"
 }
 [int]$L3 = Read-Host -Prompt 'Please, enter value for single word
-repitition [0-2]'
+repetition [0-2]'
 if ($L3 -gt 2) {
 write-host "The value $L3 is greater than 2"
 }
 elseif ($A1 -lt 0) {
 write-host "The value $L3 is less than 0"
 }
-[int]$L4 = Read-Host -Prompt 'Please, enter value for proverb repition
+[int]$L4 = Read-Host -Prompt 'Please, enter value for proverb repetition
 [0-2]'
 if ($L4 -gt 2) {
 write-host "The value $L4 is greater than 2"
