@@ -202,5 +202,5 @@ if ($sum -gt 100) {
 write-host "The value of ACE-III $sum is invalid"
 }
 elseif ($sum -lt 0) {
-write-host "The value of ACE-III $summ is invalid"
+write-host "The value of ACE-III $sum is invalid"
 }
