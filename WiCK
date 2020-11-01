@@ -93,7 +93,7 @@ repetition [0-2]'
 if ($L3 -gt 2) {
 write-host "The value $L3 is greater than 2"
 }
-elseif ($A1 -lt 0) {
+elseif ($L3 -lt 0) {
 write-host "The value $L3 is less than 0"
 }
 [int]$L4 = Read-Host -Prompt 'Please, enter value for proverb repetition
@@ -109,7 +109,7 @@ write-host "The value $L4 is less than 0"
 if ($L5 -gt 12) {
 write-host "The value $L5 is greater than 12"
 }
-elseif ($A1 -lt 0) {
+elseif ($L5 -lt 0) {
 write-host "The value $L5 is less than 0"
 }
 [int]$L6 = Read-Host -Prompt 'Please, enter value for comprehension
@@ -148,7 +148,7 @@ write-host "The value $V2 is less than 0"
 if ($V3 -gt 5) {
 write-host "The value $V3 is greater than 5"
 }
-elseif ($A1 -lt 0) {
+elseif ($V3 -lt 0) {
 write-host "The value $V3 is less than 0"
 }
 [int]$V4 = Read-Host -Prompt 'Please, enter value for counting dots
