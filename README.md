@@ -12,7 +12,10 @@ _Wizard Cognitive Kit. This is a MS-PowerShell calculator for Addenbrooke's Cogn
 - If any of the values are out of range, the programme will let you know
 - You will have to restart the programme again if there was a wrong entry
 
-## Known bugs
+## Twin Project
+https://github.com/moftasa/PythonACEIIICalculator is a twin project that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
+
+## Known Bugs
 - The script does not repeat the question if you entered incorrect value (missing repeat function)rub
 
 ## License
