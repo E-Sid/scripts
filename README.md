@@ -7,6 +7,9 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 - ace.bin refers to Addenbrooke's Cognitive Examination (III)
 - ace-r.sh refers to Addenbrooke's Cognitive Examination-R (which also calculates Mini-Mental State Examination(MMSE))
 - bprs.sh refers to Brief Psychiatric Rating Scale
+### Dependencies
+The shell scripts require calc
+
 ## Instructions PowerShell Script
 - On MS-Windows-10 from the start menu down left search for PowerShell
 - Select PowerShell ISE
