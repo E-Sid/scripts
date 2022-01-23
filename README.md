@@ -1,5 +1,5 @@
 # Psychiatric Assessments
-_These are GNU/Linux & MS-PowerShell calculator for Addenbrooke's Cognitive Examination (ACE-III) & (ACE-R), and Brief Psychiatric Rating Scale_
+_These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitive Examination (ACE-III) & (ACE-R), and Brief Psychiatric Rating Scale_
 
 ## Instructions of GNU/Linux Shell Script
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux or MacOS start terminal
