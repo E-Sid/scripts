@@ -15,7 +15,7 @@ The shell scripts require calc
 ## Instructions PowerShell Script
 - On MS-Windows-10 from the start menu down left search for PowerShell
 - Select PowerShell ISE
-- Load the programme or copy and paste it in MS-PowerShell ISE
+- Load the programme or copy WiCK.ps1 and paste it in MS-PowerShell ISE
 - Press `play` button
 - Answer the questions based on your assessment results
 - Only numbers are entered
