@@ -12,6 +12,16 @@ while :; do
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
+echo "Attention: Please, re-type score for orientation in time out of 4 to calculate M-ACE (day, date, month, year [0-4]"
+while :; do
+    read A0
+    if [[ $A0 -ge 0 && $A0 -le 4 ]]; then
+	echo "valid number"
+	break
+    else
+	echo "Value is out of range. Please, enter a valid number"
+    fi
+done
 echo "Attention: Please, type score for orientation in place [0-5]"
 while :; do
     read A2
@@ -268,19 +278,22 @@ done
 
 echo "The total ACE-III score is"
 calc $A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5
-echo "            /100"
+echo "           /100"
+echo "The total M-ACE score is"
+calc $A0 + $F2 + $M2 + $V3 + $M4
+echo "          /30"
 echo "The Attention subset score is"
 calc $A1 + $A2 + $A3 +$A4
-echo "           /18"
-echo "The memory subset score is"
+echo "          /18"
+echo "The Memory subset score is"
 calc $M1 + $M2 + $M3 + $M4 + $M5
-echo "           /26"
+echo "          /26"
 echo "The Fluency subset score is" 
 calc $F1 + $F2
-echo "           /14"
+echo "          /14"
 echo "The Language subset score is"
 calc $L1+ $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8
 echo "          /26"
-echo "The Visuospatial score is"
+echo "The Visuospatial subset score is"
 calc $V1 + $V2 + $V3 + $V4 + $V5
 echo "          /16"
