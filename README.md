@@ -1,11 +1,13 @@
 # Psychiatric Assessments
-_These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitive Examination (ACE-III) & (ACE-R), and Brief Psychiatric Rating Scale_
+_These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitive Examination (ACE-III), Mini-Addenbrooke's Cognitive Examination (M-ACE), Addenbrooke's Cognitive Examination - Revised (ACE-R), Montreal Cognitive Examination (MoCA), Montreal Cognitive Examination - Blind (MoCA - Blind) and Brief Psychiatric Rating Scale (BPRS)_
 
 ## Instructions of GNU/Linux Shell Script
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux or MacOS start terminal
 - Type ./ before the file name to start the desired shell script
-- ace.bin refers to Addenbrooke's Cognitive Examination (III)
+- ace.sh refers to Addenbrooke's Cognitive Examination (III), with M-ACE subset calculation)
 - ace-r.sh refers to Addenbrooke's Cognitive Examination-R (which also calculates Mini-Mental State Examination(MMSE))
+- moca.sh refers to Montreal Cognitive Examination (MoCA)
+- moca-blind.sh refers Montreal Cognitive Examination - blind (MoCA - Blind)
 - bprs.sh refers to Brief Psychiatric Rating Scale
 ### Dependencies
 The shell scripts require calc
