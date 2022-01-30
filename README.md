@@ -7,6 +7,7 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 - Please, type ./ before the file name to start the desired shell script
 - ace.sh refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - ace-r.sh refers to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
+- m-ace.sh refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - moca.sh refers to Montreal Cognitive Examination (MoCA)
 - moca-blind.sh refers Montreal Cognitive Examination - blind (MoCA - Blind)
 - bprs.sh refers to Brief Psychiatric Rating Scale
@@ -16,7 +17,8 @@ The shell scripts require calc
 
 ## Instructions PowerShell Script
 - ace-pwsh.ps1 refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
-- ace-r-pwsh.ps1 refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation 
+- ace-r-pwsh.ps1 refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
+- m-ace-pwsh.ps1 refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - On MS-Windows from the start menu down left search for PowerShell
 - Please, select PowerShell ISE
 - Please, load the programme or copy ace-pwsh.ps1 and paste it in MS-PowerShell ISE
