@@ -3,6 +3,7 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 
 ## Instructions for GNU/Linux Shell Script on GNU/Linux, BSD, or MacOS
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux or in MacOS start terminal
+- Make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Type ./ before the file name to start the desired shell script
 - ace.sh refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - ace-r.sh refers to Addenbrooke's Cognitive Examination-R (which also calculates Mini-Mental State Examination(MMSE))
