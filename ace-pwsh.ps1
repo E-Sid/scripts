@@ -4,8 +4,12 @@ write-host '====================================================================
 while ($A1 -gt 5 -OR $A1 -lt 0) {
 $A1 = Read-Host "value is out of range, please re-type the value"
 }
+[int]$A0 = Read-Host -Prompt 'Please, re-type score for orientation in time out of 4 to calculate M-ACE (day, date, month, year [0-4]'
+while ($A0 -gt 4 -OR $A0 -lt 0) {
+$A1 = Read-Host "value is out of range, please re-type the value"
+}
 [int]$A2 = Read-Host -Prompt 'Please, enter value for orientation in place [0-5]'
-while ($A2 -gt 5 -OR $A1 -lt 0) {
+while ($A2 -gt 5 -OR $A2 -lt 0) {
 $A2 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$A3 = Read-Host -Prompt 'Please, enter value for registration [0-3]'
@@ -94,6 +98,8 @@ $M5 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$sum = [int]$A1 + [int]$A2 + [int]$A3 + [int]$A4 + [int]$M1 + [int]$F1 + [int]$F2 + [int]$M2 + [int]$M3 + [int]$L1 + [int]$L2 + [int]$L3 + [int]$L4 + [int]$L5 + [int]$L6 + [int]$L7 + [int]$V1 + [int]$V2 + [int]$V3 + [int]$V4 + [int]$V5 + [int]$M4 + [int]$M5
 Write-Host 'The total score of ACE-III is'$sum '/100'
+[int]$mace = [int]$A0 + [int]$F2 + [int]$M2 + [int]$V3 + [int]$M4
+Write-Host 'The total score of M-ACE is' $mace '/30'
 [int]$sumA = [int]$A1 + [int]$A2 + [int]$A3 + [int]$A4
 Write-host 'Attention:' $sumA '/18'
 [int]$sumM = [int]$M1 + [int]$M2 + [int]$M3 + [int]$M4 + [int]$M5
