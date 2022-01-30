@@ -6,7 +6,7 @@ $A1 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$A0 = Read-Host -Prompt 'Please, re-type score for orientation in time out of 4 to calculate M-ACE (day, date, month, year [0-4]'
 while ($A0 -gt 4 -OR $A0 -lt 0) {
-$A1 = Read-Host "value is out of range, please re-type the value"
+$A0 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$A2 = Read-Host -Prompt 'Please, enter value for orientation in place [0-5]'
 while ($A2 -gt 5 -OR $A2 -lt 0) {
