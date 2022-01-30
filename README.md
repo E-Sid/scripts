@@ -19,6 +19,8 @@ The shell scripts require calc
 - ace-pwsh.ps1 refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - ace-r-pwsh.ps1 refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
 - m-ace-pwsh.ps1 refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
+- moca-pwsh.ps1 refers to Montreal Cognitive Examination (MoCA)
+- moca-blind-pwsh.ps1 refers Montreal Cognitive Examination - blind (MoCA - Blind)
 - On MS-Windows from the start menu down left search for PowerShell
 - Please, select PowerShell ISE
 - Please, load the programme or copy ace-pwsh.ps1 and paste it in MS-PowerShell ISE
