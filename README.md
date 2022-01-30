@@ -16,6 +16,7 @@ The shell scripts require calc
 
 ## Instructions PowerShell Script
 - ace-pwsh.ps1 refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
+- ace-r-pwsh.ps1 refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation 
 - On MS-Windows from the start menu down left search for PowerShell
 - Please, select PowerShell ISE
 - Please, load the programme or copy ace-pwsh.ps1 and paste it in MS-PowerShell ISE
