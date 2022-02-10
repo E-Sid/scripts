@@ -7,10 +7,12 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 - Please, type ./ before the file name to start the desired shell script
 - ace.sh refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - ace-r.sh refers to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
+- cbi.sh refers to Cambridge Behavioural Inventory (CBI)
+- cbi-r.sh refers to Cambridge Behavioural Inventory Revised (CBI-R)
 - m-ace.sh refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - moca.sh refers to Montreal Cognitive Examination (MoCA)
 - moca-blind.sh refers Montreal Cognitive Examination - blind (MoCA - Blind)
-- bprs.sh refers to Brief Psychiatric Rating Scale
+- bprs.sh refers to Brief Psychiatric Rating Scale (BPRS)
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
 The shell scripts require calc
