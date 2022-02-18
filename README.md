@@ -15,7 +15,7 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 - bprs-bc.sh, bprs-calc, and bprs-echo.sh refer to Brief Psychiatric Rating Scale (BPRS)
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
-The shell scripts with -bc in their names require basic calculator `bc`. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via echo. -echo files are the most basic, possibly all of the aforementioned operating systems, and distros would ship with echo, bc is the most popular calculator, and calc might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. 
+The shell scripts with -bc in their names require basic calculator `bc`. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via echo. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, bc is the most popular calculator, and calc might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. 
 
 ## Instructions PowerShell Script
 - ace-pwsh.ps1 refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
