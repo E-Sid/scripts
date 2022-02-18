@@ -1,7 +1,28 @@
 #/!/bin/bash
 
-echo "This is Montreal Cognitive Assessment - Blind (MoCA - Blind) scoring"
-echo "===================================================================="
+echo "This is Montreal Cognitive Assessment (MoCA) scoring"
+echo "===================================================="
+echo "Visuospatial/Executive: Please, type the score for visuospatial abilities [0-5]"
+while :; do
+    read V
+    if [[ $V -ge 0 && $V -le 5 ]]; then
+	echo "valid number"
+	break
+    else
+	echo "Value is out of range. Please, enter a valid number"
+    fi
+done
+
+echo "Naming: Please, type score for naming [0-3]"
+while :; do
+    read N
+    if [[ $N -ge 0 && $N -le 3 ]]; then
+	echo "valid number"
+	break
+    else
+	echo "Value is out of range. Please, enter a valid number"
+    fi
+done
 
 echo "Attention: Please, type score for digit span [0-2]"
 while :; do
@@ -34,7 +55,6 @@ while :; do
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
-
 
 echo "Language: Please, type score for sentence repetition [0-2]"
 while :; do
@@ -89,6 +109,9 @@ while :; do
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
-echo "The total MoCA -Blind score is"
-calc $A1 + $A2 +  $A3 + $L1 + $L2 + $A4 + $DR + $O
-echo "          /22"
+
+echo "The total MoCA score is"
+calc $V + $N + $A1 + $A2 + $A3 + $L1 + $L2 + $A4 + $DR + $O
+echo "         /30"
+
+
