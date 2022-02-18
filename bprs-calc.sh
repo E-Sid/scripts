@@ -183,3 +183,4 @@ while :; do
 done
 echo "BPRS score is"
 calc $BPRS1 + $BPRS2 + $BPRS3 + $BPRS4 + $BPRS5 + $BPRS6 + $BPRS7 + $BPRS8 + $BPRS9 + $BPRS10 + $BPRS11 + $BPRS12 + $BPRS13 + $BPRS14 + $BPRS15 + $BPRS16 + $BPRS17 + $BPRS18
+echo "          /126"
