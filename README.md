@@ -5,17 +5,17 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux, BSD or in MacOS-X start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type ./ before the file name to start the desired shell script
-- ace.sh refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
-- ace-r.sh refers to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
-- cbi.sh refers to Cambridge Behavioural Inventory (CBI)
-- cbi-r.sh refers to Cambridge Behavioural Inventory Revised (CBI-R)
-- m-ace.sh refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
-- moca.sh refers to Montreal Cognitive Examination (MoCA)
-- moca-blind.sh refers Montreal Cognitive Examination - blind (MoCA - Blind)
-- bprs.sh refers to Brief Psychiatric Rating Scale (BPRS)
+- ace-bc.sh, ace-calc.sh, and ace-echo.sh refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
+- ace-r-bc.sh, ace-r-calc.sh, and ace-r-echo.sh refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
+- cbi-bc.sh, cbi-calc,  and cbi-echo.sh refer to Cambridge Behavioural Inventory (CBI)
+- cbi-r-bc.sh, cbi-calc.sh, and cbi-echo.sh refer to Cambridge Behavioural Inventory Revised (CBI-R)
+- m-ace-bc.sh, m-ace-calc, and m-ace-echo.sh refer to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
+- moca-bc.sh, moca-calc.sh, and moca-echo.sh refer to Montreal Cognitive Examination (MoCA)
+- moca-blind-bc.sh, moca-blind-calc.sh, and moca-blind-echo.sh refer Montreal Cognitive Examination - blind (MoCA - Blind)
+- bprs-bc.sh, bprs-calc, and bprs-echo.sh refer to Brief Psychiatric Rating Scale (BPRS)
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
-The shell scripts require calc
+The shell scripts with -bc in their names require basic calculator `bc`. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via echo. -echo files are the most basic, possibly all of the aforementioned operating systems, and distros would ship with echo, bc is the most popular calculator, and calc might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. 
 
 ## Instructions PowerShell Script
 - ace-pwsh.ps1 refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
