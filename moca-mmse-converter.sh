@@ -8,7 +8,7 @@ while :; do
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done    
-echo "According to Steenoven et al. (2014) doi:10.1002/mds.2602"
+echo "According to Steenoven, et al.(2014) doi:10.1002/mds.2602"
 if [[ $ans -ge 0 && $ans -le 0 ]]; then
     echo "MMSE score is 0/30"
     elif [[ $ans -ge 1 && $ans -le 1 ]]; then
