@@ -1,6 +1,6 @@
 #/!/bin/bash
 
-echo "This is Addenrbooke's Cognitive Examination (ACE-III) Calculator"
+echo "This is Mini-Addenrbooke's Cognitive Examination (M-ACE-III) Calculator"
 echo "==============================================================="
 echo "Attention: Please, type score for orientation in time [0-4]"
 while :; do
