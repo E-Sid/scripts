@@ -1,0 +1,78 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MoCA to MMSE Score Convertion</title>
+    <script language="javascript">
+        theDestVals = [" ", "1", "2", "4", "10", "13", "14", "15", "16", "17", "18", "18", "19", "20", "20", "21", "22", "22", "23", "24", "24", "25", "26", "26", "27", "28", "28", "29", "29", "30", "30"];
+
+    	function doConversion()
+    	{
+            ourIndex = document.getElementById("MoCA_Score").selectedIndex;
+            document.getElementById('Converted').value = theDestVals[ourIndex];
+        }
+    </script>
+    <meta name="author" content="Hosam Adeeb Nashed Fahmy">
+    <meta name="description" content="A JavaScript utility to make easy
+      the conversion from one system of scoring to the other.">
+  </head>
+  <body>
+    <h1>MoCA to MMSE Score Converter</h1>
+    <form name="Scores">
+      <table width="100%" cellspacing="2" cellpadding="2" border="0">
+        <tbody>
+          <tr>
+            <td valign="middle" bgcolor="#cccccc" align="center"><b>Adjusted MoCA Score</b> </td>
+            <td valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td valign="middle" bgcolor="#cccccc" align="center"> <b>Equivalent MMSE Score</b><br>
+              <b>by Lawton et al</b></td>
+          </tr>
+          <tr>
+            <td valign="top"><label>Source Score:</label>
+              <select name="MoCA_Score" id="MoCA_Score"
+                onchange="doConversion();">
+                <option selected="selected">Select...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+              </select>
+            </td>
+            <td valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td valign="top"><label>Resulting Score:</label><input
+                value=" " name="Converted" id="Converted" size="2"
+                readonly="readonly"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
