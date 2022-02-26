@@ -4,7 +4,7 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku terminal
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux, BSD or in MacOS-X start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
-- Please, type `./` before the file name to start the desired shell script
+- Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
 - `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-bs.sh` also converts to MMSE score in addition to M-ACE.
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
 - `ace-mmse-converter.sh` converts the results of ACE-III test to MMSE based on Matías-Guiu JA, Pytel V, Cortés-Martínez A, Valles-Salgado M, Rognoni T, Moreno-Ramos T, Matías-Guiu J. Conversion between Addenbrooke's Cognitive Examination III and Mini-Mental State Examination. Int Psychogeriatr. 2018 Aug;30(8):1227-1233. doi: 10.1017/S104161021700268X. Epub 2017 Dec 10. PMID: 29223183.
