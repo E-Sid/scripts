@@ -1,5 +1,5 @@
 #/!/bin/bash
-echo "Health of The Nations Outcome Score (HoNOS)"
+echo "Health of The Nation Outcome Scale (HoNOS)"
 echo "==========================================="
 echo "1 Overactive, aggressive, disruptive or agitated behaviour [0-4]"
 while :; do
