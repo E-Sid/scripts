@@ -15,24 +15,25 @@ _These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitiv
 - `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. Mov Disord. 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
 - `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
 - `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
-- `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. Also, if on gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. Due, to float nature of values, out of range prompt is of limited abilities.  
+- `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. Due, to float nature of values, out of range prompt is of limited abilities.  
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
 The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via echo. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, bc is the most popular calculator, and calc might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they could have converters to MMSE also.
 
 ## Instructions PowerShell Script
-- ace-pwsh.ps1 refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
-- ace-r-pwsh.ps1 refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
-- m-ace-pwsh.ps1 refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
-- moca-pwsh.ps1 refers to Montreal Cognitive Examination (MoCA)
-- moca-blind-pwsh.ps1 refers Montreal Cognitive Examination - blind (MoCA - Blind)
+- `ace-pwsh.ps1` refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
+- `ace-r-pwsh.ps1` refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
+- `m-ace-pwsh.ps1` refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
+- `moca-pwsh.ps1` refers to Montreal Cognitive Examination (MoCA)
+- `moca-blind-pwsh.ps1` refers Montreal Cognitive Examination - blind (MoCA - Blind)
+- `ect-pwsh.ps1` refers to an electroconvulsive therapy calculator. It calculates the electroconvulsive therapy (ECT) charge according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC.
 - On MS-Windows from the start menu down left search for PowerShell
 - Please, select PowerShell ISE
 - Please, load the programme or copy ace-pwsh.ps1 and paste it in MS-PowerShell ISE
 - Please, press `play` button
 - Please, answer the questions based on your assessment results
 - Only numbers are entered
-- After finishing the programme calculates the total ACE-III score with its subsets and displays them
+- After finishing the programme calculates the total ACE-III, or ACE-R etc. score with its subsets _whenever possible_ and displays them
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range.
 
 ## Platform independent
