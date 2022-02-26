@@ -33,7 +33,10 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - Please, answer the questions based on your assessment results
 - Only numbers are entered
 - After finishing the programme calculates the total ACE-III score with its subsets and displays them
-- If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
+- If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range.
+
+## Platform independent
+- MOCA2MMSE.html is an html/JavaScript based on the conversion by Lawton et al. Credits to Hosadeeb Adeeb Nashed
 
 ## Twin Project
 https://github.com/moftasa/PythonACEIIICalculator is a twin project that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
