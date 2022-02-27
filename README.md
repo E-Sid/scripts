@@ -1,5 +1,5 @@
 # Psychiatric Assessments
-_These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitive Examination (ACE-III), Mini-Addenbrooke's Cognitive Examination (M-ACE), Addenbrooke's Cognitive Examination - Revised (ACE-R),Cambridge Behavioural Inventory (CBI), Cambridge Behavioural Inventory - Revised (CBI-R), Montreal Cognitive Examination (MoCA), Montreal Cognitive Examination - Blind (MoCA - Blind), ACE-III to MMSE converter, MoCA to MMSE converter, Brief Psychiatric Rating Scale (BPRS), Hamilton Depression Rating Scale (HRSD), Health of The Nation Ouctome Scale (HoNOS), and ECT Dose calculator_
+_These are GNU/Linux Shell & MS-PowerShell calculator for Addenbrooke's Cognitive Examination (ACE-III), Mini-Addenbrooke's Cognitive Examination (M-ACE), Addenbrooke's Cognitive Examination - Revised (ACE-R),Cambridge Behavioural Inventory (CBI), Cambridge Behavioural Inventory - Revised (CBI-R), Montreal Cognitive Examination (MoCA), Montreal Cognitive Examination - Blind (MoCA - Blind), ACE-III to MMSE converter, MoCA to MMSE converter,Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD), Brief Psychiatric Rating Scale (BPRS), Hamilton Depression Rating Scale (HRSD), Health of The Nation Ouctome Scale (HoNOS), and ECT Dose calculator_
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku terminal
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux, BSD or in MacOS-X start terminal
@@ -28,6 +28,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `m-ace-pwsh.ps1` refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-pwsh.ps1` refers to Montreal Cognitive Examination (MoCA)
 - `moca-blind-pwsh.ps1` refers Montreal Cognitive Examination - blind (MoCA - Blind)
+- `cdr-pwsh.ps1` refers to Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `ect-pwsh.ps1` refers to an electroconvulsive therapy calculator. It calculates the electroconvulsive therapy (ECT) charge according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC.
 - On MS-Windows from the start menu down left search for PowerShell
 - Please, select PowerShell ISE
