@@ -44,7 +44,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `moca2mmse.html` is an html/JavaScript based on the conversion by Lawton et al. Credits to [Hosadeeb Adeeb Nashed](https://github.com/HosAdeeb)
 
 ## Twin Project
-https://github.com/moftasa/PythonACEIIICalculator is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
+[Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
 
 ## License
 - This product is licensed under GPL3. Clinical Use is allowed by trained clinicians but it is not for commercial use.
