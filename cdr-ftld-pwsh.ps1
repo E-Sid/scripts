@@ -26,5 +26,13 @@ $O = Read-Host "Value is out of range, please, re-type the value"
 while ($P -gt 3 -OR $P -lt 0) {
 $O = Read-Host "Value is out of range, please, re-type the value"
 }
-[decimal]$CDR = [decimal]$M + [decimal]$O + [decimal]$J + [decimal]$C + [decimal]$H + [int]$P 
-write-host 'The total CDR-FTLD score is' $CDR '/18 via SOB method'
+[decimal]$B = Read-Host -Prompt '7. Please, type score for Behaviour, Comportment and Personality'
+while ($B -gt 3 -OR $B -lt 0) {
+$O = Read-Host "Value is out of range, please, re-type the value"
+}
+[decimal]$L = Read-Host -Prompt '8. Please, type score for Language'
+while ($O -gt 3 -OR $O -lt 0) {
+$L = Read-Host "Value is out of range, please, re-type the value"
+}
+[decimal]$CDR = [decimal]$M + [decimal]$O + [decimal]$J + [decimal]$C + [decimal]$H + [int]$P + [decimal]$B + [decimal]$L
+write-host 'The total CDR-FTLD score is' $CDR '/24 via SOB method'
