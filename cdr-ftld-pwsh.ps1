@@ -22,7 +22,7 @@ $O = Read-Host "Value is out of range, please, re-type the value"
 while ($H -gt 3 -OR $H -lt 0) {
 $O = Read-Host "Value is out of range, please, re-type the value"
 }
-[intl]$P = Read-Host -Prompt '6. Please, type score for Personal Care'
+[int]$P = Read-Host -Prompt '6. Please, type score for Personal Care'
 while ($P -gt 3 -OR $P -lt 0) {
 $O = Read-Host "Value is out of range, please, re-type the value"
 }
