@@ -248,7 +248,7 @@ memory=$(echo $M1 + $M2 + $M3 + $M4 + $M5 | bc)
 echo "The memory subset score is" $memory "/26"
 fluency=$(echo $F1 + $F2 | bc) 
 echo "The Fluency subset score is" $fluency "/14"
-language=$(echo $L1+ $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8 | bc) 
+language=$(echo $L0 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6A +$L6 + $L7 + $L8 | bc) 
 echo "The Language subset score is" $language "/26"
 visuospatial=$(echo $V1 + $V2 + $V3 + $V4 + $V5 | bc) 
 echo "The Visuospatial subset score is" $visuospatial "/16"
