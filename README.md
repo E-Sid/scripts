@@ -16,7 +16,7 @@ _These are GNU/Linux Shell & MS-PowerShell calculators for Addenbrooke's Cogniti
 - `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
 - `tym-bc.sh` refers to Test Your Memory (TYM) examination.
 - `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
-- `amt4-bc` refers to Abbreviate Mental Test-4 (AMT4)
+- `amt4-bc` refers to Abbreviated Mental Test-4 (AMT4)
 - `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
@@ -45,7 +45,8 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 
 ## Platform independent
 - `moca2mmse.html` is an html/JavaScript based on the conversion by Lawton et al. Credits to [Hosadeeb Adeeb Nashed](https://github.com/HosAdeeb)
-- `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). One would either install FreeBasic compiler or else use [online FreeBASIC compiler](https://www.jdoodle.com/execute-freebasic-online/)
+- `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). One would either install FreeBasic compiler +/- IDE or else use [online FreeBASIC compiler](https://www.jdoodle.com/execute-freebasic-online/)
+- `amt4.bas` refers to refers to Abbreviated Mental Test-4 (AMT4) written in BASIC (FreeBASIC).
 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
