@@ -47,7 +47,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `moca2mmse.html` is an html/JavaScript based on the conversion by Lawton et al. Credits to [Hosadeeb Adeeb Nashed](https://github.com/HosAdeeb)
 - `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). One would either install FreeBasic compiler +/- IDE or else use [online FreeBASIC compiler](https://www.jdoodle.com/execute-freebasic-online/)
 - `amt4.bas` refers to Abbreviated Mental Test-4 (AMT4) written in BASIC (FreeBASIC).
-- `bmi.bas` is Body Mass Index (BMI) calculator in kilograms and meter, written in BASIC (FreeBASIC).
+- `bmi.bas` is Body Mass Index (BMI) calculator in kilograms and meter, `bmi-lb-inch.bas` calculates BMI in pounds and inches they are written in BASIC (FreeBASIC).
 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
