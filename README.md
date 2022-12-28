@@ -2,7 +2,7 @@
 _These are GNU/Linux Shell & MS-PowerShell calculators for Addenbrooke's Cognitive Examination (ACE-III), Mini-Addenbrooke's Cognitive Examination (M-ACE), Addenbrooke's Cognitive Examination - Revised (ACE-R),Cambridge Behavioural Inventory (CBI), Cambridge Behavioural Inventory - Revised (CBI-R), Montreal Cognitive Examination (MoCA), Montreal Cognitive Examination - Blind (MoCA - Blind), Test Your Memory (TYM), ACE-III to MMSE converter, MoCA to MMSE converter, Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD), Abbreviated Mental Test Score (AMTS), Abbreviated Mental Test-4 (AMT4), Brief Psychiatric Rating Scale (BPRS), Hamilton Depression Rating Scale (HRSD), Health of The Nation Ouctome Scale (HoNOS), CAGE Questionnaire, Body Mass Index (BMI) Calculator,  and ECT Dose calculator_
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku terminal
-- On bash shell terminal or TTY, or zsh, either on GNU/Linux, BSD or in MacOS-X start terminal
+- On bash shell terminal or TTY, or zsh, either on GNU/Linux, BSD, MacOS-X, or Haiku start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
 - `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-bs.sh` also converts to MMSE score in addition to M-ACE.
