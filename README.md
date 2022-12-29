@@ -52,6 +52,9 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `map.bas` is Mean Arterial Blood Pressure Calculator. It is written in BASIC (FreeBASIC).
 - `mini-cog.bas` refers to Mini-Cog test
 
+## FreeDOS, MS-DOS, CMD
+- `ect-age` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
+
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
 
