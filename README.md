@@ -1,7 +1,7 @@
 # Psychiatric Assessments
 _These are GNU/Linux Shell & MS-PowerShell calculators for Addenbrooke's Cognitive Examination (ACE-III), Mini-Addenbrooke's Cognitive Examination (M-ACE), Addenbrooke's Cognitive Examination - Revised (ACE-R),Cambridge Behavioural Inventory (CBI), Cambridge Behavioural Inventory - Revised (CBI-R), Montreal Cognitive Examination (MoCA), Montreal Cognitive Examination - Blind (MoCA - Blind), Test Your Memory (TYM), ACE-III to MMSE converter, MoCA to MMSE converter, Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD), Abbreviated Mental Test Score (AMTS), Abbreviated Mental Test-4 (AMT4), Mini-Cog Test, Brief Psychiatric Rating Scale (BPRS), Hamilton Depression Rating Scale (HRSD), Health of The Nation Ouctome Scale (HoNOS), CAGE Questionnaire, Alcohol Use Disorders Identification Test (AUDIT) calculator, Body Mass Index (BMI) calculator, Hip-Waiste Ratio calculator, QTc Interval calculator, Mean Arterial Blood Pressure calculator (MAP), Cardiac Output calculator and, ECT Dose calculator_
 
-## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku terminal
+## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux, BSD, MacOS-X, or Haiku start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
@@ -25,7 +25,7 @@ _These are GNU/Linux Shell & MS-PowerShell calculators for Addenbrooke's Cogniti
 ### Dependencies
 The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they are the most updated and they could have converters to MMSE also.
 
-## Instructions PowerShell Script
+## Instructions for PowerShell Script
 - `ace-pwsh.ps1` refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - `ace-r-pwsh.ps1` refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
 - `m-ace-pwsh.ps1` refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
@@ -51,7 +51,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used. It is written in BASIC (FreeBASIC).
 - `map.bas` is Mean Arterial Blood Pressure Calculator. It is written in BASIC (FreeBASIC).
 - `mini-cog.bas` refers to Mini-Cog test. It is written in BASIC (FreeBASIC)
-- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on AROS, MorphOS, AmigaOS, Linux.
+- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS (AROS, MorphOS etc.), OS/2, Unix, Linux etc.
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator
 
 ## FreeDOS
