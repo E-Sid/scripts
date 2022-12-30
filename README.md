@@ -51,10 +51,10 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used. It is written in BASIC (FreeBASIC).
 - `map.bas` is Mean Arterial Blood Pressure Calculator. It is written in BASIC (FreeBASIC).
 - `mini-cog.bas` refers to Mini-Cog test. It is written in BASIC (FreeBASIC)
-- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx
+- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on AROS, MorphOS, AmigaOS, Linux.
 
-## FreeDOS, MS-DOS, CMD
-- `ect-age` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
+## FreeDOS
+- `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
 - `cardiac.bat` refers to cardiac output calculator
 
 ## Twin Project
