@@ -8,6 +8,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
  - Abbreviated Mental Test Score (AMTS), Abbreviated Mental Test-4 (AMT4)
  - Mini-Cog Test, Assessment test for delirium & cognitive impairment (4AT)
+ - Hacinski Ischaemic Score (HIS)
  
  ## Psychiatric Rating Scales
 - Brief Psychiatric Rating Scale (BPRS)
@@ -82,6 +83,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS (AROS, MorphOS etc.), OS/2, Unix, Linux etc.
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator
 - `4at.rexx` refers to 4AT test
+- `his.rexx` refers to Hachinski Ischaemic Score (HIS)
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
