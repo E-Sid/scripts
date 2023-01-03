@@ -66,13 +66,18 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range.
 
 ## Platform independent
+### HTML/JavaScript
 - `moca2mmse.html` is an HTML/JavaScript based on the conversion by Lawton et al. Credits to [Hosadeeb Adeeb Nashed](https://github.com/HosAdeeb)
+
+### FreeBASIC
 - `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). One would either install FreeBasic compiler +/- IDE or else use [online FreeBASIC compiler](https://www.jdoodle.com/execute-freebasic-online/)
-- `amt4.bas` refers to Abbreviated Mental Test-4 (AMT4) written in BASIC (FreeBASIC).
-- `bmi.bas` is Body Mass Index (BMI) calculator in kilograms and meter, `bmi-lb-inch.bas` calculates BMI in pounds and inches they are written in BASIC (FreeBASIC).
-- `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used. It is written in BASIC (FreeBASIC).
-- `map.bas` is Mean Arterial Blood Pressure Calculator. It is written in BASIC (FreeBASIC).
-- `mini-cog.bas` refers to Mini-Cog test. It is written in BASIC (FreeBASIC)
+- `amt4.bas` refers to Abbreviated Mental Test-4 (AMT4)
+- `bmi.bas` is Body Mass Index (BMI) calculator in kilograms and meter, `bmi-lb-inch.bas` calculates BMI in pounds and inches 
+- `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used.
+- `map.bas` is Mean Arterial Blood Pressure Calculator. 
+- `mini-cog.bas` refers to Mini-Cog test.
+
+### Rexx
 - `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS (AROS, MorphOS etc.), OS/2, Unix, Linux etc.
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator
 - `4at.rexx` refers to 4AT test
