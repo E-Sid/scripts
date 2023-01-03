@@ -103,7 +103,7 @@ Say '1. No'
 Say '3. Yes, but not in the past year'
 Say '5. Yes, during the past year '
 Do Until J = 1  | J =3 |  J = 5
-Pull H
+Pull J
 If J < 0 | J > 5 | J = 2 | J = 4 then
 say 'out of range, please enter correct value'
 end
