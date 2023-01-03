@@ -1,5 +1,26 @@
 # Psychiatric Assessments
-_These are GNU/Linux Shell & MS-PowerShell calculators for Addenbrooke's Cognitive Examination (ACE-III), Mini-Addenbrooke's Cognitive Examination (M-ACE), Addenbrooke's Cognitive Examination - Revised (ACE-R),Cambridge Behavioural Inventory (CBI), Cambridge Behavioural Inventory - Revised (CBI-R), Montreal Cognitive Examination (MoCA), Montreal Cognitive Examination - Blind (MoCA - Blind), Test Your Memory (TYM), ACE-III to MMSE converter, MoCA to MMSE converter, Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD), Abbreviated Mental Test Score (AMTS), Abbreviated Mental Test-4 (AMT4), Mini-Cog Test, Brief Psychiatric Rating Scale (BPRS), Hamilton Depression Rating Scale (HRSD), Health of The Nation Ouctome Scale (HoNOS), CAGE Questionnaire, Alcohol Use Disorders Identification Test (AUDIT) calculator, Body Mass Index (BMI) calculator, Hip-Waiste Ratio calculator, QTc Interval calculator, Mean Arterial Blood Pressure calculator (MAP), Cardiac Output calculator and, ECT Dose calculator_
+_These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. They include:_
+## Cognitive Tests:
+ - Addenbrooke's Cognitive Examination (ACE-III), Mini-Addenbrooke's Cognitive Examination (M-ACE), Addenbrooke's Cognitive Examination - Revised (ACE-R), ACE-III to MMSE converter
+ - Cambridge Behavioural Inventory (CBI), Cambridge Behavioural Inventory - Revised (CBI-R) 
+ - Montreal Cognitive Examination (MoCA), Montreal Cognitive Examination - Blind (MoCA - Blind), MoCA to MMSE converter
+ - Test Your Memory (TYM)
+ - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD),  - Abbreviated Mental Test Score (AMTS), Abbreviated Mental Test-4 (AMT4)
+ - Mini-Cog Test, Assessment test for delirium & cognitive impairment (4AT)
+ 
+ ## Psychiatric Rating Scales
+- Brief Psychiatric Rating Scale (BPRS)
+- Hamilton Depression Rating Scale (HRSD)
+- Health of The Nation Ouctome Scale (HoNOS), CAGE Questionnaire
+- Alcohol Use Disorders Identification Test (AUDIT) calculator
+- ECT Dose calculator
+
+## Cardiovascular Calculators
+- Hip-Waiste Ratio calculator
+- QTc Interval calculator
+- Mean Arterial Blood Pressure calculator (MAP) 
+- Cardiac Output calculator 
+- Body Mass Index (BMI) calculator
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku
 - On bash shell terminal or TTY, or zsh, either on GNU/Linux, BSD, MacOS-X, or Haiku start terminal
@@ -53,6 +74,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `mini-cog.bas` refers to Mini-Cog test. It is written in BASIC (FreeBASIC)
 - `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS (AROS, MorphOS etc.), OS/2, Unix, Linux etc.
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator
+- `4at.rexx` refers to 4AT test
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
