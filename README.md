@@ -7,7 +7,8 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
  - Test Your Memory (TYM)
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
  - Abbreviated Mental Test Score (AMTS), Abbreviated Mental Test-4 (AMT4)
- - Mini-Cog Test, Assessment test for delirium & cognitive impairment (4AT)
+ - Mini-Cog Test
+ - Assessment test for delirium & cognitive impairment (4AT)
  - Hacinski Ischaemic Score (HIS)
  
  ## Psychiatric Rating Scales
