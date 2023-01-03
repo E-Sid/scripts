@@ -11,7 +11,8 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
  ## Psychiatric Rating Scales
 - Brief Psychiatric Rating Scale (BPRS)
 - Hamilton Depression Rating Scale (HRSD)
-- Health of The Nation Ouctome Scale (HoNOS), CAGE Questionnaire
+- Health of The Nation Ouctome Scale (HoNOS)
+- CAGE Questionnaire
 - Alcohol Use Disorders Identification Test (AUDIT) calculator
 - ECT Dose calculator
 
