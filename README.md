@@ -10,6 +10,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
  - Mini-Cog Test
  - Assessment test for delirium & cognitive impairment (4AT)
  - Hacinski Ischaemic Score (HIS)
+ - Dementia Severity Rating Scale (DSRS)
  
  ## Psychiatric Rating Scales
 - Brief Psychiatric Rating Scale (BPRS)
@@ -85,6 +86,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator
 - `4at.rexx` refers to 4AT test
 - `his.rexx` refers to Hachinski Ischaemic Score (HIS)
+- `dsrs.rexx` refers to Dementia Severity Rating Scale (DSRS)
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
