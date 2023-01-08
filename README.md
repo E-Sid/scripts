@@ -19,6 +19,8 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - CAGE Questionnaire
 - Alcohol Use Disorders Identification Test (AUDIT) calculator
 - ECT Dose calculator
+- Generalised Anxiety Disroder (GAD-7) Assessment
+- Patient Health Questionnaire (PHQ-9) Depression
 
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator
@@ -46,6 +48,8 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
+- `gad7-bc.sh` refers to GAD-7
+- phq9-bc.sh` refers to PHQ-9
 - `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. Due, to float nature of values, out of range prompt is of limited abilities.  
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
