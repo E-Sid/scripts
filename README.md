@@ -1,38 +1,50 @@
 # Psychiatric Assessments
 _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent, and others can run under FreeDOS They include:_
 ## Cognitive Tests:
- - Addenbrooke's Cognitive Examination (ACE-III): `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, and `ace-pwsh.ps1`
- - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh`, and `ace-r-pwsh.ps1`
+ - Addenbrooke's Cognitive Examination (ACE-III): `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
+ - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
- - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc`, and `cbi-echo.sh`, 
- - Cambridge Behavioural Inventory - Revised (CBI-R): 
- - Montreal Cognitive Examination (MoCA)
- - Montreal Cognitive Examination - Blind (MoCA - Blind), MoCA to MMSE converter
- - Test Your Memory (TYM)
- - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
- - Abbreviated Mental Test Score (AMTS), Abbreviated Mental Test-4 (AMT4)
- - Mini-Cog Test
- - Assessment test for delirium & cognitive impairment (4AT)
- - Hacinski Ischaemic Score (HIS)
- - Dementia Severity Rating Scale (DSRS)
+ - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc`, & `cbi-echo.sh`, 
+ - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc`, & `cbi-r-echo.sh`
+ - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
+ - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
+ - MoCA to MMSE converter: `moca2mmse.html`
+ - Test Your Memory (TYM): `tym-bc.sh`
+ - Clinical Dementia Rating Scale `cdr-pwsh.ps1`
+ - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`
+ - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
+ - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
+ - Mini-Cog Test: `mini-cog.bas`
+ - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`
+ - Hacinski Ischaemic Score (HIS): `his.rexx`
+ - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  
  ## Psychiatric Rating Scales
-- Brief Psychiatric Rating Scale (BPRS)
-- Hamilton Depression Rating Scale (HRSD)
-- Health of The Nation Ouctome Scale (HoNOS)
-- CAGE Questionnaire
-- Alcohol Use Disorders Identification Test (AUDIT) calculator
-- ECT Dose calculator
-- Generalised Anxiety Disroder (GAD-7) Assessment
-- Patient Health Questionnaire (PHQ-9) Depression
+- Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
+- Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
+- Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
+- CAGE Questionnaire: `cage.bas`
+- Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
+- ECT Dose calculator: `ect-dose.sh`, & `ect-age.bat`
+- Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
+- Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
 ## Cardiovascular Calculators
-- Hip-Waiste Ratio calculator
-- QTc Interval calculator
-- Mean Arterial Blood Pressure calculator (MAP) 
-- Cardiac Output calculator 
-- Body Mass Index (BMI) calculator
+- Hip-Waiste Ratio calculator: `hip-waiste.rexx`
+- QTc Interval calculator: `qtc.bas`
+- Mean Arterial Blood Pressure calculator (MAP): `map.bas`
+- Cardiac Output calculator: `cardiac.bat`
+- Body Mass Index (BMI) calculator: `bmi.bas` & `bmi-lb-inch.bas` (for pount and inch calculator)
+
+## Guide to file extensions
+- `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
+- `.ps1` files refer to MS-PowerShell works under Mircosoft Windows, and works under GNU/Linux Bash Shell (if Ms-PowerShell is installed)
+- `.html` files refer to platform independent that works on any browser that can run Javascript
+- `.bat` files are batch files that run under FreeDOS, and could be used on MS-Windows command prompt `cmd.exe`
+- `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
+- `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
+
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
@@ -42,19 +54,19 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
 - `ace-mmse-converter.sh` converts the results of ACE-III test to MMSE based on Matías-Guiu JA, Pytel V, Cortés-Martínez A, Valles-Salgado M, Rognoni T, Moreno-Ramos T, Matías-Guiu J. Conversion between Addenbrooke's Cognitive Examination III and Mini-Mental State Examination. Int Psychogeriatr. 2018 Aug;30(8):1227-1233. doi: 10.1017/S104161021700268X. Epub 2017 Dec 10. PMID: 29223183.
 - `cbi-bc.sh`, `cbi-calc`, and `cbi-echo.sh` refer to Cambridge Behavioural Inventory (CBI)
-- `cbi-r-bc.sh`, `cbi-calc.sh`, and `cbi-echo.sh` refer to Cambridge Behavioural Inventory Revised (CBI-R)
+- `cbi-r-bc.sh`, `cbi-r-calc.sh`, and `cbi-r-echo.sh` refer to Cambridge Behavioural Inventory Revised (CBI-R)
 - `m-ace-bc.sh`, `m-ace-calc`, and `m-ace-echo.sh` refer to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-bc.sh`, `moca-calc.sh`, and `moca-echo.sh` refer to Montreal Cognitive Examination (MoCA), `moca-bc.sh` also converts to MMSE score in addition to the MoCA score.
 - `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. Mov Disord. 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
 - `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
 - `tym-bc.sh` refers to Test Your Memory (TYM) examination.
 - `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
-- `amt4-bc` refers to Abbreviated Mental Test-4 (AMT4)
+- `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
 - `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
 - `gad7-bc.sh` refers to GAD-7
-- phq9-bc.sh` refers to PHQ-9
+- `phq9-bc.sh` refers to PHQ-9
 - `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. Due, to float nature of values, out of range prompt is of limited abilities.  
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
