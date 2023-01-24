@@ -5,7 +5,7 @@ while ($A1 -gt 5 -OR $A1 -lt 0) {
 $A1 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$A0 = Read-Host -Prompt 'Please, re-type score for orientation in time out of 4 to calculate M-ACE (day, date, month, year [0-4]'
-while ($A0 -gt 4 -OR $A0 -lt 0) {
+while ($A0 -gt 4 -OR $A0 -lt 0 -OR $A0 gt $A1) {
 $A0 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$A2 = Read-Host -Prompt 'Please, enter value for orientation in place [0-5]'
@@ -89,7 +89,7 @@ while ($V5 -gt 4 -OR $V5 -lt 0) {
 $V5 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$M4 = Read-Host -Prompt 'Please, enter value for recall of name and address [0-7]'
-while ($M4 -gt 7 -OR $M4 -lt 0) {
+while ($M4 -gt 7 -OR $M4 -lt 0 -OR $M4 -gt $M2) {
 $M4 = Read-Host "value is out of range, please re-type the value"
 }
 [int]$M5 = Read-Host -Prompt 'Please, enter value for recognition [0-5]' 
