@@ -36,7 +36,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`
 - Cardiac Output calculator: `cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator) & `bmi-lb-inch.bas` (imperial calculator)
-- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`
+- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`
 
 ## Guide to file extensions
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
@@ -102,6 +102,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used.
 - `map.bas` is Mean Arterial Blood Pressure Calculator. 
 - `mini-cog.bas` refers to Mini-Cog test.
+- `mhr.bas` refers to Maximum Heart Rate (MHR) Calculator.
 
 ### Rexx
 - `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS (AROS, MorphOS etc.), OS/2, Unix, Linux etc.
