@@ -36,6 +36,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`
 - Cardiac Output calculator: `cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator) & `bmi-lb-inch.bas` (imperial calculator)
+- Maximum Heart Rate (MHR) calculator `mhr.rexx`
 
 ## Guide to file extensions
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
@@ -108,6 +109,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `4at.rexx` refers to 4AT test
 - `his.rexx` refers to Hachinski Ischaemic Score (HIS)
 - `dsrs.rexx` refers to Dementia Severity Rating Scale (DSRS)
+- `mhr.rexx` refers to Maximum Heart Rate (MHR) Calculator
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
