@@ -35,7 +35,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - QTc Interval calculator: `qtc.bas`
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`
 - Cardiac Output calculator: `cardiac.bat`
-- Body Mass Index (BMI) calculator: `bmi.bas` & `bmi-lb-inch.bas` (for pount and inch calculator)
+- Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator) & `bmi-lb-inch.bas` (imperial calculator)
 
 ## Guide to file extensions
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
