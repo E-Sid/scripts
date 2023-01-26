@@ -36,7 +36,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`
 - Cardiac Output calculator: `cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator) & `bmi-lb-inch.bas` (imperial calculator)
-- Maximum Heart Rate (MHR) calculator `mhr.rexx`
+- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`
 
 ## Guide to file extensions
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
@@ -114,6 +114,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
 - `cardiac.bat` refers to cardiac output calculator
+- `mhr.bat` refers to Maximum Heart Rate
 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
