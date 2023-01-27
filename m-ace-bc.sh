@@ -49,7 +49,7 @@ done
 echo "Memory: Please, type score for recall of name and address (delayed recall) [0-7]"
 while :; do
     read M4
-    if [[ $M4 -ge 0 && $M4 -le 7 ]]; then
+    if [[ $M4 -ge 0 && $M4 -le 7 ]] && [[$M4 -le $M2 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
