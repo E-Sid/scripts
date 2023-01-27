@@ -36,7 +36,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`
 - Cardiac Output calculator: `cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator) & `bmi-lb-inch.bas` (imperial calculator)
-- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`
+- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`
 
 ## Guide to file extensions
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
@@ -68,6 +68,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
 - `gad7-bc.sh` refers to GAD-7
 - `phq9-bc.sh` refers to PHQ-9
+- `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
 - `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. Due, to float nature of values, out of range prompt is of limited abilities.  
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
