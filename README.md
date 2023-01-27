@@ -49,6 +49,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 
 ## General Instructions
 - In all the files. You can type the entry (numerical number) and press ENTER (Return)
+- If you do not have a compiler for the scripting language used, you can use an online compiler via a web browser as [JDoodle](https://www.jdoodle.com/) or [Tutorials Point ](https://www.tutorialspoint.com) and select the scripting language of your choice.
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
@@ -126,6 +127,10 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 
 ## Disclaimer
 Mean arterial blood pressure, QTc interval calculator, Cardiac output offer only one way of calculation and should be used for general guidance only.
+
+## Declaration of Interest
+- None, these are intended as aides to help with calculation of psychometric and cardiovascular assessments. They are licensed under GPL and are free to use.
+- These are not the tests, they only are calculators to score the tests, examinations and assessments.
 
 ## License
 - This product is licensed under GPL3. Clinical Use is allowed by trained clinicians but it is not for commercial use. This applies only to calculators not the tests. If anyone wants to use the tests, one should check their license as well.
