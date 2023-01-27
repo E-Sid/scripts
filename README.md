@@ -1,5 +1,6 @@
-# Psychiatric Assessments
-_These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent, and others can run under FreeDOS They include:_
+# Psychiatric & Cardiovascular Assessments
+_These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Rexx, FreeBASIC), and other batch files that can run under FreeDOS. They are:
+
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii.sh`,`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
@@ -46,6 +47,8 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
 - `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
 
+## General Instructions
+- In all the files. You can type the entry (numerical number) and press ENTER (Return)
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
