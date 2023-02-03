@@ -10,7 +10,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc`, & `cbi-r-echo.sh`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
- - MoCA to MMSE converter: `moca2mmse.html`
+ - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
  - Test Your Memory (TYM): `tym-bc.sh`
  - Clinical Dementia Rating Scale `cdr-pwsh.ps1`
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`
