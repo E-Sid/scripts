@@ -110,7 +110,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `mhr.bas` refers to Maximum Heart Rate (MHR) Calculator.
 
 ### Rexx
-- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS (AROS, MorphOS etc.), OS/2, Unix, Linux etc.
+- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS (AREXX) and other AmigaOS related OS (AROS, MorphOS etc.), OS/2, Unix, Linux (Regina-REXX) etc.
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator
 - `4at.rexx` refers to 4AT test
 - `his.rexx` refers to Hachinski Ischaemic Score (HIS)
