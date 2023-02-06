@@ -32,5 +32,5 @@ read D
 echo "Please, enter the current in Ampere (A)"
 read I
 echo "The equation is Q=PW*2F*D*I"
-Q=$(echo $PW \* 2 \* $F \* $D \* $I | bc -l)
+Q=$(echo $PW \* 2 \* $F \* $D \* $I | bc)
 echo "The Charge is" $Q "mC"
