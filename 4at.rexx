@@ -1,4 +1,4 @@
-/* Main program */
+/* REXX */
 Say 'This is 4AT Delirium test scoring calculator'
 Say 'I.Please, enter the score for alerntess [0 or 4]'
 Do Until A = 0  | A = 4
