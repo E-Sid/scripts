@@ -1,5 +1,5 @@
 # Psychiatric & Cardiovascular Assessments
-_These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Rexx, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS. They are:
+_These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS. They are:
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii.sh`,`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
@@ -112,19 +112,19 @@ One would either install FreeBasic compiler +/- IDE or else use [online FreeBASI
 - `mini-cog.bas` refers to Mini-Cog test.
 - `mhr.bas` refers to Maximum Heart Rate (MHR) Calculator.
 
-### Rexx
-These scripts are written in Rexx. It could be used for z/OS, Unix, GNU/Linux (via Regina-REXX), Amiga OS (via AREXX) and other AmigaOS related OS (AROS, MorphOS etc.), or OS/2
-- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS ( via AREXX) and other AmigaOS related OS (AROS, MorphOS etc.), OS/2, Unix, Linux (via Regina-REXX) etc.
-- `hip-waiste.rexx` refers to hip-waiste ratio calculator
-- `4at.rexx` refers to 4AT test
-- `his.rexx` refers to Hachinski Ischaemic Score (HIS)
-- `dsrs.rexx` refers to Dementia Severity Rating Scale (DSRS)
-- `mhr.rexx` refers to Maximum Heart Rate (MHR) Calculator
+### REXX
+These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (via Regina-REXX), Amiga OS (via ARexx) and other AmigaOS related OS (AROS, MorphOS etc.), or OS/2
+- `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT).
+- `hip-waiste.rexx` refers to hip-waiste ratio calculator.
+- `4at.rexx` refers to 4AT test.
+- `his.rexx` refers to Hachinski Ischaemic Score (HIS).
+- `dsrs.rexx` refers to Dementia Severity Rating Scale (DSRS).
+- `mhr.rexx` refers to Maximum Heart Rate (MHR) Calculator.
 
 ## FreeDOS
-- `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method
-- `cardiac.bat` refers to cardiac output calculator
-- `mhr.bat` refers to Maximum Heart Rate
+- `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
+- `cardiac.bat` refers to cardiac output calculator.
+- `mhr.bat` refers to Maximum Heart Rate.
 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
