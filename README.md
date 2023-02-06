@@ -20,6 +20,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`
  - Hacinski Ischaemic Score (HIS): `his.rexx`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
+ - The Short Portable Mental Status Questionnaire (SPMSQ) `spmsq.rexx`
  
  ## Psychiatric Rating Scales
 - Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
@@ -120,6 +121,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `his.rexx` refers to Hachinski Ischaemic Score (HIS).
 - `dsrs.rexx` refers to Dementia Severity Rating Scale (DSRS).
 - `mhr.rexx` refers to Maximum Heart Rate (MHR) Calculator.
+- `spmsq.rexx` refers to  The Short Portable Mental Status Questionnaire (SPMSQ)
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
