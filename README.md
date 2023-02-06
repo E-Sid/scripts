@@ -1,5 +1,5 @@
 # Psychiatric & Cardiovascular Assessments
-_These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Rexx, FreeBASIC), and other batch files that can run under FreeDOS. They are:
+_These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Rexx, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS. They are:
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii.sh`,`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
@@ -7,7 +7,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc`, & `cbi-echo.sh`, 
- - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc`, & `cbi-r-echo.sh`
+ - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
@@ -84,7 +84,8 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `bmi-pwsh.ps1` refers to metric Body Mass Index
 - `m-ace-pwsh.ps1` refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-pwsh.ps1` refers to Montreal Cognitive Examination (MoCA)
-- `moca-blind-pwsh.ps1` refers Montreal Cognitive Examination - blind (MoCA - Blind)
+- `moca-blind-pwsh.ps1` refers to Montreal Cognitive Examination - blind (MoCA - Blind)
+- `cbi-r-pwsh.ps1` refers to Cambridge Behavioural Inventory Revised (CBI-R)
 - `cdr-ftld-pwsh.ps1` refers to Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `cdr-pwsh.ps1` refers to Clinical Dementia Rating
 - `ect-pwsh.ps1` refers to an electroconvulsive therapy calculator. It calculates the electroconvulsive therapy (ECT) charge according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC.
@@ -102,7 +103,8 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `moca2mmse.html` is an HTML/JavaScript based on the conversion by Lawton et al. Credits to [Hosadeeb Adeeb Nashed](https://github.com/HosAdeeb)
 
 ### FreeBASIC
-- `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). One would either install FreeBasic compiler +/- IDE or else use [online FreeBASIC compiler](https://www.jdoodle.com/execute-freebasic-online/)
+One would either install FreeBasic compiler +/- IDE or else use [online FreeBASIC compiler](https://www.jdoodle.com/execute-freebasic-online/)
+- `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). 
 - `amt4.bas` refers to Abbreviated Mental Test-4 (AMT4)
 - `bmi.bas` is Body Mass Index (BMI) calculator in kilograms and meter, `bmi-lb-inch.bas` calculates BMI in pounds and inches 
 - `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used.
@@ -111,6 +113,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `mhr.bas` refers to Maximum Heart Rate (MHR) Calculator.
 
 ### Rexx
+These scripts are written in Rexx. It could be used for z/OS, Unix, GNU/Linux (via Regina-REXX), Amiga OS (via AREXX) and other AmigaOS related OS (AROS, MorphOS etc.), or OS/2
 - `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT). It is written in Rexx. Could be used on Amiga OS ( via AREXX) and other AmigaOS related OS (AROS, MorphOS etc.), OS/2, Unix, Linux (via Regina-REXX) etc.
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator
 - `4at.rexx` refers to 4AT test
