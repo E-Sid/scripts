@@ -1,4 +1,4 @@
-
+/* REXX */
 Say 'This is Maximum Heart Rate Calculator'
 Say 'Please, enter age in years'
 Pull A
