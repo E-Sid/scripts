@@ -1,4 +1,4 @@
-/* Dementia Severity Rating Scale */
+/* REXX Dementia Severity Rating Scale */
 Say 'This is Dementia Severity Rating Scale (DSRS)'
 Say 'Memory [0-6]'
 Do Until A = 0 | A < 7
