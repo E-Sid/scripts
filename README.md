@@ -36,7 +36,7 @@ _These are mostly GNU/Linux Shell & MS-PowerShell calculators for Cognitive test
 - QTc Interval calculator: `qtc.bas`
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`
 - Cardiac Output calculator: `cardiac.bat`
-- Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator) & `bmi-lb-inch.bas` (imperial calculator)
+- Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator), `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`
 
 ## Guide to file extensions
@@ -81,6 +81,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 ## Instructions for PowerShell Script
 - `ace-pwsh.ps1` refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - `ace-r-pwsh.ps1` refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
+- `bmi-pwsh.ps1` refers to metric Body Mass Index
 - `m-ace-pwsh.ps1` refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-pwsh.ps1` refers to Montreal Cognitive Examination (MoCA)
 - `moca-blind-pwsh.ps1` refers Montreal Cognitive Examination - blind (MoCA - Blind)
