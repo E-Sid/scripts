@@ -1,4 +1,4 @@
-/* Main program */
+/* REXX */
 Say 'This is Alcohol Use Disorders Identification Test (AUDIT)'
 Say 'Please, type the number that is closest to your answer'
 Say 'I. How often do you have a drink containing alcohol?'
