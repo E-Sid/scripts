@@ -28,7 +28,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
 - CAGE Questionnaire: `cage.bas`
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
-- ECT Dose calculator: `ect-dose.sh`, & `ect-age.bat`
+- ECT Age-based and Dose calculator: `ect-dose.sh`, & `ect-age.bat`
+- ECT Charge calculator: `ect-charge-bc.sh`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
@@ -74,7 +75,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - `gad7-bc.sh` refers to GAD-7
 - `phq9-bc.sh` refers to PHQ-9
 - `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
-- `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC.   
+- `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. 
+- `ect-charge-bc.sh` refers to ECT charge calculator if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. 
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
 The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they are the most updated and they could have converters to MMSE also.
