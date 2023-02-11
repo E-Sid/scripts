@@ -26,6 +26,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
 - Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
+- Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
 - Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
@@ -141,7 +142,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `mhr.bat` refers to Maximum Heart Rate.
 - `cage.bat` refers to CAGE Questionnaire for alcohol dependence
 - `gds-15.bat` refers to Geriatric Depression Scale (15-item) (GDS-15)
-
+- `gds-4.bat` refers to Geriatric Depression Scale (4-item) (GDS-4) 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
 
