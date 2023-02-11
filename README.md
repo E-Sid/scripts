@@ -30,6 +30,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
 - ECT Age-based and Dose calculator: `ect-dose.sh`, & `ect-age.bat`
 - ECT Charge calculator: `ect-charge-bc.sh`
+- Ohm's law calculator for ECT: `ohm-s-law.bat`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
@@ -129,6 +130,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
 - `cardiac.bat` refers to cardiac output calculator.
 - `mhr.bat` refers to Maximum Heart Rate.
+- `ohm-s-law.bat` refers to Ohm's law, for ECT
 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
