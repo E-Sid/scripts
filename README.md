@@ -30,6 +30,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
 - ECT Age-based and Dose calculator: `ect-dose.sh`, & `ect-age.bat`
 - ECT Charge calculator: `ect-charge-bc.sh`
+- ECT Ohm's law `ohms-law.rexx`
+- ECT Power Calculator in watts `power.rexx`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
@@ -124,6 +126,8 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `dsrs.rexx` refers to Dementia Severity Rating Scale (DSRS).
 - `mhr.rexx` refers to Maximum Heart Rate (MHR) Calculator.
 - `spmsq.rexx` refers to  The Short Portable Mental Status Questionnaire (SPMSQ)
+- `ohms-law.rexx` refers to ECT Ohm's law
+- `power.rexx` refers to ECT Power Calculator in watts
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
