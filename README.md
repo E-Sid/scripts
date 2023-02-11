@@ -1,5 +1,5 @@
 # Psychiatric & Cardiovascular Assessments
-_These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS. They are:
+_These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. They are:
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii.sh`,`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
@@ -140,7 +140,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
 
 ## Disclaimer
-Mean arterial blood pressure, QTc interval calculator, Cardiac output offer only one way of calculation and should be used for general guidance only.
+Mean arterial blood pressure, QTc interval calculator, Cardiac output offer only one way of calculation and should be used for general guidance only. Please note that this codes here are just examples, calculations should only be performed by trained healthcare professionals. The formulae used here is just an estimate and the actual cardiovascular calculations can vary based on individual factors such as fitness level and health conditions. For psychiatric calculators, the interpretations of severity is not added as the score should not be interpreted as a marker of severity of illness in isolation from a clinical context. These are not substitutes to assessment by a health care professional.
 
 ## Declaration of Interest
 - None, these are intended as aides to help with calculation of psychometric and cardiovascular assessments. They are licensed under GPL and are free to use.
