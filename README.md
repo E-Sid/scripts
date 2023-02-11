@@ -38,7 +38,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator: `hip-waiste.rexx`
 - QTc Interval calculator: `qtc.bas`
-- Mean Arterial Blood Pressure calculator (MAP): `map.bas`
+- Mean Arterial Blood Pressure calculator (MAP): `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator), `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`
@@ -128,6 +128,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `spmsq.rexx` refers to  The Short Portable Mental Status Questionnaire (SPMSQ)
 - `ohms-law.rexx` refers to ECT Ohm's law
 - `power.rexx` refers to ECT Power Calculator in watts
+- `map.rexx` refers to mean arterial blood pressure calculator
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
