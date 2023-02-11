@@ -41,7 +41,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - QTc Interval calculator: `qtc.bas`
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac.bat`
-- Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator), `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
+- Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator), `bmi.rexx`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`
 
 ## Guide to file extensions
@@ -122,6 +122,7 @@ One would either install FreeBasic compiler +/- IDE or else use [online FreeBASI
 ### REXX
 These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (via Regina-REXX), Amiga OS (via ARexx) and other AmigaOS related OS (AROS, MorphOS etc.), or OS/2
 - `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT).
+- `bmi.rexx` is a BMI calculator.
 - `hip-waiste.rexx` refers to hip-waiste ratio calculator.
 - `4at.rexx` refers to 4AT test.
 - `his.rexx` refers to Hachinski Ischaemic Score (HIS).
