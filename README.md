@@ -32,6 +32,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - ECT Charge calculator: `ect-charge-bc.sh`
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
+- ECT Energy Calculator in joules `energy.rexx`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
@@ -130,6 +131,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `ohms-law.rexx` refers to ECT Ohm's law
 - `power.rexx` refers to ECT Power Calculator in watts
 - `map.rexx` refers to mean arterial blood pressure calculator
+- `energy.rexx` refers to ECT energy calculator in joules
 
 ## FreeDOS
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
