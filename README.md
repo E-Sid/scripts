@@ -41,7 +41,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Mean Arterial Blood Pressure calculator (MAP): `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.bas` (metric calculator), `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
-- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`
+- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`
 
 ## Guide to file extensions
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
