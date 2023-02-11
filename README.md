@@ -26,7 +26,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
 - Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
-- CAGE Questionnaire: `cage.bas`
+- CAGE Questionnaire: `cage.bas`, `cage.bat`
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
 - ECT Age-based and Dose calculator: `ect-dose.sh`, & `ect-age.bat`
 - ECT Charge calculator: `ect-charge-bc.sh`
@@ -138,6 +138,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
 - `cardiac.bat` refers to cardiac output calculator.
 - `mhr.bat` refers to Maximum Heart Rate.
+- `cage.bat` refers to CAGE Questionnaire for alcohol dependence
 
 
 ## Twin Project
