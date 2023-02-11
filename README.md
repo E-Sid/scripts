@@ -30,7 +30,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
 - ECT Age-based and Dose calculator: `ect-dose.sh`, & `ect-age.bat`
 - ECT Charge calculator: `ect-charge-bc.sh`
-- ECT Ohm's law `ohms-law.rexx`
+- ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
@@ -116,6 +116,7 @@ One would either install FreeBasic compiler +/- IDE or else use [online FreeBASI
 - `map.bas` is Mean Arterial Blood Pressure Calculator. 
 - `mini-cog.bas` refers to Mini-Cog test.
 - `mhr.bas` refers to Maximum Heart Rate (MHR) Calculator.
+- `ohms-law.bas` refers to ECT Ohm's law
 
 ### REXX
 These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (via Regina-REXX), Amiga OS (via ARexx) and other AmigaOS related OS (AROS, MorphOS etc.), or OS/2
