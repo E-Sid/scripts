@@ -12,7 +12,7 @@ if %q1% == Yes set /a score=%score% + 1
 if %q1% == y set /a score=%score% + 1
 if %q1% == Y set /a score=%score% + 1
 if %q2% == yes set /a score=%score% + 1
-if %q21% == Yes set /a score=%score% + 1
+if %q2% == Yes set /a score=%score% + 1
 if %q2% == y set /a score=%score% + 1
 if %q2% == Y set /a score=%score% + 1
 if %q3% == yes set /a score=%score% + 1
