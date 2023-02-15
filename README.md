@@ -63,6 +63,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
+### List of BASH Shell Scripts
 - `ace-iii.sh`, `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-iii.sh` has extensive data validation it is failsafe to use. It uses `bc` and converts to MMSE score in addition to M-ACE.
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
 - `ace-mmse-converter.sh` converts the results of ACE-III test to MMSE based on Matías-Guiu JA, Pytel V, Cortés-Martínez A, Valles-Salgado M, Rognoni T, Moreno-Ramos T, Matías-Guiu J. Conversion between Addenbrooke's Cognitive Examination III and Mini-Mental State Examination. Int Psychogeriatr. 2018 Aug;30(8):1227-1233. doi: 10.1017/S104161021700268X. Epub 2017 Dec 10. PMID: 29223183.
@@ -88,7 +89,16 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 ### Dependencies
 The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they are the most updated and they could have converters to MMSE also.
 
-## Instructions for PowerShell Script
+## Instructions for MS-PowerShell Script
+- Please, select PowerShell ISE
+- Please, load the programme or copy ace-pwsh.ps1 and paste it in MS-PowerShell ISE
+- Please, press `play` button
+- Please, answer the questions based on your assessment results
+- Only numbers are entered
+- After finishing the programme calculates the total ACE-III, or ACE-R etc. score with its subsets _whenever possible_ and displays them
+- If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range.
+
+### List of MS-PowerShell Scripts 
 - `ace-pwsh.ps1` refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - `ace-r-pwsh.ps1` refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
 - `bmi-pwsh.ps1` refers to metric Body Mass Index
@@ -100,13 +110,6 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `cdr-pwsh.ps1` refers to Clinical Dementia Rating
 - `ect-pwsh.ps1` refers to an electroconvulsive therapy calculator. It calculates the electroconvulsive therapy (ECT) charge according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC.
 - On MS-Windows from the start menu down left search for PowerShell
-- Please, select PowerShell ISE
-- Please, load the programme or copy ace-pwsh.ps1 and paste it in MS-PowerShell ISE
-- Please, press `play` button
-- Please, answer the questions based on your assessment results
-- Only numbers are entered
-- After finishing the programme calculates the total ACE-III, or ACE-R etc. score with its subsets _whenever possible_ and displays them
-- If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range.
 
 ## Platform independent
 ### HTML/JavaScript
@@ -145,6 +148,8 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `cage.bat` refers to CAGE Questionnaire for alcohol dependence
 - `gds-15.bat` refers to Geriatric Depression Scale (15-item) (GDS-15)
 - `gds-4.bat` refers to Geriatric Depression Scale (4-item) (GDS-4) 
+
+
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
 
