@@ -40,6 +40,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
 ## Neurological Calculators
+- Glasgow Coma Scale Calcultaor `gcs-echo.sh`
 - AVPU score `avpu.bat`
 
 ## Cardiovascular Calculators
@@ -83,6 +84,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
+- `gcs-echo.sh` refers to Glasgow Comas Scale Calculator (GCS)
 - `gad7-bc.sh` refers to GAD-7
 - `phq9-bc.sh` refers to PHQ-9
 - `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
