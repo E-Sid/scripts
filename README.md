@@ -40,7 +40,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
 ## A&E Calculators
-- Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`
+- Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 - AVPU score `avpu.bat`
 - AVPU to GCS converter `avpu2gcs.bat`
 - GCS to AVPU score converter `gcs2avpu.sh`
