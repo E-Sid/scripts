@@ -29,6 +29,16 @@ read M
     echo "Invalid input for motor parameter, please, re-enter score"
   fi
 done
-score=$(echo $E + $V + $M)
+gcs=$(echo $E + $V + $M)
 echo "The Glasgow Coma Scale (GCS) score is" "E"$E"V"$V"M"$M
-echo "Total score GCS score is" $(($score)) "/15"
+echo "Total score GCS score is" $(($gcs)) "/15"
+
+if [[ $gcs -le 15 && $gcs -ge 14 ]]; then
+    echo "AVPU score is A (Alert)"
+elif [[ $gcs -le 13 && $gcs -ge 9 ]]; then
+    echo "AVPU score is V (Verbal Response)"
+elif [[ $gcs -le 8 && $gcs -ge 4 ]]; then
+    echo "AVPU score is P (Pain Response)"
+elif [[ $gcs -eq 3 ]]; then
+    echo "AVPU score is U (Unresponsive)"
+fi
