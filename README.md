@@ -39,7 +39,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
-## Neurological Calculators
+## A&E Calculators
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`
 - AVPU score `avpu.bat`
 - AVPU to GCS converter `avpu2gcs.bat`
