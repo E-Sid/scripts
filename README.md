@@ -1,4 +1,4 @@
-# Psychiatric & Neurological and Cardiovascular Assessments Calculators
+# Psychiatric, A&E, and Cardiovascular Assessments Calculators
 _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. They are:
 
 ## Cognitive Tests:
@@ -43,6 +43,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`
 - AVPU score `avpu.bat`
 - AVPU to GCS converter `avpu2gcs.bat`
+- GCS to AVPU score converter `gcs2avpu.sh`
 
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator: `hip-waiste.rexx`
@@ -86,6 +87,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
 - `gcs-echo.sh` refers to Glasgow Comas Scale Calculator (GCS)
+- `gcs2avpu.sh` GCS to AVPU score converter
 - `gad7-bc.sh` refers to GAD-7
 - `phq9-bc.sh` refers to PHQ-9
 - `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
