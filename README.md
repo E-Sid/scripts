@@ -40,8 +40,9 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
 ## Neurological Calculators
-- Glasgow Coma Scale Calcultaor `gcs-echo.sh`
+- Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`
 - AVPU score `avpu.bat`
+- AVPU to GCS converter `avpu2gcs.bat`
 
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator: `hip-waiste.rexx`
@@ -154,6 +155,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `gds-15.bat` refers to Geriatric Depression Scale (15-item) (GDS-15)
 - `gds-4.bat` refers to Geriatric Depression Scale (4-item) (GDS-4) 
 - `avpu.bat` refers to AVPU score 
+- `avpu2gcs.bat` refer to AVPU to GCS converter
 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
