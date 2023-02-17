@@ -4,7 +4,9 @@ echo "==============================================================="
 echo "Attention: Please, type score for orientation in time [0-5]"
 while :; do
     read A1
-    if [[ $A1 -ge 0 && $A1 -le 5 ]]; then
+    if [[ -z $A1 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $A1 -ge 0 && $A1 -le 5 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -13,7 +15,9 @@ done
 echo "Attention: Please, re-type score for orientation in time out of 4 to calculate M-ACE (day, date, month, year [0-4]"
 while :; do
     read A0
-    if [[ $A0 -ge 0 && $A0 -le 4 ]]; then
+    if [[ -z $A0 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $A0 -ge 0 && $A0 -le 4 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -22,7 +26,9 @@ done
 echo "Attention: Please, type score for orientation in place [0-5]"
 while :; do
     read A2
-    if [[ $A2 -ge 0 && $A2 -le 5 ]]; then
+    if [[ -z $A2 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $A2 -ge 0 && $A2 -le 5 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -31,16 +37,20 @@ done
 echo "Attention: Please, type score for 3 item registration [0-3]"
 while :; do
     read A3
-    if [[ $A3 -ge 0 && $A3 -le 3 ]]; then
+    if [[ -z $A3 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $A3 -ge 0 && $A3 -le 3 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
-echo "Attention: Please, type score for serial 7s calculation(concentration) [0-5]"
+echo "Attention: Please, type score for serial 7s calculation (concentration) [0-5]"
 while :; do
     read A4
-    if [[ $A4 -ge 0 && $A4 -le 5 ]]; then
+    if [[ -z $A4 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $A4 -ge 0 && $A4 -le 5 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -49,7 +59,9 @@ done
 echo "Memory: Please, type score for 3 item recall (immediate recall) [0-3]"
 while :; do
     read M1
-    if [[ $M1 -ge 0 && $M1 -le 3 ]]; then
+    if [[ -z $M1 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $M1 -ge 0 && $M1 -le 3 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -58,7 +70,9 @@ done
 echo "Fluency: Please, type score for letter fluency [0-7]"
 while :; do
     read F1
-    if [[ $F1 -ge 0 && $F1 -le 7 ]]; then
+    if [[ -z $F1 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $F1 -ge 0 && $F1 -le 7 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -67,7 +81,9 @@ done
 echo "Fleuncy: Please, type score for category fluency [0-7]"
 while :; do
     read F2
-    if [[ $F2 -ge 0 && $F2 -le 7 ]]; then
+    if [[ -z $F2 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $F2 -ge 0 && $F2 -le 7 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -76,7 +92,9 @@ done
 echo "Memory: Please, type score for name and address registration (anterograde memory) [0-7]"
 while :; do
     read M2
-    if [[ $M2 -ge 0 && $M2 -le 7 ]]; then
+    if [[ -z $M2 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $M2 -ge 0 && $M2 -le 7 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -85,7 +103,9 @@ done
 echo "Memory: Please, type score for general knowledge (retrograde memory) [0-4]"
 while :; do
     read M3
-    if [[ $M3 -ge 0 && $M3 -le 4 ]]; then
+    if [[ -z $M3 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $M3 -ge 0 && $M3 -le 4 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -95,7 +115,9 @@ done
 echo "Language: Please, type score for comprehension [0-3]"
 while :; do
     read L1
-    if [[ $L1 -ge 0 && $L1 -le 3 ]]; then
+    if [[ -z $L1 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L1 -ge 0 && $L1 -le 3 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -104,7 +126,9 @@ done
 echo "Language: Please, type score for sentence writing [0-2]"
 while :; do
     read L2
-    if [[ $L2 -ge 0 && $L2 -le 2 ]]; then
+    if [[ -z $L2 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L2 -ge 0 && $L2 -le 2 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -113,7 +137,9 @@ done
 echo "Language: Please, type score for single word repetition [0-2]"
 while :; do
     read L3
-    if [[ $L3 -ge 0 && $L3 -le 2 ]]; then
+    if [[ -z $L3 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L3 -ge 0 && $L3 -le 2 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -122,7 +148,9 @@ done
 echo "Language: Please, type score for proverb-1, repetition [0-1]"
 while :; do
     read L4
-    if [[ $L4 -ge 0 && $L4 -le 1 ]]; then
+    if [[ -z $L4 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L4 -ge 0 && $L4 -le 1 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -131,17 +159,20 @@ done
 echo "Language: Please, type score for proverb-2, repetition [0-1]"
 while :; do
     read L5
-    if [[ $L5 -ge 0 && $L5 -le 1 ]]; then
+    if [[ -z $L5 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L5 -ge 0 && $L5 -le 1 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
-
 echo "Language: Please, type score for object naming [0-12]"
 while :; do
     read L6
-    if [[ $L6 -ge 0 && $L6 -le 12 ]]; then
+    if [[ -z $L6 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L6 -ge 0 && $L6 -le 12 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -150,7 +181,9 @@ done
 echo "Language: Please, type score for comprehension [0-4]"
 while :; do
     read L7
-    if [[ $L7 -ge 0 && $L7 -le 4 ]]; then
+    if [[ -z $L7 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L7 -ge 0 && $L7 -le 4 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -160,7 +193,9 @@ done
 echo "Language: Please, type score for reading [0-1]"
 while :; do
     read L8
-    if [[ $L8 -ge 0 && $L8 -le 1 ]]; then
+    if [[ -z $L8 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $L8 -ge 0 && $L8 -le 1 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -169,7 +204,9 @@ done
 echo "Visuospatial: Please, type score for intersecting Infinity Loops [0-1]"
 while :; do
     read V1
-    if [[ $V1 -ge 0 && $V1 -le 1 ]]; then
+    if [[ -z $V1 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $V1 -ge 0 && $V1 -le 1 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -178,17 +215,20 @@ done
 echo "Visuospatial: Please, type score for 3D Wire Cube [0-2]"
 while :; do
     read V2
-    if [[ $V2 -ge 0 && $V2 -le 2 ]]; then
+    if [[ -z $V2 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $V2 -ge 0 && $V2 -le 2 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
-
 echo "Visuospatial: Please, type score for Clock Drawing Test [0-5]"
 while :; do
     read V3
-    if [[ $V3 -ge 0 && $V3 -le 5 ]]; then
+    if [[ -z $V3 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $V3 -ge 0 && $V3 -le 5 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -197,17 +237,20 @@ done
 echo "Visuospatial: Please, type score for Counting Dots (preceptual abilities) [0-4]"
 while :; do
     read V4
-    if [[ $V4 -ge 0 && $V4 -le 4 ]]; then
+    if [[ -z $V4 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $V4 -ge 0 && $V4 -le 4 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
-
 echo "Visuospatial: Please, type score for Identifying Letters (preceptual abilities) [0-4]"
 while :; do
     read V5
-    if [[ $V5 -ge 0 && $V5 -le 4 ]]; then
+    if [[ -z $V5 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $V5 -ge 0 && $V5 -le 4 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -216,7 +259,9 @@ done
 echo "Memory: Please, type score for recall of name and address (delayed recall) [0-7]"
 while :; do
     read M4
-    if [[ $M4 -ge 0 && $M4 -le 7 ]]; then
+    if [[ -z $M4 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $M4 -ge 0 && $M4 -le 7 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -225,7 +270,9 @@ done
 echo "Memory: Please, type score for reognition of name and address (delayed recognition) [0-5]"
 while :; do
     read M5
-    if [[ $M5 -ge 0 && $M5 -le 5 ]]; then
+    if [[ -z $M5 ]]; then
+	echo "Entry cannot be NULL"
+    elif [[ $M5 -ge 0 && $M5 -le 5 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
