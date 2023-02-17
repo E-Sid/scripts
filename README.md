@@ -41,8 +41,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 
 ## A&E Calculators
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
-- AVPU score `avpu.bat`
-- AVPU to GCS converter `avpu2gcs.bat`
+- AVPU score `avpu.bat` and `avpu.sh`
+- AVPU to GCS converter `avpu2gcs.bat` and `avpu.sh`
 - GCS to AVPU score converter `gcs2avpu.sh`
 
 ## Cardiovascular Calculators
@@ -87,7 +87,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
 - `gcs-echo.sh` refers to Glasgow Comas Scale Calculator (GCS)
-- `gcs2avpu.sh` GCS to AVPU score converter
+- `gcs2avpu.sh` refers to GCS to AVPU score converter
+- `avpu.sh` refers top AVPU score calculator and convrter to GCS
 - `gad7-bc.sh` refers to GAD-7
 - `phq9-bc.sh` refers to PHQ-9
 - `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
