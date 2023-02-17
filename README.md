@@ -1,4 +1,4 @@
-# Psychiatric & Cardiovascular Assessments
+# Psychiatric & Neurological and Cardiovascular Assessments Calculators
 _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. They are:
 
 ## Cognitive Tests:
