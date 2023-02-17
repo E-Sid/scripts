@@ -12,6 +12,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
+ - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. Neurology. 55(11):1621-1626, 2000.
+ - The Rowlan Universal Dementia Assessment Scale (RUDAS): A Multicultural Cognitive Assessment Scale `rudas-bs.sh` (Storey et al, 2004) International Psychogeriatrics, 16(1), 13-31
  - Test Your Memory (TYM): `tym-bc.sh`
  - Clinical Dementia Rating Scale `cdr-pwsh.ps1`
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`
@@ -80,6 +82,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - `moca-bc.sh`, `moca-calc.sh`, and `moca-echo.sh` refer to Montreal Cognitive Examination (MoCA), `moca-bc.sh` also converts to MMSE score in addition to the MoCA score.
 - `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. Mov Disord. 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
 - `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
+- `fab-bc.sh` refers to Frontal Assessment Battery (FAB)
+- `rudas-bs.sh` refers to The Rowlan Universal Dementia Assessment Scale (RUDAS)
 - `tym-bc.sh` refers to Test Your Memory (TYM) examination.
 - `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
 - `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
