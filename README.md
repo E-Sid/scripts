@@ -19,7 +19,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
  - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
  - Mini-Cog Test: `mini-cog.bas`
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`
- - Hacinski Ischaemic Score (HIS): `his.rexx`
+ - Hachinski Ischaemic Score (HIS): `his.rexx`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - The Short Portable Mental Status Questionnaire (SPMSQ) `spmsq.rexx`
  
