@@ -1,5 +1,5 @@
 # Psychiatric, A&E, and Cardiovascular Assessments Calculators
-_These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. They are:
+_These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. They are:
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date),`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
@@ -73,7 +73,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
-- `filename-bc` is usually the most up-to-date file
+- `filename-bc` is usually the most up-to-date files
 ### List of BASH Shell Scripts
 - `ace-iii.sh`, `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-iii.sh` has extensive data validation it is failsafe to use. It uses `bc` and converts to MMSE score in addition to M-ACE.
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
@@ -107,6 +107,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 
 ## Instructions to use AWK scripts
 - AWK works under Unix, GNU/Linux, MacOS, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
+- ECT charge & age-based calculators in AWK work better than BASH shell scripts.
 
 ### List AWK scripts
 - `bmi.awk` refers to body mass index (metric) calculator
