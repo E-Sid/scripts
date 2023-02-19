@@ -12,6 +12,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
+ - Montreal Cognitive Assessment 5-minute protocol (MoCA 5-min protocol) `moca-5min.awk` 
  - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. Neurology. 55(11):1621-1626, 2000.
  - The Rowlan Universal Dementia Assessment Scale (RUDAS): A Multicultural Cognitive Assessment Scale `rudas-bs.sh` (Storey et al, 2004) International Psychogeriatrics, 16(1), 13-31
  - Test Your Memory (TYM): `tym-bc.sh`
@@ -111,7 +112,8 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `cdr.awk` refers to Clinical Dementia Rating Scale
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
-- `ect-charge.awk refers to ECT charge calculator
+- `ect-charge.awk` refers to ECT charge calculator
+- `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 
 ## Instructions for MS-PowerShell Script
 - Please, select PowerShell ISE
