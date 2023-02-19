@@ -35,8 +35,8 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, & `ect-age.bat`
-- ECT Charge calculator: `ect-charge.awk`
-- ECT Dosing formulae and equations' calculator: `ect-formulae.awk`
+- ECT charge & titration calculator: `ect-charge.awk`
+- ECT dosing formulae and equations' calculator: `ect-formulae.awk`
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
@@ -115,7 +115,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `cdr.awk` refers to Clinical Dementia Rating Scale
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
-- `ect-charge.awk` refers to ECT charge calculator
+- `ect-charge.awk` refers to ECT charge & titration calculator
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator. 
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 
