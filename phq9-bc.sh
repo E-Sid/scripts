@@ -11,7 +11,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read A
-    if [[ $A -ge 0 && $A -le 3 ]] ; then
+    if [[ -z $A ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $A -ge 0 && $A -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -24,7 +26,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read B
-    if [[ $B -ge 0 && $B -le 3 ]] ; then
+    if [[ -z $B ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $B -ge 0 && $B -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -37,7 +41,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read C
-    if [[ $C -ge 0 && $C -le 3 ]] ; then
+    if [[ -z $C ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $C -ge 0 && $C -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -50,7 +56,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read D
-    if [[ $D -ge 0 && $D -le 3 ]] ; then
+    if [[ -z $D ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $D -ge 0 && $D -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -63,7 +71,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read E
-    if [[ $E -ge 0 && $E -le 3 ]] ; then
+    if [[ -z $E ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $E -ge 0 && $E -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -76,7 +86,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read F
-    if [[ $F -ge 0 && $F -le 3 ]] ; then
+    if [[ -z $F ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $F -ge 0 && $F -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -89,7 +101,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read G
-    if [[ $G -ge 0 && $G -le 3 ]] ; then
+    if [[ -z $G ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $G -ge 0 && $G -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -102,7 +116,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read H
-    if [[ $H -ge 0 && $H -le 3 ]] ; then
+    if [[ -z $H ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $H -ge 0 && $H -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
@@ -115,7 +131,9 @@ echo "2. More than half the days"
 echo "3. Nearly every day"
 while :; do
     read I
-    if [[ $I -ge 0 && $I -le 3 ]] ; then
+    if [[ -z $I ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $I -ge 0 && $I -le 3 ]] ; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"

@@ -2,7 +2,9 @@
 echo "Please, type the Montreal Cognitive Assessment (MoCA) score"
 while :; do
     read ans
-    if [[ $ans -ge 0 && $ans -le 30 ]]; then
+    if [[ -z $ans ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $ans -ge 0 && $ans -le 30 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"

@@ -4,7 +4,9 @@ echo "=================================================="
 echo "Please, type the total GCS score"
 while :; do
     read gcs
-    if [[ $gcs -ge 3 && $gcs -le 15 ]]; then
+    if [[ -z $gcs ]]; then
+	echo "Entry cannot be empty"
+    elif [[ $gcs -ge 3 && $gcs -le 15 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
