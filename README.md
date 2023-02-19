@@ -2,7 +2,7 @@
 _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. They are:
 
 ## Cognitive Tests:
- - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii.sh`,`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
+ - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date),`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
@@ -33,8 +33,8 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
-- ECT Age-based and Dose calculator: `ect-dose.sh`, & `ect-age.bat`
-- ECT Charge calculator: `ect-charge-bc.sh`
+- ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, & `ect-age.bat`
+- ECT Charge calculator: `ect-charge.awk`
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
@@ -62,6 +62,7 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - `.bat` files are batch files that run under FreeDOS, and could be used on MS-Windows command prompt `cmd.exe`
 - `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
 - `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
+- `.awk` files refer to AWK programming language, they run under Unix, GNu/Linux, MacOS, Haiku.
 
 ## General Instructions
 - In all the files. You can type the entry (numerical number) and press ENTER (Return)
@@ -102,6 +103,15 @@ _These are mostly GNU/Linux BASH Shell & MS-PowerShell calculators for Cognitive
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 ### Dependencies
 The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they are the most updated and they could have converters to MMSE also.
+
+## Instructions to use AWK scripts
+- AWK works under Unix, GNU/Linux, MacOS, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
+
+### List AWK scripts
+- `cdr.awk` refers to Clinical Dementia Rating Scale
+- `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
+- `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
+- `ect-charge.awk refers to ECT charge calculator
 
 ## Instructions for MS-PowerShell Script
 - Please, select PowerShell ISE
