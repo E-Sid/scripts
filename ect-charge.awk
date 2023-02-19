@@ -1,7 +1,7 @@
 #/usr/bin/awk -f
 
 BEGIN {
-    printf{"ECT Charge Calculator   ")
+    printf("ECT Charge Calculator   ")
     printf("Please, enter the pulse width in millisecond:  ")
     getline PW
     while ( PW < 0 || PW > 8.5 ) {
@@ -34,7 +34,7 @@ BEGIN {
     if (I > 0 && I < 1.5)
 	break
     }
-    { print "The equation is Q=PW*2F*D*I" }
+    { print "The equation is charge * time for ECT it is Pulse width in (ms) * double the frequency (bidirectional) (Hertz) * duration (s.) * current (amp) eg Q=PW*2F*D*I" }
     { print "The charge is " (PW * 2 * F * D * I)" mC" }
     exit;
 }
