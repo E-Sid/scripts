@@ -53,7 +53,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator: `hip-waiste.rexx`
 - QTc Interval calculator: `qtc.bas`
-- Mean Arterial Blood Pressure calculator (MAP): `map.bas`, `map.py`, & `map.rexx`
+- Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`
@@ -118,6 +118,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
 - `ect-charge.awk` refers to ECT charge & titration calculator
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator. 
+- `map.awk` refers to mean arterial blood pressure calculator
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 - `rtms.awk` refers to rTMS dose calculator 
 
