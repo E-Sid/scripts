@@ -70,7 +70,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - In all the files. You can type the entry (numerical number) and press ENTER (Return)
 - If you do not have a compiler for the scripting language used, you can use an online compiler via a web browser as [JDoodle](https://www.jdoodle.com/) or [Tutorials Point ](https://www.tutorialspoint.com) and select the scripting language of your choice.
 
-## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X or Haiku
+## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD (FreeBSD, OpenBSD, NetBSD), Unix, MacOS-X or Haiku
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
@@ -107,8 +107,8 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they are the most updated and they could have converters to MMSE also.
 
 ## Instructions to use AWK scripts
-- AWK works under Unix, GNU/Linux, MacOS, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
-- ECT charge & age-based calculators in AWK work better than BASH shell scripts.
+- AWK works under Unix, GNU/Linux, BSD. MacOS-X, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
+- ECT charge & age-based calculators in AWK work better than BASH shell scripts. ECT Charge uses `IGNORECASE` which is typical of GNU/AWK (gAWK), if used under a different non-GNU platform consider adding `#` and space before it to comment it out. The rest of the script should not be affected.
 
 ### List AWK scripts
 - `bmi.awk` refers to body mass index (metric) calculator
