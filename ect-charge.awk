@@ -1,7 +1,8 @@
 #/usr/bin/awk -f
 
-BEGIN {
+BEGIN   {
     print "ECT Charge Calculator"
+    print "====================="
     printf("Please, enter the pulse width in millisecond:  ")
     getline PW
     while ( PW < 0 || PW > 8.5 ) {
@@ -35,31 +36,32 @@ BEGIN {
 	break
     }
     Q = PW * 2 * F * D * I
-    { print "The equation is Q=PW*2F*D*I" }
+    { print "The equation is charge* duration eg. Q=PW*2F*D*I" }
     { print "The charge is " Q " mC" }
     printf("What is the electrode placement? [UL/BL]  ")
-    while ( EP!="BL" || EP!="bl" || EP!="UL" || EP!="UL" )  {
+{IGNORECASE=1}
+    while ( EP!="BL" || EP!="UL" )  {
         getline EP
-    if (EP=="BL" || EP=="bl" || EP=="UL" || EP=="ul")
+    if (EP=="BL" || EP=="UL")
 	break
     else print "Value is out of range. Please, type BL or UL"
     }
-    printf("Is this the titration session? [Y/N]  ")
-	while ( T!="Y" || T!="y" || T!="N" || T!="N" )  {
+    printf("Is this the initial titration session? [Y/N]  ")
+    while ( T!="Y"|| T!="N" )  {
         getline T 
-        if (T=="Y" || T=="y" || T=="N" || T=="n")
+        if (T=="Y" || T=="N")
 	break
     else print "Value is out of range. Please, type Y or N"
     }
-     if (T=="N" || T=="n")
-     print "Cannot proceed for treatment sessions"	
-     if (EP=="UL" && Q < 168 && T=="Y" || T=="y")
-     print "The suggested treatment dose for unilateral ECT is " Q * 2.5 " to " Q * 6 " mC "
-     if (EP=="UL" && Q > 168 &&  T=="Y" || T=="y")
+     if (T=="N")
+     print "Cannot proceed for treatment sessions"
+     else if  (Q < 168 && EP=="UL" && T=="Y")
+     print "The suggested treatment dose for subsequent unilateral ECT administration is " Q * 2.5 " to " Q * 6 " mC "
+     else if (Q > 168 && EP=="UL" && T=="Y")
      print "Charge is too high for standard titration"
-     if (EP=="BL" && Q < 403.2 && T=="Y" || T=="y")
-     print "The suggested dose treatment for bilateral ECT is " Q * 1.5 " to " Q * 2.5 " mC"
-     if (EP=="BL" && Q > 403.2 && T=="Y" || T=="y")
+     else if (Q < 403.2 && EP=="BL" &&  T=="Y")
+     print "The suggested dose treatment for subsequent bilateral ECT administration is " Q * 1.5 " to " Q * 2.5 " mC"
+     else if (Q > 403.2 && EP=="Bl" && T=="Y")
      print "Charge is too high for standard titration"
      exit;
 }
