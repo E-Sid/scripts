@@ -54,7 +54,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - Hip-Waiste Ratio calculator: `hip-waiste.rexx`
 - QTc Interval calculator: `qtc.bas`
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
-- Cardiac Output calculator: `cardiac.bat`
+- Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`
 
@@ -113,6 +113,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 
 ### List AWK scripts
 - `bmi.awk` refers to body mass index (metric) calculator
+- `cardiac-output.awk` refers to cardiac output
 - `cdr.awk` refers to Clinical Dementia Rating Scale
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
