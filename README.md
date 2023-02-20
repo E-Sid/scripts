@@ -40,6 +40,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
+- rTMS dose calculator: `rtms.awk`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 
@@ -118,6 +119,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `ect-charge.awk` refers to ECT charge & titration calculator
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator. 
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
+- `rtms.awk` refers to rTMS dose calculator 
 
 ## Instructions for MS-PowerShell Script
 - Please, select PowerShell ISE
