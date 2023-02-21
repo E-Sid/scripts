@@ -69,14 +69,16 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - `.awk` files refer to AWK programming language, they run under Unix, GNu/Linux, BSD, MacOS, Haiku.
 
 ## General Instructions
-- In all the files. You can type the entry (numerical number) and press ENTER (Return)
+- In all the files. You can type the entry (numerical number) and press `ENTER` (Return)
 - If you do not have a compiler for the scripting language used, you can use an online compiler via a web browser as [JDoodle](https://www.jdoodle.com/) or [Tutorials Point ](https://www.tutorialspoint.com) and select the scripting language of your choice.
+- If there is the same calculator in AWK and other language, AWK scripts is the more comprehensive and up-to-date
+- If there are different versions of a calculator in BASH Shell Script `filename-bc.sh` would be the most up-to-date
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD (FreeBSD, OpenBSD, NetBSD), Unix, MacOS-X or Haiku
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
-- `filename-bc` is usually the most up-to-date files
+- `filename-bc.sh` are usually the most up-to-date files
 ### List of BASH Shell Scripts
 - `ace-iii.sh`, `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-iii.sh` has extensive data validation it is failsafe to use. It uses `bc` and converts to MMSE score in addition to M-ACE.
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
@@ -110,7 +112,9 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 
 ## Instructions to use AWK scripts
 - AWK works under Unix, GNU/Linux, BSD. MacOS-X, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
-- ECT charge & age-based calculators in AWK work better than BASH shell scripts. ECT Charge uses `IGNORECASE` which is typical of GNU/AWK (gAWK), if used under a different non-GNU platform consider adding `#` and space before it to comment it out. The rest of the script should not be affected.
+- ECT charge & age-based calculators in AWK work better than BASH shell coutnerpart scripts. ECT Charge uses `IGNORECASE` which is typical of GNU/AWK (gAWK), if used under a different non-GNU platform consider adding `#` and space before it to comment it out. The rest of the script should not be affected.
+- `qtc.awk` is more accurate and provide more data than `qtc.bas`
+- `cdr.awk` & `cdr-fltd.awk` have more strict data validation than their MS-PowerShell counterparts `cdr-pwsh.ps1` & `cdr-fltd-pwsh.ps1`
 
 ### List AWK scripts
 - `bmi.awk` refers to body mass index (metric) calculator
