@@ -53,7 +53,9 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
 - Kilograms to pounds converter: `kg2lb.awk`
-- Pounds to kilograms converter: `kb2jg.awk`
+- Pounds to kilograms converter: `lb2kg.awk`
+- kilogram to stone converter: `kg2st.awk`
+- stone to kilogram converter: `st2kg.awk`
 - QTc Interval calculator: `qtc.awk` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
@@ -127,11 +129,13 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator.
 - `hip-waist.awk` refers to hip-waist ratio calculator.
 - `kg2lb.awk` refer to Kilograms to pounds converter. 
-- `kb2jg.awk` Pounds to kilograms converter.
+- `lb2kg.awk` Pounds to kilograms converter.
+- `kg2st.awk`: kilogram to stone converter.
 - `map.awk` refers to mean arterial blood pressure calculator
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
-- `rtms.awk` refers to rTMS dose calculator 
+- `rtms.awk` refers to rTMS dose calculator.
+- `st2kg.awk` refers to stone to kilogram converter.
 
 ## Instructions for MS-PowerShell Script
 - Please, select PowerShell ISE
