@@ -53,7 +53,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
 - Kilograms to pounds converter: `kg2lb.awk`
-- QTc Interval calculator: `qtc.bas`
+- QTc Interval calculator: `qtc.awk` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
@@ -124,6 +124,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `kg2lb.awk` refer to Kilograms to pounds converter. 
 - `map.awk` refers to mean arterial blood pressure calculator
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
+- `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rtms.awk` refers to rTMS dose calculator 
 
 ## Instructions for MS-PowerShell Script
