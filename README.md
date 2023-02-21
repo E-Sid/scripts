@@ -51,7 +51,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - GCS to AVPU score converter `gcs2avpu.sh`
 
 ## Cardiovascular Calculators
-- Hip-Waiste Ratio calculator: `hip-waiste.rexx`
+- Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
 - QTc Interval calculator: `qtc.bas`
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
@@ -65,7 +65,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - `.bat` files are batch files that run under FreeDOS, and could be used on MS-Windows command prompt `cmd.exe`
 - `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
 - `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
-- `.awk` files refer to AWK programming language, they run under Unix, GNu/Linux, MacOS, Haiku.
+- `.awk` files refer to AWK programming language, they run under Unix, GNu/Linux, BSD, MacOS, Haiku.
 
 ## General Instructions
 - In all the files. You can type the entry (numerical number) and press ENTER (Return)
@@ -118,7 +118,8 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
 - `ect-charge.awk` refers to ECT charge & titration calculator
-- `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator. 
+- `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator.
+- `hip-waist.awk` refers to hip-waist ratio calculator.
 - `map.awk` refers to mean arterial blood pressure calculator
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 - `rtms.awk` refers to rTMS dose calculator 
