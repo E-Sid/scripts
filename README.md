@@ -52,6 +52,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 
 ## Cardiovascular Calculators
 - Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
+- Kilograms to pounds converter: `kg2lb.awk`
 - QTc Interval calculator: `qtc.bas`
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
 - Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
@@ -120,6 +121,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `ect-charge.awk` refers to ECT charge & titration calculator
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator.
 - `hip-waist.awk` refers to hip-waist ratio calculator.
+- `kg2lb.awk` refer to Kilograms to pounds converter. 
 - `map.awk` refers to mean arterial blood pressure calculator
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 - `rtms.awk` refers to rTMS dose calculator 
