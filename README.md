@@ -26,6 +26,9 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - The Short Portable Mental Status Questionnaire (SPMSQ) `spmsq.rexx`
  
+ ## Diagnostic algorithms
+ - Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website `mhgap-dementia.awk`
+ 
  ## Psychiatric Rating Scales
 - Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
@@ -132,6 +135,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `lb2kg.awk` Pounds to kilograms converter.
 - `kg2st.awk`: kilogram to stone converter.
 - `map.awk` refers to mean arterial blood pressure calculator
+- `mhgap-dementia.awk` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website 
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rtms.awk` refers to rTMS dose calculator.
