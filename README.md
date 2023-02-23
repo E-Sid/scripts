@@ -49,8 +49,8 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 
 ## A&E Calculators
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
-- AVPU score `avpu.bat` and `avpu.sh`
-- AVPU to GCS converter `avpu2gcs.bat` and `avpu.sh`
+- AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
+- AVPU to GCS converter: `avpu2gcs.awk`,`avpu2gcs.bat` and `avpu.sh`
 - GCS to AVPU score converter `gcs2avpu.sh`
 
 ## Cardiovascular Calculators
@@ -123,6 +123,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `cdr.awk` & `cdr-fltd.awk` have more strict data validation than their MS-PowerShell counterparts `cdr-pwsh.ps1` & `cdr-fltd-pwsh.ps1`
 
 ### List AWK scripts
+- `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
 - `bmi.awk` refers to body mass index (metric) calculator
 - `cardiac-output.awk` refers to cardiac output
 - `cdr.awk` refers to Clinical Dementia Rating Scale
