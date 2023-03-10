@@ -6,73 +6,75 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
- - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc`, & `cbi-echo.sh`, 
+ - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
+ - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
+ - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`
+ - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
+ - Clinical Dementia Rating Scale `cdr-pwsh.ps1`
+ - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`
+ - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
+ - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. Neurology. 55(11):1621-1626, 
+ - Hachinski Ischaemic Score (HIS): `his.rexx`
+ - Mini-Cog Test: `mini-cog.bas`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
  - Montreal Cognitive Assessment 5-minute protocol (MoCA 5-min protocol) `moca-5min.awk` 
- - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. Neurology. 55(11):1621-1626, 2000.
+ 2000.
  - The Rowlan Universal Dementia Assessment Scale (RUDAS): A Multicultural Cognitive Assessment Scale `rudas-bs.sh` (Storey et al, 2004) International Psychogeriatrics, 16(1), 13-31
- - Test Your Memory (TYM): `tym-bc.sh`
- - Clinical Dementia Rating Scale `cdr-pwsh.ps1`
- - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`
- - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
- - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
- - Mini-Cog Test: `mini-cog.bas`
- - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`
- - Hachinski Ischaemic Score (HIS): `his.rexx`
- - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - The Short Portable Mental Status Questionnaire (SPMSQ) `spmsq.rexx`
+ - Test Your Memory (TYM): `tym-bc.sh`
+ 
  
  ## Diagnostic algorithms
  - Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website `mhgap-dementia.awk`
  
  ## Psychiatric Rating Scales
-- Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
-- Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
-- Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
-- Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
-- Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
-- CAGE Questionnaire: `cage.bas`, `cage.bat`
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
+- Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
+- CAGE Questionnaire: `cage.bas`, `cage.bat`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, & `ect-age.bat`
 - ECT charge & titration calculator: `ect-charge.awk`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
-- rTMS dose calculator: `rtms.awk`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
+- Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
+- Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
+- Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
+- Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
+- rTMS dose calculator: `rtms.awk`
 
 ## A&E Calculators
-- Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 - AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
 - AVPU to GCS converter: `avpu2gcs.awk`,`avpu2gcs.bat` and `avpu.sh`
 - GCS to AVPU score converter `gcs2avpu.sh`
+- Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 
 ## Cardiovascular Calculators
-- Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
-- Kilograms to pounds converter: `kg2lb.awk`
-- Pounds to kilograms converter: `lb2kg.awk`
-- kilogram to stone converter: `kg2st.awk`
-- stone to kilogram converter: `st2kg.awk`
-- QTc Interval calculator: `qtc.awk` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
-- Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
-- Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
+- Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
+- Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
+- Kilogram(s) to pound(s) converter: `kg2lb.awk`
+- Kilogram(s) to stone(s) converter: `kg2st.awk`
+- Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`
+- Pounds to kilograms converter: `lb2kg.awk`
+- QTc Interval calculator: `qtc.awk` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
+- Stone to kilogram converter: `st2kg.awk`
 
 ## Guide to file extensions
-- `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
-- `.ps1` files refer to MS-PowerShell works under Mircosoft Windows, and works under GNU/Linux Bash Shell (if Ms-PowerShell is installed)
-- `.html` files refer to platform independent that works on any browser that can run Javascript
-- `.bat` files are batch files that run under FreeDOS, and could be used on MS-Windows command prompt `cmd.exe`
-- `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
-- `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
 - `.awk` files refer to AWK programming language, they run under Unix, GNu/Linux, BSD, MacOS, Haiku.
+- `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
+- `.bat` files are batch files that run under FreeDOS, and could be used on MS-Windows command prompt `cmd.exe`
+- `.html` files refer to platform independent that works on any browser that can run Javascript
+- `.ps1` files refer to MS-PowerShell works under Mircosoft Windows, and works under GNU/Linux Bash Shell (if Ms-PowerShell is installed)
+- `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
+- `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
 
 ## General Instructions
 - In all the files. You can type the entry (numerical number) and press `ENTER` (Return)
@@ -95,13 +97,13 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - `m-ace-bc.sh`, `m-ace-calc`, and `m-ace-echo.sh` refer to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-bc.sh`, `moca-calc.sh`, and `moca-echo.sh` refer to Montreal Cognitive Examination (MoCA), `moca-bc.sh` also converts to MMSE score in addition to the MoCA score.
 - `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. Mov Disord. 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
+- `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
+- `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
+- `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
 - `fab-bc.sh` refers to Frontal Assessment Battery (FAB)
 - `rudas-bs.sh` refers to The Rowlan Universal Dementia Assessment Scale (RUDAS)
 - `tym-bc.sh` refers to Test Your Memory (TYM) examination.
-- `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
-- `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
-- `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
 - `gcs-echo.sh` refers to Glasgow Comas Scale Calculator (GCS)
@@ -113,6 +115,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. 
 - `ect-charge-bc.sh` refers to ECT charge calculator if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. 
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
+
 ### Dependencies
 The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they are the most updated and they could have converters to MMSE also.
 
