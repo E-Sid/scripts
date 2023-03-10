@@ -90,7 +90,7 @@ There are available calculators online however, they do not cover every thing. T
 - In Bash shell TTY, or terminal either in GNU/Linux, BSD, MacOS-X, or Haiku start terminal
 - Please, make sure to make the file executable by `chmod +x` filename.sh eg `chmod +x ace.sh`
 - Please, type `./` before the file name to start the desired shell script, or `sh` command then space before the name of the shell script eg `./ace-bc.sh` or `sh ace-bc.sh`.
-- `filename-bc.sh` are usually the most up-to-date files
+- `filename-bc.sh` are usually the most up-to-date files.
 ### List of BASH Shell Scripts
 - `ace-iii.sh`, `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-iii.sh` has extensive data validation it is failsafe to use. It uses `bc` and converts to MMSE score in addition to M-ACE.
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
