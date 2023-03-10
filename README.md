@@ -1,5 +1,8 @@
 # Psychiatric, A&E, and Cardiovascular Assessments Calculators
-_These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. They are:
+_These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. 
+
+# Rationale
+There are available calculators online however, they do not cover every thing. They tend to require GUI, online connection, and modern web-browser. The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts for these tests that would not require GUI or or online connection (*apart from downloading them*). It aims to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux, MacOS, Haiku), MS-Windows, FreeDOS, as well as other platform independent calculators and algorithms. Also, users have access to the source code, so they are welcome to study, improve, and copy the design for other tests under GPL3 license.
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date),`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
@@ -22,7 +25,6 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
  - Montreal Cognitive Assessment 5-minute protocol (MoCA 5-min protocol) `moca-5min.awk` 
- 2000.
  - The Rowlan Universal Dementia Assessment Scale (RUDAS): A Multicultural Cognitive Assessment Scale `rudas-bs.sh` (Storey et al, 2004) International Psychogeriatrics, 16(1), 13-31
  - The Short Portable Mental Status Questionnaire (SPMSQ) `spmsq.rexx`
  - Test Your Memory (TYM): `tym-bc.sh`
@@ -99,21 +101,20 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 - `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. Mov Disord. 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
 - `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
 - `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
-- `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
-- `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
-- `fab-bc.sh` refers to Frontal Assessment Battery (FAB)
-- `rudas-bs.sh` refers to The Rowlan Universal Dementia Assessment Scale (RUDAS)
-- `tym-bc.sh` refers to Test Your Memory (TYM) examination.
-- `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
-- `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
-- `gcs-echo.sh` refers to Glasgow Comas Scale Calculator (GCS)
-- `gcs2avpu.sh` refers to GCS to AVPU score converter
-- `avpu.sh` refers top AVPU score calculator and convrter to GCS
-- `gad7-bc.sh` refers to GAD-7
-- `phq9-bc.sh` refers to PHQ-9
-- `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
+- `avpu.sh` refers top AVPU score calculator and convrter to GCS- `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. 
 - `ect-charge-bc.sh` refers to ECT charge calculator if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. 
+- `fab-bc.sh` refers to Frontal Assessment Battery (FAB)
+- `gad7-bc.sh` refers to GAD-7
+- `gcs-echo.sh` refers to Glasgow Comas Scale Calculator (GCS)
+- `gcs2avpu.sh` refers to GCS to AVPU score converter
+- `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
+- `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
+- `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
+- `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
+- `phq9-bc.sh` refers to PHQ-9
+- `rudas-bs.sh` refers to The Rowlan Universal Dementia Assessment Scale (RUDAS)
+- `tym-bc.sh` refers to Test Your Memory (TYM) examination.
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 
 ### Dependencies
@@ -121,9 +122,10 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 
 ## Instructions to use AWK scripts
 - AWK works under Unix, GNU/Linux, BSD. MacOS-X, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
+- `cdr.awk` & `cdr-fltd.awk` have more strict data validation than their MS-PowerShell counterparts `cdr-pwsh.ps1` & `cdr-fltd-pwsh.ps1`
 - ECT charge & age-based calculators in AWK work better than BASH shell coutnerpart scripts. ECT Charge uses `IGNORECASE` which is typical of GNU/AWK (gAWK), if used under a different non-GNU platform consider adding `#` and space before it to comment it out. The rest of the script should not be affected.
 - `qtc.awk` is more accurate and provide more data than `qtc.bas`
-- `cdr.awk` & `cdr-fltd.awk` have more strict data validation than their MS-PowerShell counterparts `cdr-pwsh.ps1` & `cdr-fltd-pwsh.ps1`
+
 
 ### List AWK scripts
 - `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
@@ -136,8 +138,8 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator.
 - `hip-waist.awk` refers to hip-waist ratio calculator.
 - `kg2lb.awk` refer to Kilograms to pounds converter. 
-- `lb2kg.awk` Pounds to kilograms converter.
 - `kg2st.awk`: kilogram to stone converter.
+- `lb2kg.awk` Pounds to kilograms converter.
 - `map.awk` refers to mean arterial blood pressure calculator
 - `mhgap-dementia.awk` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website 
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
@@ -158,14 +160,15 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `ace-pwsh.ps1` refers to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation
 - `ace-r-pwsh.ps1` refers to Addenbrooke's Cogntive Examination -R (ACE-R) with Mini-ACE (M-ACE) and Mini-Mental State Examination (MMSE) subsets calculation
 - `bmi-pwsh.ps1` refers to metric Body Mass Index
-- `m-ace-pwsh.ps1` refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
-- `moca-pwsh.ps1` refers to Montreal Cognitive Examination (MoCA)
-- `moca-blind-pwsh.ps1` refers to Montreal Cognitive Examination - blind (MoCA - Blind)
 - `cbi-r-pwsh.ps1` refers to Cambridge Behavioural Inventory Revised (CBI-R)
 - `cdr-ftld-pwsh.ps1` refers to Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `cdr-pwsh.ps1` refers to Clinical Dementia Rating
 - `ect-pwsh.ps1` refers to an electroconvulsive therapy calculator. It calculates the electroconvulsive therapy (ECT) charge according to Age-Based & Half Age-Based Formulae. Also, if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC.
 - On MS-Windows from the start menu down left search for PowerShell
+- `m-ace-pwsh.ps1` refers to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
+- `moca-pwsh.ps1` refers to Montreal Cognitive Examination (MoCA)
+- `moca-blind-pwsh.ps1` refers to Montreal Cognitive Examination - blind (MoCA - Blind)
+
 
 ## Platform independent
 ### HTML/JavaScript
@@ -173,39 +176,40 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 
 ### FreeBASIC
 One would either install FreeBasic compiler +/- IDE or else use [online FreeBASIC compiler](https://www.jdoodle.com/execute-freebasic-online/)
-- `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). 
 - `amt4.bas` refers to Abbreviated Mental Test-4 (AMT4)
 - `bmi.bas` is Body Mass Index (BMI) calculator in kilograms and meter, `bmi-lb-inch.bas` calculates BMI in pounds and inches 
-- `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used.
+- `cage.bas` is CAGE questionnaire calculator written in BASIC (FreeBASIC). 
 - `map.bas` is Mean Arterial Blood Pressure Calculator. 
-- `mini-cog.bas` refers to Mini-Cog test.
 - `mhr.bas` refers to Maximum Heart Rate (MHR) Calculator.
+- `mini-cog.bas` refers to Mini-Cog test.
 - `ohms-law.bas` refers to ECT Ohm's law
+- `qtc.bas` is QTc Interval calculator according to Bazett, Framingham, and, Hodges formulae. Bazett is the most commonly used.
 
 ### REXX
 These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (via Regina-REXX), Amiga OS (via ARexx) and other AmigaOS related OS (AROS, MorphOS etc.), or OS/2
+- `4at.rexx` refers to 4AT test.
 - `audit.rexx` refers to Alcohol Use Disorders Identification Test (AUDIT).
 - `bmi.rexx` is a BMI calculator.
-- `hip-waiste.rexx` refers to hip-waiste ratio calculator.
-- `4at.rexx` refers to 4AT test.
-- `his.rexx` refers to Hachinski Ischaemic Score (HIS).
 - `dsrs.rexx` refers to Dementia Severity Rating Scale (DSRS).
+- `energy.rexx` refers to ECT energy calculator in joules
+- `hip-waiste.rexx` refers to hip-waiste ratio calculator.
+- `his.rexx` refers to Hachinski Ischaemic Score (HIS).
+- `map.rexx` refers to mean arterial blood pressure calculator
 - `mhr.rexx` refers to Maximum Heart Rate (MHR) Calculator.
-- `spmsq.rexx` refers to  The Short Portable Mental Status Questionnaire (SPMSQ)
 - `ohms-law.rexx` refers to ECT Ohm's law
 - `power.rexx` refers to ECT Power Calculator in watts
-- `map.rexx` refers to mean arterial blood pressure calculator
-- `energy.rexx` refers to ECT energy calculator in joules
+- `spmsq.rexx` refers to  The Short Portable Mental Status Questionnaire (SPMSQ)
+
 
 ## FreeDOS
-- `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
-- `cardiac.bat` refers to cardiac output calculator.
-- `mhr.bat` refers to Maximum Heart Rate.
-- `cage.bat` refers to CAGE Questionnaire for alcohol dependence
-- `gds-15.bat` refers to Geriatric Depression Scale (15-item) (GDS-15)
-- `gds-4.bat` refers to Geriatric Depression Scale (4-item) (GDS-4) 
 - `avpu.bat` refers to AVPU score 
 - `avpu2gcs.bat` refer to AVPU to GCS converter
+- `cage.bat` refers to CAGE Questionnaire for alcohol dependence
+- `cardiac.bat` refers to cardiac output calculator.
+- `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
+- `gds-15.bat` refers to Geriatric Depression Scale (15-item) (GDS-15)
+- `gds-4.bat` refers to Geriatric Depression Scale (4-item) (GDS-4) 
+- `mhr.bat` refers to Maximum Heart Rate.
 
 ## Twin Project
 [Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
