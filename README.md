@@ -224,9 +224,11 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - For diagnostic algorithms the source of information eg [mhGAP](https://www.who.int/publications/i/item/9789241549790) should **ALWAYS** be checked. This is aimed at healthcare professionals, and should be used **ONLY** to facilitate the algorithmic part of the diagnostic procedure, but **NOT** as a substitute for clinical assessment, or the WHO mhGAP guidance.
 
 ## Declaration of Interest
-- None, these are intended as aides to help with calculation of psychometric and cardiovascular assessments. They are licensed under GPL and are free to use.
+- None
+- These scripts are intended as aides to help with calculation of psychometric and cardiovascular assessments. 
+- These scripts are licensed under GNU/GPL-3 license and are free to use.
 - These are not the tests, they only are calculators to score the tests, examinations and assessments.
 
 ## License
-- This product is licensed under GPL3. Clinical Use is allowed by trained clinicians but it is not for commercial use. This applies only to calculators not the tests. If anyone wants to use the tests, one should check their license as well.
+- This product is licensed under GNU/GPL-3. Clinical Use is allowed by trained clinicians but it is not for commercial use. This applies only to calculators not the tests. If anyone wants to use the tests, one should check their license as well.
 
