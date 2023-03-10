@@ -202,6 +202,8 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 
 
 ## FreeDOS
+[FreeDOS](https://www.freedos.org/) is licensed under GNU/GPL
+
 - `avpu.bat` refers to AVPU score 
 - `avpu2gcs.bat` refer to AVPU to GCS converter
 - `cage.bat` refers to CAGE Questionnaire for alcohol dependence
