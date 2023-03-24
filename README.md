@@ -4,7 +4,7 @@ _These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts f
 # Rationale
 There are available calculators online however, they do not cover every thing. They tend to require GUI, online connection, and modern web-browser. The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a shell, for these tests that would not require GUI or or online connection (*apart from downloading them*). It aims to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux), \*nix derivatives eg MacOS, platforms that have POSIX compliance eg Haiku, as well as other operating systems eg MS-Windows, & FreeDOS, as well as other platform independent calculators and algorithms. Also, users have access to the source code, so they are welcome to study, improve, and copy the design for other tests under GNU/GPL-3 license.
 
-*This is a list of scripts*
+*List of scripts*
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date),`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
@@ -204,7 +204,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 
 
 ## FreeDOS
-[FreeDOS](https://www.freedos.org/) is licensed under GNU/GPL
+[FreeDOS](https://www.freedos.org/) is licensed under GNU/GPL-3
 
 - `avpu.bat` refers to AVPU score 
 - `avpu2gcs.bat` refer to AVPU to GCS converter
@@ -216,7 +216,12 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - `mhr.bat` refers to Maximum Heart Rate.
 
 ## Twin Project
-[Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Simple type Python and the path of the script and it will start.
+[Python ACE-III Calculator](https://github.com/moftasa/PythonACEIIICalculator) is a twin project by [Mostafa Hussein Omar](https://github.com/moftasa) that has both a LibreOffice spreadsheet (\*.ods) that could be filled with an automatic calculator and a Python script that works as a calculator. Type `Python` and the path of the script and it will start.
+
+## HOWTO
+- To clone (copy the assessments) if you have git. You can type `git clone https://github.com/E-Sid/scripts/`
+- To Download hover of the icon `code <>` and download zip file (compressed file). Then unzip it either via GUI or `unzip` command on the CLI
+- You can also copy a single code and paste it as a text file then rename it with the appropriate extension, and make it executable.
 
 ## Disclaimer
 - For cardiovascular calculators: Mean arterial blood pressure, QTc interval calculator, Cardiac output offer only one way of calculation and should be used for general guidance **ONLY**. Please note that this codes here are just examples, calculations should **ONLY** be performed by trained healthcare professionals. The formulae used here is just an estimate and the actual cardiovascular calculations can vary based on individual factors such as fitness level and health conditions. 
