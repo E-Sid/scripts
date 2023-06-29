@@ -20,7 +20,7 @@ There are available calculators online however, they do not cover every thing. T
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
- - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. Neurology. 55(11):1621-1626, 
+ - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
  - Hachinski Ischaemic Score (HIS): `his.rexx`
  - Mini-Cog Test: `mini-cog.bas`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
@@ -94,13 +94,13 @@ There are available calculators online however, they do not cover every thing. T
 ### List of BASH Shell Scripts
 - `ace-iii.sh`, `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-iii.sh` has extensive data validation it is failsafe to use. It uses `bc` and converts to MMSE score in addition to M-ACE.
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
-- `ace-mmse-converter.sh` converts the results of ACE-III test to MMSE based on Matías-Guiu JA, Pytel V, Cortés-Martínez A, Valles-Salgado M, Rognoni T, Moreno-Ramos T, Matías-Guiu J. Conversion between Addenbrooke's Cognitive Examination III and Mini-Mental State Examination. Int Psychogeriatr. 2018 Aug;30(8):1227-1233. doi: 10.1017/S104161021700268X. Epub 2017 Dec 10. PMID: 29223183.
+- `ace-mmse-converter.sh` converts the results of ACE-III test to MMSE based on Matías-Guiu JA, Pytel V, Cortés-Martínez A, Valles-Salgado M, Rognoni T, Moreno-Ramos T, Matías-Guiu J. Conversion between Addenbrooke's Cognitive Examination III and Mini-Mental State Examination. _Int Psychogeriatr._ 2018 Aug;30(8):1227-1233. doi: 10.1017/S104161021700268X. Epub 2017 Dec 10. PMID: 29223183.
 - `cbi-bc.sh`, `cbi-calc`, and `cbi-echo.sh` refer to Cambridge Behavioural Inventory (CBI)
 - `cbi-r-bc.sh`, `cbi-r-calc.sh`, and `cbi-r-echo.sh` refer to Cambridge Behavioural Inventory Revised (CBI-R)
 - `free-cog-bc.sh` refers to Free-Cog Examination [Free-Cog](https://psychscenehub.com/wp-content/uploads/2021/03/FInal-Free-Cog-Tool-1.pdf). [Reference]( https://doi.org/10.1002/gps.5454)
 - `m-ace-bc.sh`, `m-ace-calc`, and `m-ace-echo.sh` refer to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-bc.sh`, `moca-calc.sh`, and `moca-echo.sh` refer to Montreal Cognitive Examination (MoCA), `moca-bc.sh` also converts to MMSE score in addition to the MoCA score.
-- `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. Mov Disord. 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
+- `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. _Mov Disord._ 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
 - `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
 - `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
 - `avpu.sh` refers top AVPU score calculator and convrter to GCS- `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
