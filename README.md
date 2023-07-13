@@ -71,6 +71,9 @@ There are available calculators online however, they do not cover every thing. T
 - QTc Interval calculator: `qtc.awk` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
 - Stone to kilogram converter: `st2kg.awk`
 
+## Report writing helper
+- `neutralise.sed` this file attempts to change the language of a report or a letter to be more gender neutral
+
 ## Guide to file extensions
 - `.awk` files refer to AWK programming language, they run under Unix, GNu/Linux, BSD, MacOS, Haiku.
 - `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
@@ -79,6 +82,7 @@ There are available calculators online however, they do not cover every thing. T
 - `.ps1` files refer to MS-PowerShell works under Mircosoft Windows, and works under GNU/Linux Bash Shell (if Ms-PowerShell is installed)
 - `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
+- `.sed` files are stream editor files that work in GNU/Linux, BSD, MacOS-X, or Haiku
 
 ## General Instructions
 - In all the files. You can type the entry (numerical number) and press `ENTER` (Return)
@@ -148,7 +152,14 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rtms.awk` refers to rTMS dose calculator.
 - `st2kg.awk` refers to stone to kilogram converter.
+## Instruction for sed script
+This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
+- `chmod +x neutralise.sed`
+ - `sed -i -f neutralise.sed file.txt`
+ The script will go through each of the words that could be changed to convert them to a more neutral alternative or synonym.
 
+- **Limitations**: object pronoun & possessive adjective are the same for singular feminine (her). If the text has her it should be cross revised manually. A bang will appear next to the word to alert the reviewer. For a singular third person male the possessive adjective and the possessive pronoun are the same. A bang will appear to alert the reviewer to check the text. This project is far from complete.
+  
 ## Instructions for MS-PowerShell Script
 - Please, select PowerShell ISE
 - Please, load the programme or copy ace-pwsh.ps1 and paste it in MS-PowerShell ISE
