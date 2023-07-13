@@ -9,7 +9,7 @@ There are available calculators online however, they do not cover every thing. T
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date),`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
- - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
+ - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
  - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
  - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
@@ -37,7 +37,7 @@ There are available calculators online however, they do not cover every thing. T
  
  ## Psychiatric Rating Scales
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
-- Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh`
+- Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, & `ect-age.bat`
 - ECT charge & titration calculator: `ect-charge.awk`
@@ -95,15 +95,15 @@ There are available calculators online however, they do not cover every thing. T
 - `ace-iii.sh`, `ace-bc.sh`, `ace-calc.sh`, and `ace-echo.sh` refer to Addenbrooke's Cognitive Examination (ACE-III), with Mini-ACE (M-ACE) subset calculation. `ace-iii.sh` has extensive data validation it is failsafe to use. It uses `bc` and converts to MMSE score in addition to M-ACE.
 - `ace-r-bc.sh`, `ace-r-calc.sh`, and `ace-r-echo.sh` refer to Addenbrooke's Cognitive Examination-R (ACE-R) (which also calculates Mini-Mental State Examination(MMSE))
 - `ace-mmse-converter.sh` converts the results of ACE-III test to MMSE based on Matías-Guiu JA, Pytel V, Cortés-Martínez A, Valles-Salgado M, Rognoni T, Moreno-Ramos T, Matías-Guiu J. Conversion between Addenbrooke's Cognitive Examination III and Mini-Mental State Examination. _Int Psychogeriatr._ 2018 Aug;30(8):1227-1233. doi: 10.1017/S104161021700268X. Epub 2017 Dec 10. PMID: 29223183.
-- `cbi-bc.sh`, `cbi-calc`, and `cbi-echo.sh` refer to Cambridge Behavioural Inventory (CBI)
+- `cbi-bc.sh`, `cbi-calc.sh`, and `cbi-echo.sh` refer to Cambridge Behavioural Inventory (CBI)
 - `cbi-r-bc.sh`, `cbi-r-calc.sh`, and `cbi-r-echo.sh` refer to Cambridge Behavioural Inventory Revised (CBI-R)
 - `free-cog-bc.sh` refers to Free-Cog Examination [Free-Cog](https://psychscenehub.com/wp-content/uploads/2021/03/FInal-Free-Cog-Tool-1.pdf). [Reference]( https://doi.org/10.1002/gps.5454)
-- `m-ace-bc.sh`, `m-ace-calc`, and `m-ace-echo.sh` refer to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
+- `m-ace-bc.sh`, `m-ace-calc.sh`, and `m-ace-echo.sh` refer to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-bc.sh`, `moca-calc.sh`, and `moca-echo.sh` refer to Montreal Cognitive Examination (MoCA), `moca-bc.sh` also converts to MMSE score in addition to the MoCA score.
 - `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. _Mov Disord._ 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
 - `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
 - `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
-- `avpu.sh` refers top AVPU score calculator and convrter to GCS- `bprs-bc.sh`, `bprs-calc`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
+- `avpu.sh` refers top AVPU score calculator and convrter to GCS- `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
 - `ect-dose.sh` calculates the electroconvulsive therapy (ECT) dose according to Age-Based & Half Age-Based Formulae. 
 - `ect-charge-bc.sh` refers to ECT charge calculator if one gives it the Pulse Width (PW) in millisecond (ms), Frequency in Herz (Hz), Duration in seconds (D), and current in Amperes (I). It can calculate the charge in millicoulombs (mC). eg PW: 1 ms, F 20 Hz, Duration 6, and current 0.8 A, Charge would be 192.0 mC. 
 - `fab-bc.sh` refers to Frontal Assessment Battery (FAB)
