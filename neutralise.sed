@@ -1,10 +1,9 @@
 #/!/bin/sed
-# This is a stream editor (sed) converter to make letters and reports more gender neutral
-# To make this script work for a file written in x-sistemo use the following commands:
-# Limitation: object pronoun & possessive adjective are the same for singular feminine (her). If the text has her it should be cross revised manually. A bang will appear next to the word to alert the reviewer. For a singular third person male the possessive adjective and the possessive pronoun are the same. A bang will appear to alert the reviewer to check the text
-# chmod +x neutralise.sed
-# sed -i -f neutralise.sed file.txt
-# The script will go through each of these to convert them
+# This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
+# `chmod +x neutralise.sed`
+# `sed -i -f neutralise.sed file.txt`
+# The script will go through each of the words that could be changed to convert them to a more neutral alternative or synonym.
+# **Limitations**: object pronoun & possessive adjective are the same for singular feminine (her). If the text has her it should be cross revised manually. A bang will appear next to the word to alert the reviewer. For a singular third person male the possessive adjective and the possessive pronoun are the same. A bang will appear to alert the reviewer to check the text. This project is far from complete.
 
 s/He's /They're! /
 s/ He is / They are /
