@@ -25,6 +25,7 @@ There are available calculators online however, they do not cover every thing. T
  - Mini-Cog Test: `mini-cog.bas`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
+ - Montreal Cognitive Examination (MocA) Memory Score Index (MIS): `moca-mis.awk`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
  - Montreal Cognitive Assessment 5-minute protocol (MoCA 5-min protocol) `moca-5min.awk` 
  - The Rowlan Universal Dementia Assessment Scale (RUDAS): A Multicultural Cognitive Assessment Scale `rudas-bs.sh` (Storey et al, 2004) International Psychogeriatrics, 16(1), 13-31
@@ -149,6 +150,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `map.awk` refers to mean arterial blood pressure calculator
 - `mhgap-dementia.awk` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website 
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
+- `moca-mis-awk` calculates the Memory Index Score (MIS) of the Montreal Cognitive Examination (MocA) or MoCA-Blind
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rtms.awk` refers to rTMS dose calculator.
 - `st2kg.awk` refers to stone to kilogram converter.
