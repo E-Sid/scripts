@@ -62,7 +62,7 @@ There are available calculators online however, they do not cover every thing. T
 
 ## Cardiovascular Calculators
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
-- Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
+- Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
 - Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`
 - Kilogram(s) to stone(s) converter: `kg2st.awk`
@@ -160,6 +160,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 
 ### Perl Scripts
 - `bmi.pl` calculates the BMI
+- `cardiac-outut.pl` calculates the cardiac output
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
