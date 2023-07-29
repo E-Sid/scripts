@@ -61,7 +61,7 @@ There are available calculators online however, they do not cover every thing. T
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 
 ## Cardiovascular Calculators
-- Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator)
+- Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk` &`cardiac.bat`
 - Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`
@@ -80,6 +80,7 @@ There are available calculators online however, they do not cover every thing. T
 - `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
 - `.bat` files are batch files that run under FreeDOS, and could be used on MS-Windows command prompt `cmd.exe`
 - `.html` files refer to platform independent that works on any browser that can run Javascript
+- `.pl` files refer to Perl files, they are platform independent, and come prebundled in GNU/Linux distros.
 - `.ps1` files refer to MS-PowerShell works under Mircosoft Windows, and works under GNU/Linux Bash Shell (if Ms-PowerShell is installed)
 - `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
@@ -133,7 +134,6 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - ECT charge & age-based calculators in AWK work better than BASH shell coutnerpart scripts. ECT Charge uses `IGNORECASE` which is typical of GNU/AWK (gAWK), if used under a different non-GNU platform consider adding `#` and space before it to comment it out. The rest of the script should not be affected.
 - `qtc.awk` is more accurate and provide more data than `qtc.bas`
 
-
 ### List AWK scripts
 - `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
 - `bmi.awk` refers to body mass index (metric) calculator
@@ -154,7 +154,14 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rtms.awk` refers to rTMS dose calculator.
 - `st2kg.awk` refers to stone to kilogram converter.
-## Instruction for sed script
+
+## Instructions for Perl Script
+Type `perl` followed by the file name eg `perl bmi.pl`.
+
+### Perl Scripts
+- `bmi.pl` calculates the BMI
+
+## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
 - `chmod +x neutralise.sed`
  - `sed -i -f neutralise.sed file.txt`
