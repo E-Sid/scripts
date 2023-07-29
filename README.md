@@ -27,7 +27,7 @@ There are available calculators online however, they do not cover every thing. T
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
  - Montreal Cognitive Examination (MocA) Memory Score Index (MIS): `moca-mis.awk`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
- - Montreal Cognitive Assessment 5-minute protocol (MoCA 5-min protocol) `moca-5min.awk` 
+ - Montreal Cognitive Assessment 5-minute protocol (MoCA 5-min protocol) `moca-5-min.awk` `moca-5-min.pl`
  - The Rowlan Universal Dementia Assessment Scale (RUDAS): A Multicultural Cognitive Assessment Scale `rudas-bs.sh` (Storey et al, 2004) International Psychogeriatrics, 16(1), 13-31
  - The Short Portable Mental Status Questionnaire (SPMSQ) `spmsq.rexx`
  - Test Your Memory (TYM): `tym-bc.sh`
@@ -64,13 +64,13 @@ There are available calculators online however, they do not cover every thing. T
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
 - Hip-Waiste Ratio calculator: `hip-waist.awk`, `hip-waist.pl` & `hip-waiste.rexx`
-- Kilogram(s) to pound(s) converter: `kg2lb.awk`
-- Kilogram(s) to stone(s) converter: `kg2st.awk`
-- Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
+- Kilogram(s) to pound(s) converter: `kg2lb.awk`, `kg2lb.pl`
+- Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl
+- Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.pl`, `map.py`, & `map.rexx`
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`
-- Pounds to kilograms converter: `lb2kg.awk`
+- Pounds to kilograms converter: `lb2kg.awk`, `lb2kg.pl`
 - QTc Interval calculator: `qtc.awk` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
-- Stone to kilogram converter: `st2kg.awk`
+- Stone to kilogram converter: `st2kg.awk`, `st2kg.pl`
 
 ## Report writing helper
 - `neutralise.sed` this file attempts to change the language of a report or a letter to be more gender neutral
@@ -164,7 +164,14 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `cdr.pl` calculates the clinical dementia rating scale
 - `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `ect-age.pl` is an ECT Age-based and Dose calculator
-- `hip-waist.pl` is a Hip-Waiste Ratio calculator: `
+- `hip-waist.pl` is a Hip-Waiste Ratio calculator
+- `kg2lb.pl` refer to Kilograms to pounds converter. 
+- `kg2st.pl`: kilogram to stone converter.
+- `lb2kg.pl` Pounds to kilograms converter.
+- `map.pl` refers to mean arterial blood pressure calculator
+- `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
+- `rtms.pl` refers to rTMS dose calculator.
+- `st2kg.pl` refers to stone to kilogram converter.
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
