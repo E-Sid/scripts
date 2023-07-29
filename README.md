@@ -63,7 +63,7 @@ There are available calculators online however, they do not cover every thing. T
 ## Cardiovascular Calculators
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
-- Hip-Waiste Ratio calculator: `hip-waist.awk` & `hip-waiste.rexx`
+- Hip-Waiste Ratio calculator: `hip-waist.awk`, `hip-waist.pl` & `hip-waiste.rexx`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`
 - Kilogram(s) to stone(s) converter: `kg2st.awk`
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, & `map.rexx`
@@ -164,6 +164,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `cdr.pl` calculates the clinical dementia rating scale
 - `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `ect-age.pl` is an ECT Age-based and Dose calculator
+- `hip-waist.pl` is a Hip-Waiste Ratio calculator: `
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
