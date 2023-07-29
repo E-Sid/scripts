@@ -16,8 +16,8 @@ There are available calculators online however, they do not cover every thing. T
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
- - Clinical Dementia Rating Scale `cdr-pwsh.ps1`
- - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`
+ - Clinical Dementia Rating Scale `cdr-pwsh.ps1`, `cdr.awk`, cdr.pl`
+ - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`, cdr-ftld.pl`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
  - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
@@ -161,6 +161,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 ### Perl Scripts
 - `bmi.pl` calculates the BMI
 - `cardiac-outut.pl` calculates the cardiac output
+- `cdr.pl` calculates the clinical dementia rating scale
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
