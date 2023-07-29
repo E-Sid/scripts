@@ -162,6 +162,8 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `bmi.pl` calculates the BMI
 - `cardiac-outut.pl` calculates the cardiac output
 - `cdr.pl` calculates the clinical dementia rating scale
+- `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
+- 
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
