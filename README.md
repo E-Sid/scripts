@@ -1,5 +1,5 @@
 # Psychiatric, A&E, and Cardiovascular Assessments Calculators
-_These are mostly GNU/Linux BASH Shell, AWK & MS-PowerShell calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. 
+_These are mostly GNU/Linux BASH Shell, AWK, Perl, Sed & MS-PowerShell calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Perl, REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. 
 
 # Rationale
 There are available calculators online however, they do not cover every thing. They tend to require GUI, online connection, and modern web-browser. The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a shell, for these tests that would not require GUI or or online connection (*apart from downloading them*). It aims to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux), \*nix derivatives eg MacOS, platforms that have POSIX compliance eg Haiku, as well as other operating systems eg MS-Windows, & FreeDOS, as well as other platform independent calculators and algorithms. Also, users have access to the source code, so they are welcome to study, improve, and copy the design for other tests under GNU/GPL-3 license.
@@ -41,7 +41,7 @@ There are available calculators online however, they do not cover every thing. T
 - Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
-- ECT charge & titration calculator: `ect-charge.awk`
+- ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
@@ -164,6 +164,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `cdr.pl` calculates the clinical dementia rating scale
 - `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `ect-age.pl` is an ECT Age-based and Dose calculator
+- `ect-charge.pl is an` ECT charge & titration calculator
 - `hip-waist.pl` is a Hip-Waiste Ratio calculator
 - `kg2lb.pl` refer to Kilograms to pounds converter. 
 - `kg2st.pl`: kilogram to stone converter.
