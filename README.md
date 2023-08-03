@@ -34,7 +34,7 @@ There are available calculators online however, they do not cover every thing. T
  
  
  ## Diagnostic algorithms
- - Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website `mhgap-dementia.awk`
+ - Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website `mhgap-dementia.awk`, `mhgap.pl`.
  
  ## Psychiatric Rating Scales
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
@@ -172,6 +172,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `kg2st.pl`: kilogram to stone converter.
 - `lb2kg.pl` Pounds to kilograms converter.
 - `map.pl` refers to mean arterial blood pressure calculator
+- `mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website 
 - `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
 - `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
