@@ -56,7 +56,7 @@ There are available calculators online however, they do not cover every thing. T
 
 ## A&E Calculators
 - AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
-- AVPU to GCS converter: `avpu2gcs.awk`,`avpu2gcs.bat` and `avpu.sh`
+- AVPU to GCS converter: `avpu2gcs.awk`,`avpu2gcs.bat`, `avpu.pl` and `avpu.sh`
 - GCS to AVPU score converter `gcs2avpu.sh`
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 
@@ -159,6 +159,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 Type `perl` followed by the file name eg `perl bmi.pl`.
 
 ### Perl Scripts
+-`avpu2gcs.pl` converts from AVPU score to GCS score
 - `bmi.pl` calculates the BMI
 - `cardiac-outut.pl` calculates the cardiac output
 - `cdr.pl` calculates the clinical dementia rating scale
