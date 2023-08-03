@@ -67,7 +67,7 @@ There are available calculators online however, they do not cover every thing. T
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`, `kg2lb.pl`
 - Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.pl`, `map.py`, & `map.rexx`
-- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`
+- Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`, `mhr.pl`
 - Pounds to kilograms converter: `lb2kg.awk`, `lb2kg.pl`
 - QTc Interval calculator: `qtc.awk`, `qtc.pl` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
 - Stone to kilogram converter: `st2kg.awk`, `st2kg.pl`
@@ -172,7 +172,8 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `kg2st.pl`: kilogram to stone converter.
 - `lb2kg.pl` Pounds to kilograms converter.
 - `map.pl` refers to mean arterial blood pressure calculator
-- `mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website 
+- `mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website
+- `mhr.pl` refers to Maximum Heart Rate Calculator
 - `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
 - `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
