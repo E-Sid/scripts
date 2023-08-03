@@ -68,6 +68,7 @@ There are available calculators online however, they do not cover every thing. T
 - Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.pl`, `map.py`, & `map.rexx`
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`, `mhr.pl`
+- Target Heart Rate (THR) calculator `thr.pl`according to [CDC](https://www.cdc.gov/physicalactivity/basics/measuring/heartrate.htm)
 - Pounds to kilograms converter: `lb2kg.awk`, `lb2kg.pl`
 - QTc Interval calculator: `qtc.awk`, `qtc.pl` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
 - Stone to kilogram converter: `st2kg.awk`, `st2kg.pl`
@@ -179,6 +180,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rtms.pl` refers to rTMS dose calculator.
 - `st2kg.pl` refers to stone to kilogram converter.
+- `thr.pl` refers to Target Heart Rate
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
