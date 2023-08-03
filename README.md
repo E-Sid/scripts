@@ -25,7 +25,7 @@ There are available calculators online however, they do not cover every thing. T
  - Mini-Cog Test: `mini-cog.bas`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
- - Montreal Cognitive Examination (MocA) Memory Score Index (MIS): `moca-mis.awk`
+ - Montreal Cognitive Examination (MocA) Memory Score Index (MIS): `moca-mis.awk`, `moca-mis.pl`
  - MoCA to MMSE converter: `moca2mmse.html`, `moca-mmse-converter.sh` 
  - Montreal Cognitive Assessment 5-minute protocol (MoCA 5-min protocol) `moca-5-min.awk` `moca-5-min.pl`
  - The Rowlan Universal Dementia Assessment Scale (RUDAS): A Multicultural Cognitive Assessment Scale `rudas-bs.sh` (Storey et al, 2004) International Psychogeriatrics, 16(1), 13-31
@@ -173,6 +173,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `lb2kg.pl` Pounds to kilograms converter.
 - `map.pl` refers to mean arterial blood pressure calculator
 - `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
+- `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
 - `rtms.pl` refers to rTMS dose calculator.
 - `st2kg.pl` refers to stone to kilogram converter.
 
