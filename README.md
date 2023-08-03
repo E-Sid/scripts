@@ -42,7 +42,7 @@ There are available calculators online however, they do not cover every thing. T
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
-- ECT dosing formulae and equations' calculator: `ect-formulae.awk`
+- ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
@@ -166,6 +166,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `ect-age.pl` is an ECT Age-based and Dose calculator
 - `ect-charge.pl is an` ECT charge & titration calculator
+- `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
 - `hip-waist.pl` is a Hip-Waiste Ratio calculator
 - `kg2lb.pl` refer to Kilograms to pounds converter. 
 - `kg2st.pl`: kilogram to stone converter.
