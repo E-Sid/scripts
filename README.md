@@ -1,5 +1,5 @@
 # Psychiatric, A&E, and Cardiovascular Assessments Calculators
-_These are mostly GNU/Linux BASH Shell, AWK, Perl, Sed & MS-PowerShell calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Perl, REXX, FreeBASIC), and other FreeDOS-Batch files that can run under FreeDOS_. 
+_These are mostly GNU/Linux [BASH Shell](https://www.gnu.org/software/bash/), AWK, [Perl](https://www.perl.org/), Sed & [MS-PowerShell](https://learn.microsoft.com/en-gb/powershell/) calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Perl, [REXX](https://www.rexxla.org/), [FreeBASIC](https://www.freebasic.net/), and other Batch files for [FreeDOS](https://www.freedos.org/)_. 
 
 # Rationale
 There are available calculators online however, they do not cover every thing. They tend to require GUI, online connection, and modern web-browser. The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a shell, for these tests that would not require GUI or or online connection (*apart from downloading them*). It aims to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux), \*nix derivatives eg MacOS, platforms that have POSIX compliance eg Haiku, as well as other operating systems eg MS-Windows, & FreeDOS, as well as other platform independent calculators and algorithms. Also, users have access to the source code, so they are welcome to study, improve, and copy the design for other tests under GNU/GPL-3 license.
@@ -9,7 +9,7 @@ There are available calculators online however, they do not cover every thing. T
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date), `ace.pl` (most up-to-date), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
- - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
+ - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
  - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
  - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
@@ -174,6 +174,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`.
 - `kg2st.pl`: kilogram to stone converter.
 - `lb2kg.pl` Pounds to kilograms converter.
 - `map.pl` refers to mean arterial blood pressure calculator
+- `mace.pl` refers to Mini-Addenbrooke's Cognitive Examination (M-ACE)
 - `mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website
 - `mhr.pl` refers to Maximum Heart Rate Calculator
 - `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
