@@ -7,7 +7,7 @@ There are available calculators online however, they do not cover every thing. T
 *List of scripts*
 
 ## Cognitive Tests:
- - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date),`ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
+ - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date), `ace.pl` (most up-to-date), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
@@ -160,6 +160,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 Type `perl` followed by the file name eg `perl bmi.pl`.
 
 ### Perl Scripts
+- `ace.pl`: calculates The Addenbrooke's Cognitive Examination (ACE-III) score
 -`avpu2gcs.pl` converts from AVPU score to GCS score
 - `bmi.pl` calculates the BMI
 - `cardiac-outut.pl` calculates the cardiac output
