@@ -52,7 +52,7 @@ There are available calculators online however, they do not cover every thing. T
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
 - Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
-- rTMS dose calculator: `rtms.awk`. `tms.pl`
+- rTMS dose calculator: `rtms.awk`. `rtms.pl`
 
 ## A&E Calculators
 - AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
