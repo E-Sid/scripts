@@ -90,7 +90,7 @@ There are available calculators online however, they do not cover every thing. T
 ## General Instructions
 - In all the files. You can type the entry (numerical number) and press `ENTER` (Return)
 - If you do not have a compiler for the scripting language used, you can use an online compiler via a web browser as [JDoodle](https://www.jdoodle.com/) or [Tutorials Point ](https://www.tutorialspoint.com) and select the scripting language of your choice.
-- If there is the same calculator in AWK and other language, AWK scripts is the more comprehensive and up-to-date
+- If there is the same calculator in AWK &/or and other language, AWK & Perl scripts are the more comprehensive and up-to-date
 - If there are different versions of a calculator in BASH Shell Script `filename-bc.sh` would be the most up-to-date
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD (FreeBSD, OpenBSD, NetBSD), Unix, MacOS-X or Haiku
@@ -157,7 +157,7 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 - `st2kg.awk` refers to stone to kilogram converter.
 
 ## Instructions for Perl Script
-Type `perl` followed by the file name eg `perl bmi.pl`.
+Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes pre-bundled in GNU/Linux distros & MacOS, to download the latest update it could be done via the distro's update command or else from [Perl website](https://www.perl.org/get.html). For MS-Windows, Perl is freely downloadable from [Strawberry Perl](https://strawberryperl.com/) & [Active Perl](https://www.activestate.com/products/perl/)
 
 ### Perl Scripts
 - `ace.pl`: calculates The Addenbrooke's Cognitive Examination (ACE-III) score
@@ -270,6 +270,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - For cardiovascular calculators: Mean arterial blood pressure, QTc interval calculator, Cardiac output offer only one way of calculation and should be used for general guidance **ONLY**. Please note that this codes here are just examples, calculations should **ONLY** be performed by trained healthcare professionals. The formulae used here is just an estimate and the actual cardiovascular calculations can vary based on individual factors such as fitness level and health conditions. 
 - For psychiatric calculators, the interpretations of severity is not added as the score **SHOULD NOT** be interpreted as a marker of severity of illness in isolation from a clinical context. These are **NOT** substitutes to assessment by a health care professional.
 - For diagnostic algorithms the source of information eg [mhGAP](https://www.who.int/publications/i/item/9789241549790) should **ALWAYS** be checked. This is aimed at healthcare professionals, and should be used **ONLY** to facilitate the algorithmic part of the diagnostic procedure, but **NOT** as a substitute for clinical assessment, or the WHO mhGAP guidance.
+- Some shorter Perl codes were translated from AWK code via `a2p` command. The code might not be the best approah, but it is functional, more recent codes eg `ace.pl`, `mace.pl`, `mhr.pl` were written directly in Perl.
 
 ## Declaration of Interest
 - None
