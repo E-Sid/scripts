@@ -22,7 +22,7 @@ else
  {
 print("Attention: Please, type score for orientation in time to calculate M-ACE [0-4]:  ");
 our $A0 = <>;
-while ($A0 > $A1 || $A0 < 0 || $A0 > 4 || $A1 == 4 && $A0 < 3 || $A1 == 3 && $A0 < 2 || $A1 == 2 && $A0 < 1 || $A1 !~ /^[0-9]+$/ || $A0 eq ""){
+while ($A0 > $A1 || $A0 < 0 || $A0 > 4 || $A1 == 4 && $A0 < 3 || $A1 == 3 && $A0 < 2 || $A1 == 2 && $A0 < 1 || $A0 !~ /^[0-9]+$/ || $A0 eq ""){
     print ("Value is out of range. Please, enter a valid number: ");
 	  $A0 = <>;
           chomp $A0;
@@ -208,9 +208,9 @@ print($A1 + $A2 + $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4
     print "- The Visuospatial abilities subset score of M-ACE is ";
     print($V3+ 0);
     print "/5\n";
-    print "\n"
+    print "\n" 
 }
-    else
+ else
 {
 print("Memory: Please, type score for recognition of name and address (delayed recognition) [0-5]: ");
     my $M5 = <>;
@@ -236,5 +236,6 @@ print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 +
     print "- The Memory subset score of M-ACE is " . ($M2 + $M4) . "/14\n";
     print "- The Visuospatial abilities subset score of M-ACE is ". ($V3 + 0) ."/5\n";
 print "\n";
-    }
+
+}
 
