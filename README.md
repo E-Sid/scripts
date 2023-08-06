@@ -8,7 +8,7 @@ There are available calculators online however, they do not cover every thing. T
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date), `ace.pl` (most up-to-date), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
- - Addenbrooke's Cognitive Examination - Revised (ACE-R): `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
+ - Addenbrooke's Cognitive Examination - Revised (ACE-R): `acer.pl`, `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
  - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
@@ -16,7 +16,7 @@ There are available calculators online however, they do not cover every thing. T
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
- - Clinical Dementia Rating Scale `cdr-pwsh.ps1`, `cdr.awk`, cdr.pl`
+ - Clinical Dementia Rating Scale `cdr-pwsh.ps1`, `cdr.awk`, `cdr.pl`
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`, cdr-ftld.pl`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
@@ -160,7 +160,8 @@ The shell scripts with -bc in their names require basic calculator `bc`. most op
 Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes pre-bundled in GNU/Linux distros & MacOS, to download the latest update it could be done via the distro's update command or else from [Perl website](https://www.perl.org/get.html). For MS-Windows, Perl is freely downloadable from [Strawberry Perl](https://strawberryperl.com/) & [Active Perl](https://www.activestate.com/products/perl/)
 
 ### Perl Scripts
-- `ace.pl`: calculates The Addenbrooke's Cognitive Examination (ACE-III) score
+- `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score
+-`ace.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score
 -`avpu2gcs.pl` converts from AVPU score to GCS score
 - `bmi.pl` calculates the BMI
 - `cardiac-outut.pl` calculates the cardiac output
