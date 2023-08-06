@@ -107,7 +107,7 @@ There are available calculators online however, they do not cover every thing. T
 - `free-cog-bc.sh` refers to Free-Cog Examination [Free-Cog](https://psychscenehub.com/wp-content/uploads/2021/03/FInal-Free-Cog-Tool-1.pdf). [Reference]( https://doi.org/10.1002/gps.5454)
 - `m-ace-bc.sh`, `m-ace-calc.sh`, and `m-ace-echo.sh` refer to Mini-Addenbrooke's Cognitive Examination III (M-ACE III)
 - `moca-bc.sh`, `moca-calc.sh`, and `moca-echo.sh` refer to Montreal Cognitive Examination (MoCA), `moca-bc.sh` also converts to MMSE score in addition to the MoCA score.
-- `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. _Mov Disord._ 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
+- `moca-mmse-converter.sh` converts the results of MoCA to MMSE based on van Steenoven I, Aarsland D, Hurtig H, Chen-Plotkin A, Duda JE, Rick J, Chahine LM, Dahodwala N, Trojanowski JQ, Roalf DR, Moberg PJ, Weintraub D. Conversion between mini-mental state examination, Montreal cognitive assessment, and dementia rating scale-2 scores in Parkinson's disease. _Mov Disord._ 2014 Dec;29(14):1809-15. doi: 10.1002/mds.26062. Epub 2014 Nov 7. PMID: 25381961; PMCID: PMC4371590.
 - `amts-bc.sh` refers to Abbreviated Mental Test Score (AMTS)
 - `amt4-bc.sh` refers to Abbreviated Mental Test-4 (AMT4)
 - `avpu.sh` refers top AVPU score calculator and convrter to GCS- `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh` refer to Brief Psychiatric Rating Scale (BPRS)
@@ -120,14 +120,14 @@ There are available calculators online however, they do not cover every thing. T
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
 - `mhr.sh` refers to Maximum Heart Rate (MHR) Calculator
-- `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer Montreal Cognitive Examination - blind (MoCA - Blind)
+- `moca-blind-bc.sh`, `moca-blind-calc.sh`, and `moca-blind-echo.sh` refer to Montreal Cognitive Examination - blind (MoCA - Blind)
 - `phq9-bc.sh` refers to PHQ-9
 - `rudas-bs.sh` refers to The Rowlan Universal Dementia Assessment Scale (RUDAS)
 - `tym-bc.sh` refers to Test Your Memory (TYM) examination.
 - If any of the values are out of range, the programme will let you know and will prompt you to enter a value within range
 
 ### Dependencies
-The shell scripts with -bc in their names require basic calculator `bc`. most operating systems would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. -echo files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use -bc.sh files first for calculators as they are the most updated and they could have converters to MMSE also.
+The shell scripts with `-bc` in their names require basic calculator `bc`. Most GNU/Lnux distros would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. `-echo` files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use `-bc.sh` files first for calculators as they are the most updated and they could have converters to MMSE also.
 
 ## Instructions to use AWK scripts
 - AWK works under Unix, GNU/Linux, BSD. MacOS-X, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
@@ -271,7 +271,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - For cardiovascular calculators: Mean arterial blood pressure, QTc interval calculator, Cardiac output offer only one way of calculation and should be used for general guidance **ONLY**. Please note that this codes here are just examples, calculations should **ONLY** be performed by trained healthcare professionals. The formulae used here is just an estimate and the actual cardiovascular calculations can vary based on individual factors such as fitness level and health conditions. 
 - For psychiatric calculators, the interpretations of severity is not added as the score **SHOULD NOT** be interpreted as a marker of severity of illness in isolation from a clinical context. These are **NOT** substitutes to assessment by a health care professional.
 - For diagnostic algorithms the source of information eg [mhGAP](https://www.who.int/publications/i/item/9789241549790) should **ALWAYS** be checked. This is aimed at healthcare professionals, and should be used **ONLY** to facilitate the algorithmic part of the diagnostic procedure, but **NOT** as a substitute for clinical assessment, or the WHO mhGAP guidance.
-- Some shorter Perl codes were translated from AWK code via `a2p` command. The code might not be the best approah, but it is functional, more recent codes eg `ace.pl`, `mace.pl`, `mhr.pl` were written directly in Perl.
+- Some shorter Perl codes were translated from AWK code via `a2p` command. The code might not be the best approah, but it is functional, more recent codes eg `ace.pl`, `acer.pl`, `mace.pl`, `mhr.pl` were written directly in Perl.
 
 ## Declaration of Interest
 - None
