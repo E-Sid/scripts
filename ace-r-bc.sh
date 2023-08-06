@@ -224,7 +224,7 @@ while :; do
 	echo "Value is out of range. Please, enter a valid number"
     fi
 done
-echo "Visuospatial: Please, type score for intersecting Pentagons [0-1]"
+echo "Visuospatial: Please, type score for Intersecting Pentagons [0-1]"
 while :; do
     read V1
     if [[ -z $V1 ]]; then

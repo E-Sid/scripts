@@ -376,7 +376,7 @@ The Fluency subset score is" $fluency"/14
 The Language subset score is" $language"/26
 The Visuospatial abilities subset score is" $visuospatial"/16
 According to Matias-Guiu, et al(2018) doi:10.1017/S104161021700268X
-The estimated MMSE score is" $mmse"30" > ace-iii-output.txt;
+The estimated MMSE score is" $mmse"/30" > ace-iii-output.txt;
 	       echo "The ACE-III score is saved to ace-iii-output.txt"
 	       break;;
 	[Nn] ) echo "Not saved";

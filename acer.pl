@@ -2,8 +2,8 @@
 use strict;
 use warnings;
 
-print "This is Addenrbooke's Cognitive Examination (ACE-III) Calculator\n";
-    print "=================================================================\n";
+print "This is Addenrbooke's Cognitive Examination - Revised (ACE-R) Calculator\n";
+    print "====================================================================\n";
 print 'Attention: Please, type score for orientation in time [0-5]: ';
 my $A1 = <>;
 while ($A1 < 0 || $A1 > 5 || $A1 !~ /^[0-9]+$/ || $A1 eq ""){
@@ -56,20 +56,6 @@ while ($A3 < $M1 || $M1 < 0 || $M1 > 3 || $M1 !~ /^[0-9]+$/ || $M1 eq ""){
 	  $M1 = <>;
 	  chomp $M1;
 }
-print("Fluency: Please, type score for letter fluency [0-7]: ");
-my $F1 = <>;
-while ($F1 < 0 || $F1 > 7 || $F1 !~ /^[0-9]+$/ || $F1 eq ""){
-    print ("Value is out of range. Please, enter a valid number [0-7]: ");
-	  $F1 = <>;
-	  chomp $F1;
-}
-print("Fluency: Please, type score for category fluency [0-7]: ");
-my $F2 = <>;
-while ($F2 < 0 || $F2 > 7 || $F2 !~ /^[0-9]+$/ || $F2 eq ""){
-    print ("Value is out of range. Please, enter a valid number[0-7]: ");
-	  $F2 = <>;
-	  chomp $F2;
-}
 print("Memory: Please, type score for name & address (anterograde memory) [0-7]: ");
 my $M2 = <>;
 while ($M2 < 0 || $M2 > 7 || $M2 !~ /^[0-9]+$/ || $M2 eq ""){
@@ -84,6 +70,27 @@ while ($M3 < 0 || $M3 > 4 || $M3 !~ /^[0-9]+$/ || $M3 eq ""){
 	  $M3 = <>;
 	  chomp $M3;
 }
+print("Fluency: Please, type score for letter fluency [0-7]: ");
+my $F1 = <>;
+while ($F1 < 0 || $F1 > 7 || $F1 !~ /^[0-9]+$/ || $F1 eq ""){
+    print ("Value is out of range. Please, enter a valid number [0-7]: ");
+	  $F1 = <>;
+	  chomp $F1;
+}
+print("Fluency: Please, type score for category fluency [0-7]: ");
+my $F2 = <>;
+while ($F2 < 0 || $F2 > 7 || $F2 !~ /^[0-9]+$/ || $F2 eq ""){
+    print ("Value is out of range. Please, enter a valid number[0-7]: ");
+	  $F2 = <>;
+	  chomp $F2;
+}
+print("Language: Please, type score for 'Close Your Eyes' (Comprehension) [0-1]: ");
+my $L0 = <>;
+while ($L0 < 0 || $L0 > 1 || $L0 !~ /^[0-9]+$/ || $L0 eq ""){
+    print ("Value is out of range. Please, enter a valid number [0-1]: ");
+	  $L0 = <>;
+	  chomp $L0;
+}      
 print("Language: Please, type score for comprehension [0-3]: ");
 my $L1 = <>;
 while ($L1 < 0 || $L1 > 3 || $L1 !~ /^[0-9]+$/ || $L1 eq ""){
@@ -91,10 +98,10 @@ while ($L1 < 0 || $L1 > 3 || $L1 !~ /^[0-9]+$/ || $L1 eq ""){
 	  $L1 = <>;
 	  chomp $L1;
 }
-print("Language: Please, type score for sentence writing [0-2]: ");
+print("Language: Please, type score for sentence writing [0-1]: ");
 my $L2 = <>;
-while ($L2 < 0 || $L2 > 2 || $L2 !~ /^[0-9]+$/ || $L2 eq ""){
-    print ("Value is out of range. Please, enter a valid number [0-2]: ");
+while ($L2 < 0 || $L2 > 1 || $L2 !~ /^[0-9]+$/ || $L2 eq ""){
+    print ("Value is out of range. Please, enter a valid number [0-1]: ");
 	  $L2 = <>;
 	  chomp $L2;
 }
@@ -119,10 +126,17 @@ while ($L5 < 0 || $L5 > 1 || $L5 !~ /^[0-9]+$/ || $L5 eq ""){
 	  $L5 = <>;
 	  chomp $L5;
 }
-print("Language: Please, type score for object naming [0-12]: ");
+print("Language: Please, type score for object naming  [0-2]: ");
+my $L6A = <>;
+while ($L6A < 0 || $L6A > 2 || $L6A !~ /^[0-9]+$/ || $L6A eq ""){
+    print ("Value is out of range. Please, enter a valid number [0-2]: ");
+	  $L6A = <>;
+	  chomp $L6A;
+}      
+print("Language: Please, type score for object naming [0-10]: ");
 my $L6 = <>;
-while ($L6 < 0 || $L6 > 12 || $L6 !~ /^[0-9]+$/ || $L6 eq ""){
-    print ("Value is out of range. Please, enter a valid number [0-12]: ");
+while ($L6 < 0 || $L6 > 10 || $L6 !~ /^[0-9]+$/ || $L6 eq ""){
+    print ("Value is out of range. Please, enter a valid number [0-10]: ");
 	  $L6 = <>;
 	  chomp $L6;
 }
@@ -140,7 +154,7 @@ while ($L8 < 0 || $L8 > 1 || $L8 !~ /^[0-9]+$/ || $L8 eq ""){
 	  $L8 = <>;
 	  chomp $L8;
 }
-print("Visuospatial: Please, type score for drawing intersecting Infinity Loops [0-1]: ");
+print("Visuospatial: Please, type score for drawing Intersecting Pentagons [0-1]: ");
 my $V1 = <>;
 while ($V1 < 0 || $V1 > 1 || $V1 !~ /^[0-9]+$/ || $V1 eq ""){
     print ("Value is out of range. Please, enter a valid number [0-1]: ");
@@ -185,14 +199,14 @@ while ($M2 < $M4 || $M4 < 0 || $M4 > 7 || $M4 !~ /^[0-9]+$/ || $M4 eq ""){
 if ($M4 == 7){
     my $M5 = $M4 - 2;
 print "\n";
-print 'The total ACE-III score is ';    
-print($A1 + $A2 + $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5);
+print 'The total ACE-R score is ';    
+print($A1 + $A2 + $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L0 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5);
     print "/100\n";
          
     print '- The Attention subset score is '. ($A1 + $A2 + $A3 + $A4) . "/18\n";
     print '- The Memory subset score is '. ($M1 + $M2 + $M3 + $M4 + $M5) . "/26\n";
     print '- The Fluency subset score is ' . ($F1 + $F2) . "/14\n"; 	
-    print '- The Language subset score is ' . ($L1 + $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8) . "/26\n";
+    print '- The Language subset score is ' . ($L0 +$L1 + $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8) . "/26\n";
     print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 + $V5) . "/16\n";
     print "\n";
     print 'The total M-ACE score is ';
@@ -208,7 +222,9 @@ print($A1 + $A2 + $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4
     print "- The Visuospatial abilities subset score of M-ACE is ";
     print($V3+ 0);
     print "/5\n";
-    print "\n" 
+    print "\n";
+    print 'The Total Mini-Mental State Examination (MMSE) score is ' . ($A1 + $A2 + $A3 + $A4 + $M1 + $L0 + $L1 + $L2 + $L5 + $L6A + $V1) . "/30\n";
+    print "\n";
 }
  else
 {
@@ -219,8 +235,8 @@ print("Memory: Please, type score for recognition of name and address (delayed r
     chomp $M5;
     }
 print "\n";
-print 'The total ACE-III score is ';    
-print($A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5);
+print 'The total ACE-R score is ';    
+print($A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L0 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5);
 print "/100\n";
     print '- The Attention subset score is '. ($A1 + $A2 + $A3 + $A4) . "/18\n";
     print '- The Memory subset score is '. ($M1 + $M2 + $M3 + $M4 + $M5) . "/26\n";
@@ -235,7 +251,9 @@ print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 +
     print "- The Fluency subset score of M-ACE is ". ($F2 + 0) . "/7\n";
     print "- The Memory subset score of M-ACE is " . ($M2 + $M4) . "/14\n";
     print "- The Visuospatial abilities subset score of M-ACE is ". ($V3 + 0) ."/5\n";
+    print "\n";
 print "\n";
-
+    print 'The Total Mini-Mental State Examination (MMSE) score is ' . ($A1 + $A2 + $A3 + $A4 + $M1 + $L0 + $L1 + $L2 + $L5 + $L6A + $V1) . "/30\n";
+    print "\n"
 }
 
