@@ -74,7 +74,7 @@ There are available calculators online however, they do not cover every thing. T
 - Stone to kilogram converter: `st2kg.awk`, `st2kg.pl`
 
 ## Report writing helper
-- `neutralise.sed` this file attempts to change the language of a report or a letter to be more gender neutral
+- `neutralise.sed` & `neutralise.pl` attempt to change the language of a report or a letter to be more gender neutral, with respect to pronouns, jobs and relationships.
 
 ## Guide to file extensions
 - `.awk` files refer to AWK programming language, they run under Unix, GNu/Linux, BSD, MacOS, Haiku.
@@ -180,6 +180,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `mhr.pl` refers to Maximum Heart Rate Calculator
 - `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
 - `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
+- `neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rtms.pl` refers to rTMS dose calculator.
 - `st2kg.pl` refers to stone to kilogram converter.
@@ -187,7 +188,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
-- `chmod +x neutralise.sed`
+- `chmod +x `neutralise.sed`
  - `sed -i -f neutralise.sed file.txt`
  The script will go through each of the words that could be changed to convert them to a more neutral alternative or synonym.
 
