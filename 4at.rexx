@@ -1,5 +1,5 @@
 /* REXX */
-Say 'This is 4AT Delirium test scoring calculator'
+Say 'This is 4AT Delirium Test Scoring Calculator'
 Say 'I.Please, enter the score for alerntess [0 or 4]'
 Do Until A = 0  | A = 4
 Pull A
