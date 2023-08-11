@@ -10,7 +10,7 @@ The general guiding concept is that these codes offer more than just a calculato
 *List of scripts*
 
 ## Cognitive Tests:
- - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date), `ace.pl` (most up-to-date), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
+ - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date), `ace.pl` (most up-to-date, with ACE to MMSE converter), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `acer.pl`, `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace-mmse-converter.sh`
@@ -163,7 +163,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes pre-bundled in GNU/Linux distros & MacOS, to download the latest update it could be done via the distro's update command or else from [Perl website](https://www.perl.org/get.html). For MS-Windows, Perl is freely downloadable from [Strawberry Perl](https://strawberryperl.com/) & [Active Perl](https://www.activestate.com/products/perl/)
 
 ### Perl Scripts
-- `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score
+- `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter.
 -`ace.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score
 -`avpu2gcs.pl` converts from AVPU score to GCS score
 - `bmi.pl` calculates the BMI
