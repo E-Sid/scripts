@@ -208,13 +208,50 @@ print($A1 + $A2 + $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4
     print "- The Visuospatial abilities subset score of M-ACE is ";
     print($V3+ 0);
     print "/5\n";
-    print "\n" 
+    print "\n"; 
+    print "According to Matias-Guiu, et al.(2018) doi:10.1017/S104161021700268X. The estimated Mini-Mental State Examination score is\n";
+
+my $ace = $A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5;
+
+if    ($ace >=  0 && $ace <= 7)  {print "MMSE score is 0/30\n"}
+elsif ($ace >=  8 && $ace <= 10) {print "MMSE score is 1/30\n"}
+elsif ($ace >= 11 && $ace <= 12) {print "MMSE score is 2/30\n"}
+elsif ($ace >= 13 && $ace <= 14) {print "MMSE score is 3/30\n"}
+elsif ($ace >= 15 && $ace <= 16) {print "MMSE score is 4/30\n"}
+elsif ($ace == 17) {print "MMSE score is 5/30\n"}
+elsif ($ace >= 18 && $ace <= 19) {print "MMSE score is 6/30\n"}
+elsif ($ace >= 20 && $ace <= 21) {print "MMSE score is 7/30\n"}
+elsif ($ace == 22) {print "MMSE score is 8/30\n"}
+elsif ($ace >= 23 && $ace <= 24) {print "MMSE score is 9/30\n"}
+elsif ($ace >= 25 && $ace <= 26) {print "MMSE score is 10/30\n"}
+elsif ($ace >= 27 && $ace <= 28) {print "MMSE score is 11/30\n"}
+elsif ($ace >= 29 && $ace <= 31) {print "MMSE score is 12/30\n"}
+elsif ($ace >= 32 && $ace <= 33) {print "MMSE score is 13/30\n"}
+elsif ($ace >= 34 && $ace <= 36) {print "MMSE score is 14/30\n"}
+elsif ($ace >= 37 && $ace <= 38) {print "MMSE score is 15/30\n"}
+elsif ($ace >= 39 && $ace <= 41) {print "MMSE score is 16/30\n"}
+elsif ($ace >= 42 && $ace <= 44) {print "MMSE score is 17/30\n"}
+elsif ($ace >= 45 && $ace <= 48) {print "MMSE score is 18/30\n"}
+elsif ($ace >= 49 && $ace <= 51) {print "MMSE score is 19/30\n"}
+elsif ($ace >= 52 && $ace <= 55) {print "MMSE score is 20/30\n"}       
+elsif ($ace >= 56 && $ace <= 59) {print "MMSE score is 21/30\n"}       
+elsif ($ace >= 60 && $ace <= 63) {print "MMSE score is 22/30\n"}
+elsif ($ace >= 64 && $ace <= 68) {print "MMSE score is 23/30\n"}
+elsif ($ace >= 69 && $ace <= 73) {print "MMSE score is 24/30\n"}
+elsif ($ace >= 74 && $ace <= 78) {print "MMSE score is 25/30\n"}
+elsif ($ace >= 79 && $ace <= 83) {print "MMSE score is 26/30\n"}
+elsif ($ace >= 84 && $ace <= 88) {print "MMSE score is 27/30\n"}
+elsif ($ace >= 89 && $ace <= 93) {print "MMSE score is 28/30\n"}
+elsif ($ace >= 94 && $ace <= 98) {print "MMSE score is 29/30\n"}
+elsif ($ace >= 99 && $ace <= 100) {print "MMSE score is 30/30\n"}
+else {print "Out of range\n"}       
 }
- else
+    else
 {
 print("Memory: Please, type score for recognition of name and address (delayed recognition) [0-5]: ");
     my $M5 = <>;
     while ($M5 < 0 || $M5 > 5 || $M4 >= 5 && $M5 < 4 || $M4 >= 5 && $M5 < 3 || $M5 !~ /^[0-9]+$/ || $M5 eq ""){
+    print ("Value is out of range. Please, enter a valid number[0-4]: ");
     $M5 = <>;
     chomp $M5;
     }
@@ -236,6 +273,41 @@ print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 +
     print "- The Memory subset score of M-ACE is " . ($M2 + $M4) . "/14\n";
     print "- The Visuospatial abilities subset score of M-ACE is ". ($V3 + 0) ."/5\n";
 print "\n";
-
+{
+    print "According to Matias-Guiu, et al.(2018) doi:10.1017/S104161021700268X. The estimated Mini-Mental State Examination score is\n";
+my $ace = $A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5;
+if    ($ace >=  0 && $ace <= 7)  {print "MMSE score is 0/30\n"}
+elsif ($ace >=  8 && $ace <= 10) {print "MMSE score is 1/30\n"}
+elsif ($ace >= 11 && $ace <= 12) {print "MMSE score is 2/30\n"}
+elsif ($ace >= 13 && $ace <= 14) {print "MMSE score is 3/30\n"}
+elsif ($ace >= 15 && $ace <= 16) {print "MMSE score is 4/30\n"}
+elsif ($ace == 17) {print "MMSE score is 5/30\n"}
+elsif ($ace >= 18 && $ace <= 19) {print "MMSE score is 6/30\n"}
+elsif ($ace >= 20 && $ace <= 21) {print "MMSE score is 7/30\n"}
+elsif ($ace == 22) {print "MMSE score is 8/30\n"}
+elsif ($ace >= 23 && $ace <= 24) {print "MMSE score is 9/30\n"}
+elsif ($ace >= 25 && $ace <= 26) {print "MMSE score is 10/30\n"}
+elsif ($ace >= 27 && $ace <= 28) {print "MMSE score is 11/30\n"}
+elsif ($ace >= 29 && $ace <= 31) {print "MMSE score is 12/30\n"}
+elsif ($ace >= 32 && $ace <= 33) {print "MMSE score is 13/30\n"}
+elsif ($ace >= 34 && $ace <= 36) {print "MMSE score is 14/30\n"}
+elsif ($ace >= 37 && $ace <= 38) {print "MMSE score is 15/30\n"}
+elsif ($ace >= 39 && $ace <= 41) {print "MMSE score is 16/30\n"}
+elsif ($ace >= 42 && $ace <= 44) {print "MMSE score is 17/30\n"}
+elsif ($ace >= 45 && $ace <= 48) {print "MMSE score is 18/30\n"}
+elsif ($ace >= 49 && $ace <= 51) {print "MMSE score is 19/30\n"}
+elsif ($ace >= 52 && $ace <= 55) {print "MMSE score is 20/30\n"}       
+elsif ($ace >= 56 && $ace <= 59) {print "MMSE score is 21/30\n"}       
+elsif ($ace >= 60 && $ace <= 63) {print "MMSE score is 22/30\n"}
+elsif ($ace >= 64 && $ace <= 68) {print "MMSE score is 23/30\n"}
+elsif ($ace >= 69 && $ace <= 73) {print "MMSE score is 24/30\n"}
+elsif ($ace >= 74 && $ace <= 78) {print "MMSE score is 25/30\n"}
+elsif ($ace >= 79 && $ace <= 83) {print "MMSE score is 26/30\n"}
+elsif ($ace >= 84 && $ace <= 88) {print "MMSE score is 27/30\n"}
+elsif ($ace >= 89 && $ace <= 93) {print "MMSE score is 28/30\n"}
+elsif ($ace >= 94 && $ace <= 98) {print "MMSE score is 29/30\n"}
+elsif ($ace >= 99 && $ace <= 100) {print "MMSE score is 30/30\n"}
+else {print "Out of range\n"}       
+}
 }
 
