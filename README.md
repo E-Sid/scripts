@@ -26,6 +26,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
  - Hachinski Ischaemic Score (HIS): `his.rexx`
  - Mini-Cog Test: `mini-cog.bas`
+ - Mini-Mental State Examination Calculator (MMSE): `mmse.pl`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
  - Montreal Cognitive Examination - Blind (MoCA - Blind): `moca-blind-bc.sh`, `moca-blind-calc.sh`, `moca-blind-echo.sh`, & `moca-blind-pwsh.ps1`
  - Montreal Cognitive Examination (MocA) Memory Score Index (MIS): `moca-mis.awk`, `moca-mis.pl`
@@ -165,36 +166,37 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes pre-bundled in GNU/Linux distros & MacOS, to download the latest update it could be done via the distro's update command or else from [Perl website](https://www.perl.org/get.html). For MS-Windows, Perl is freely downloadable from [Strawberry Perl](https://strawberryperl.com/) & [Active Perl](https://www.activestate.com/products/perl/)
 
 ### Perl Scripts
-- `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter.
+-`ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter.
 -`ace.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score
 -`avpu2gcs.pl` converts from AVPU score to GCS score
-- `bmi.pl` calculates the BMI
-- `cardiac-outut.pl` calculates the cardiac output
-- `cdr.pl` calculates the clinical dementia rating scale
-- `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
-- `ect-age.pl` is an ECT Age-based and Dose calculator
-- `ect-charge.pl is an` ECT charge & titration calculator
-- `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
-- `hip-waist.pl` is a Hip-Waiste Ratio calculator
-- `kg2lb.pl` refer to Kilograms to pounds converter. 
-- `kg2st.pl`: kilogram to stone converter.
-- `lb2kg.pl` Pounds to kilograms converter.
-- `map.pl` refers to mean arterial blood pressure calculator
-- `mace.pl` refers to Mini-Addenbrooke's Cognitive Examination (M-ACE)
-- `mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website
-- `mhr.pl` refers to Maximum Heart Rate Calculator
-- `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
-- `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
-- `neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
-- `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
-- `rtms.pl` refers to rTMS dose calculator.
-- `st2kg.pl` refers to stone to kilogram converter.
-- `thr.pl` refers to Target Heart Rate
+-`bmi.pl` calculates the BMI
+-`cardiac-outut.pl` calculates the cardiac output
+-`cdr.pl` calculates the clinical dementia rating scale
+-`cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
+-`ect-age.pl` is an ECT Age-based and Dose calculator
+-`ect-charge.pl is an` ECT charge & titration calculator
+-`ect-formulae.pl`: is ECT dosing formulae and equations' calculator
+-`hip-waist.pl` is a Hip-Waiste Ratio calculator
+-`kg2lb.pl` refer to Kilograms to pounds converter. 
+-`kg2st.pl`: kilogram to stone converter.
+-`lb2kg.pl` Pounds to kilograms converter.
+-`map.pl` refers to mean arterial blood pressure calculator
+-`mace.pl` refers to Mini-Addenbrooke's Cognitive Examination (M-ACE)
+-`mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website
+-`mhr.pl` refers to Maximum Heart Rate Calculator
+-`mmse.pl`: Mini-Mental State Examination Calculator (MMSE)
+-`moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
+-`moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
+-`neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
+-`qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
+-`rtms.pl` refers to rTMS dose calculator.
+-`st2kg.pl` refers to stone to kilogram converter.
+-`thr.pl` refers to Target Heart Rate
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
 - `chmod +x `neutralise.sed`
- - `sed -i -f neutralise.sed file.txt`
+- `sed -i -f neutralise.sed file.txt`
  The script will go through each of the words that could be changed to convert them to a more neutral alternative or synonym.
 
 - **Limitations**: object pronoun & possessive adjective are the same for singular feminine (her). If the text has her it should be cross revised manually. A bang will appear next to the word to alert the reviewer. For a singular third person male the possessive adjective and the possessive pronoun are the same. A bang will appear to alert the reviewer to check the text. This project is far from complete.
@@ -276,6 +278,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 ## Disclaimer
 - For cardiovascular calculators: Mean arterial blood pressure, QTc interval calculator, Cardiac output offer only one way of calculation and should be used for general guidance **ONLY**. Please note that this codes here are just examples, calculations should **ONLY** be performed by trained healthcare professionals. The formulae used here is just an estimate and the actual cardiovascular calculations can vary based on individual factors such as fitness level and health conditions. 
 - For psychiatric calculators, the interpretations of severity is not added as the score **SHOULD NOT** be interpreted as a marker of severity of illness in isolation from a clinical context. These are **NOT** substitutes to assessment by a health care professional.
+- All these scripts are **ONLY** calculators not the tests themselves. Usage of these score calculators is both free (libre) & free (gratis) under GNU/GPL 3.0 however, the usage of any of the test material is subject to the authors copyright status.
 - For diagnostic algorithms the source of information eg [mhGAP](https://www.who.int/publications/i/item/9789241549790) should **ALWAYS** be checked. This is aimed at healthcare professionals, and should be used **ONLY** to facilitate the algorithmic part of the diagnostic procedure, but **NOT** as a substitute for clinical assessment, or the WHO mhGAP guidance.
 - Some shorter Perl codes were translated from AWK code via `a2p` command. The code might not be the best approah, but it is functional, more recent codes eg `ace.pl`, `acer.pl`, `mace.pl`, `mhr.pl` were written directly in Perl.
 
