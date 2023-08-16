@@ -66,6 +66,7 @@ The general guiding concept is that these codes offer more than just a calculato
 ## Cardiovascular Calculators
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
+- Fahrenheit to Celsius: Temperature scale converter: `celsius.pl` 
 - Hip-Waiste Ratio calculator: `hip-waist.awk`, `hip-waist.pl` & `hip-waiste.rexx`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`, `kg2lb.pl`
 - Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl
@@ -144,6 +145,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `cardiac-output.awk` refers to cardiac output
 - `cdr.awk` refers to Clinical Dementia Rating Scale
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
+- `celsius.pl` Fahrenheit to Celsius: Temperature scale converter
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
 - `ect-charge.awk` refers to ECT charge & titration calculator
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator.
