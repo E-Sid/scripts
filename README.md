@@ -24,7 +24,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
  - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
- - Hachinski Ischaemic Score (HIS): `his.rexx`
+ - Hachinski Ischaemic Score (HIS): `his.rexx`, `his.pl`
  - Mini-Cog Test: `mini-cog.bas`, `minicog.pl`
  - Mini-Mental State Examination Calculator (MMSE): `mmse.pl`
  - Montreal Cognitive Examination (MoCA): `moca-bc.sh`, `moca-calc.sh`, `moca-echo.sh` & `moca-pwsh.ps1`
@@ -177,6 +177,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ect-age.pl` is an ECT Age-based and Dose calculator
 - `ect-charge.pl` is an` ECT charge & titration calculator
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
+- `his.pl`: is Hachinski Ischaemic Score (HIS) calculator
 - `hip-waist.pl` is a Hip-Waiste Ratio calculator
 - `kg2lb.pl` refer to Kilograms to pounds converter.
 - `kg2st.pl`: kilogram to stone converter.
