@@ -20,7 +20,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
  - Clinical Dementia Rating Scale `cdr-pwsh.ps1`, `cdr.awk`, `cdr.pl`
- - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`, cdr-ftld.pl`
+ - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`, `cdr-ftld.pl`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
  - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
@@ -173,27 +173,27 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 -`cardiac-outut.pl` calculates the cardiac output
 -`cdr.pl` calculates the clinical dementia rating scale
 -`cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
-- celsius.pl` Fahrenheit to Celsius: Temperature scale converter
--`ect-age.pl` is an ECT Age-based and Dose calculator
--`ect-charge.pl is an` ECT charge & titration calculator
--`ect-formulae.pl`: is ECT dosing formulae and equations' calculator
--`hip-waist.pl` is a Hip-Waiste Ratio calculator
--`kg2lb.pl` refer to Kilograms to pounds converter. 
--`kg2st.pl`: kilogram to stone converter.
--`lb2kg.pl` Pounds to kilograms converter.
--`map.pl` refers to mean arterial blood pressure calculator
--`mace.pl` refers to Mini-Addenbrooke's Cognitive Examination (M-ACE)
--`mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website
--`mhr.pl` refers to Maximum Heart Rate Calculator
--`minicog.pl`: Mini-Cog Test Calculator
--`mmse.pl`: Mini-Mental State Examination Calculator (MMSE)
--`moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
--`moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
--`neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
--`qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
--`rtms.pl` refers to rTMS dose calculator.
--`st2kg.pl` refers to stone to kilogram converter.
--`thr.pl` refers to Target Heart Rate
+- `celsius.pl` Fahrenheit to Celsius: Temperature scale converter
+- `ect-age.pl` is an ECT Age-based and Dose calculator
+- `ect-charge.pl` is an` ECT charge & titration calculator
+- `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
+- `hip-waist.pl` is a Hip-Waiste Ratio calculator
+- `kg2lb.pl` refer to Kilograms to pounds converter.
+- `kg2st.pl`: kilogram to stone converter.
+- `lb2kg.pl` Pounds to kilograms converter.
+- `map.pl` refers to mean arterial blood pressure calculator
+- `mace.pl` refers to Mini-Addenbrooke's Cognitive Examination (M-ACE)
+- `mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website
+- `mhr.pl` refers to Maximum Heart Rate Calculator
+- `minicog.pl`: Mini-Cog Test Calculator
+- `mmse.pl`: Mini-Mental State Examination Calculator (MMSE)
+- `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
+- `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
+- `neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
+- `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
+- `rtms.pl` refers to rTMS dose calculator.
+- `st2kg.pl` refers to stone to kilogram converter.
+- `thr.pl` refers to Target Heart Rate
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
