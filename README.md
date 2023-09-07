@@ -283,7 +283,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - For psychiatric calculators, the interpretations of severity is not added as the score **SHOULD NOT** be interpreted as a marker of severity of illness in isolation from a clinical context. These are **NOT** substitutes to assessment by a health care professional.
 - All these scripts are **ONLY** calculators not the tests themselves. Usage of these score calculators is both free (libre) & free (gratis) under GNU/GPL 3.0 however, the usage of any of the test material is subject to the authors copyright status.
 - For diagnostic algorithms the source of information eg [mhGAP](https://www.who.int/publications/i/item/9789241549790) should **ALWAYS** be checked. This is aimed at healthcare professionals, and should be used **ONLY** to facilitate the algorithmic part of the diagnostic procedure, but **NOT** as a substitute for clinical assessment, or the WHO mhGAP guidance.
-- Some shorter Perl codes were translated from AWK code via `a2p` command. The code might not be the best approah, but it is functional, more recent codes eg `ace.pl`, `acer.pl`, `mace.pl`, `mhr.pl` were written directly in Perl.
+- Some shorter Perl codes were translated from AWK code via `a2p` command. The code might not be the best approah, but it is functional, more recent codes eg `ace.pl`, `acer.pl`, `mace.pl`, `mhr.pl` were written directly in Perl. Currently, the ability to save the results is being added gradually to `Perl` codes. The first one to utilise this is `celsius.pl`.
 
 ## Declaration of Interest
 - None
