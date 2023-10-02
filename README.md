@@ -13,7 +13,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Addenbrooke's Cognitive Examination (ACE-III): `ace.pl` (most up-to-date, with ACE to MMSE converter),  `ace-iii-bc.sh` (most up-to-date in shell scripts), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `acer.pl`, `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
- - ACE-III to MMSE converter: `ace-mmse-converter.sh`
+ - ACE-III to MMSE converter: `ace2mmse.pl`, `ace-mmse-converter.sh`
  - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
  - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.pl`
@@ -167,7 +167,8 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 ### Perl Scripts
 - `4AT.pl`: calaculates The Assessment Test for Delirium (4AT).
 - `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter.
-- `ace.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score
+- `acer.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score
+- `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
 - `avpu2gcs.pl` converts from AVPU score to GCS score
 - `bmi.pl` calculates the BMI
 - `cardiac-outut.pl` calculates the cardiac output
