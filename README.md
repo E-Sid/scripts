@@ -166,7 +166,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 
 ### Perl Scripts
 - `4AT.pl`: calaculates The Assessment Test for Delirium (4AT).
-- `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter.
+- `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter & file save.
 - `acer.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score
 - `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
 - `avpu2gcs.pl` converts from AVPU score to GCS score
