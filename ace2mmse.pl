@@ -42,7 +42,7 @@ elsif ($ace >= 79 && $ace <= 83) {our $mmse = 26}
 elsif ($ace >= 84 && $ace <= 88) {our $mmse = 27}
 elsif ($ace >= 89 && $ace <= 93) {our $mmse = 28}
 elsif ($ace >= 94 && $ace <= 98) {our $mmse = 29}
-elsif ($ace >= 99 && $ace <= 100){our $mmse = 0}
+elsif ($ace >= 99 && $ace <= 100){our $mmse = 30}
 else {print "Out of range\n"}       
 print "The ACE-III score is " . (our $ace + 0) . "/100\n";
 print "The estimated MMSE score is ".  our $mmse. "/30\n"; 
