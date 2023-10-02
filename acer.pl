@@ -241,7 +241,7 @@ print "/100\n";
     print '- The Attention subset score is '. ($A1 + $A2 + $A3 + $A4) . "/18\n";
     print '- The Memory subset score is '. ($M1 + $M2 + $M3 + $M4 + $M5) . "/26\n";
     print '- The Fluency subset score is ' . ($F1 + $F2) . "/14\n"; 	
-    print '- The Language subset score is ' . ($L1 + $L2 + $L3 + $L4 + $L5 + $L6 + $L6A + $L7 + $L8) . "/26\n";
+    print '- The Language subset score is ' . ($L0 + $L1 + $L2 + $L3 + $L4 + $L5 + $L6 + $L6A + $L7 + $L8) . "/26\n";
 print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 + $V5) . "/16\n";
     print "\n";
     print 'The total M-ACE score is ';
