@@ -61,10 +61,47 @@ print 'According to Hodges formula QTc = QT + 105(1/RR-1) = ' . $H2;
 print 'According to Framingham formula QTc = QT + 0.154(RR) = ' . $Framing;
 print 'According to Rautaharju formula QTc = QT * (120 + HR)/180 =  ' . $Raut;
 print 'According to Dmitrienko formula QTc = QT / RR^0.413 = ' . $Dmit;
-
+print "\n";
 sub readline {
     if ($getline_ok = (($_ = <>) ne '')) {
 	;
     }
     $_;
 }
+while (1) {
+print "Do you want to save the output to file (qtc.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = 'qtc.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+
+According to Bazett formula QTc = QT / sqrt(RR) =   $Baz
+According to Friedricia formula QTc = QT / RR^(1/3)  $Fried
+According to Hodges formula  QTc = QT + 1.75(HR - 60) =  $Hodges
+According to Hodges formula QTc = QT + 0.00175(HR - 60) =  $WH
+According to Hodges formula QTc = QT + 105(1/RR-1) =  $H2
+According to Framingham formula QTc = QT + 0.154(RR) = $Framing
+According to Rautaharju formula QTc = QT * (120 + HR)/180 =  $Raut
+According to Dmitrienko formula QTc = QT / RR^0.413 =  $Dmit
+
+END
+# print FH $str;
+close(FH);
+    print "written to qtc.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
+}
+
+
+
+
