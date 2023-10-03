@@ -42,16 +42,52 @@ while ($M2 < $M4 || $M4 < 0 || $M4 > 7 || $M4 !~ /^[0-9]+$/ || $M4 eq ""){
 }
 print "\n";
     print 'The total M-ACE score is ';
-    print(our $A0 + $F2 + $M2 + $V3 + $M4);
+    print($A0 + $F2 + $M2 + $V3 + $M4);
     print"/30\n";
-    print '- The Attention subset score is ';
-    print($A0 + 0);
+my $mace = $A0 + $F2 + $M2 + $V3 + $M4;
+print '- The Attention subset score is ';
+print($A0 + 0);
+my $attention = $A0 + 0;
     print "/4\n";
     print "- The Fluency subset score of is ";
-    print($F2 + 0);
+print($F2 + 0);
+my $fluency = $F2 + 0;
     print "/7\n";
-    print '- The Memory subset score of is ' . ($M2 + $M4) . "/14\n";
+print '- The Memory subset score of is ' . ($M2 + $M4) . "/14\n";
+my $memory = $M2 + $M4;
     print "- The Visuospatial abilities subset score ofis ";
-    print($V3+ 0);
+print($V3+ 0);
+my $cdt = $V3 + 0;
     print "/5\n";
-    print "\n"
+print "\n";
+    while (1) {
+print "Do you want to save the output to file (mace.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = 'mace.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+
+The Mini-ACE-III score is $mace/30
+- The Attention subset score is $attention/4
+- The Memory subset score is $memory/4
+- The Fluency subset score is $fluency/7 	
+- The Clock-Drawing Test subset score is $cdt/5
+
+END
+# print FH $str;
+close(FH);
+    print "written to mace.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
+}
+
