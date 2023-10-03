@@ -11,7 +11,7 @@ The general guiding concept is that these codes offer more than just a calculato
 
 ## Cognitive Tests:
  - Addenbrooke's Cognitive Examination (ACE-III): `ace.pl` (most up-to-date, with ACE to MMSE converter),  `ace-iii-bc.sh` (most up-to-date in shell scripts), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
- - Addenbrooke's Cognitive Examination - Revised (ACE-R): `acer.pl`, `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`
+ - Addenbrooke's Cognitive Examination - Revised (ACE-R): `acer.pl`, `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`, `ace-nosave.pl`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace2mmse.pl`, `ace-mmse-converter.sh`
  - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
@@ -167,6 +167,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 ### Perl Scripts
 - `4AT.pl`: calaculates The Assessment Test for Delirium (4AT).
 - `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter & offers file save.
+- `ace-nosave.pl`: alculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE.
 - `acer.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score, M-ACE & offers file save.
 - `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
 - `avpu2gcs.pl` converts from AVPU score to GCS score
@@ -285,6 +286,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 - All these scripts are **ONLY** calculators not the tests themselves. Usage of these score calculators is both free (libre) & free (gratis) under GNU/GPL 3.0 however, the usage of any of the test material is subject to the authors copyright status.
 - For diagnostic algorithms the source of information eg [mhGAP](https://www.who.int/publications/i/item/9789241549790) should **ALWAYS** be checked. This is aimed at healthcare professionals, and should be used **ONLY** to facilitate the algorithmic part of the diagnostic procedure, but **NOT** as a substitute for clinical assessment, or the WHO mhGAP guidance.
 - Some shorter Perl codes were translated from AWK code via `a2p` command eg `mhgap-dementia.pl`. The code is the result of this conversion approach, but it is functional, more recent codes eg `ace.pl`, `acer.pl`, `mace.pl`, `mhr.pl` were written directly in Perl. Currently, the ability to save the results is being added gradually to `Perl` codes. The first one to utilise this is `celsius.pl`.
+- `ace.pl` & `acer.pl` use the deprecated goto for saving results. In case, the a new version appears, one can use `ace-nosave.pl` instead.
 
 ## Declaration of Interest
 - None
