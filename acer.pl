@@ -286,7 +286,7 @@ my $str = <<END;
 The ACE-III score is $ace/100
 - The Attention subset score is $attention/18
 - The Memory subset score is $memory/26
-- The Fluency subset score is $fluency 	
+- The Fluency subset score is $fluency/14 	
 - The Language subset score is ' $language/26
 - The Visuospatial Abilities subset score is $visuospatial/16
 
