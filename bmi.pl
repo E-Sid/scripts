@@ -12,7 +12,8 @@ eval '$'.$1.'$2;' while $ARGV[0] =~ /^([A-Za-z_0-9]+=)(.*)/ && shift;
 $, = ' ';		# set output field separator
 $\ = "\n";		# set output record separator
 
-printf (('BMI Calculator    '));
+printf (('This is a BMI Calculator'));
+print "/n";
 print 'Please, enter weight in kilograms:  ';
 $W = &readline();
 while ($W < 0 || $W > 800) {
@@ -32,6 +33,9 @@ while ($H < 0 || $H > 6) {
     }
 }
 {
+    $w = $W + 0;
+    $h = $h +0;
+$bmi = $W / $H ** 2;
     print 'The BMI is  ' . $W / $H ** 2;
 
 last;
@@ -41,4 +45,32 @@ sub readline {
 	;
     }
     $_;
+}
+while (1) {
+print "Do you want to save the output to file (bmi.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = 'bmi.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+
+The weight is $w
+The height is $h
+The BMI is $bmi
+
+END
+# print FH $str;
+close(FH);
+    print "written to bmi.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
 }
