@@ -33,3 +33,29 @@ sub readline {
     }
     $_;
 }
+while (1) {
+print "Do you want to save the output to file (wt-kg.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = 'wt-kg.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+
+The weight is $kg
+
+END
+# print FH $str;
+close(FH);
+    print "written to wt-kg.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
+}
