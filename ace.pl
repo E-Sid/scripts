@@ -258,7 +258,8 @@ elsif ($ace >= 89 && $ace <= 93) {our $mmse = 28}
 elsif ($ace >= 94 && $ace <= 98) {our $mmse = 29}
 elsif ($ace >= 99 && $ace <= 100){our $mmse = 30}
 else {print "Out of range\n"}       
-print "The estimated MMSE score is ".  our  $mmse. "/30\n";        
+    print "The estimated MMSE score is ".  our  $mmse. "/30\n";
+    print "\n";
     goto saver;
 }
 
@@ -338,7 +339,8 @@ elsif ($ace >= 89 && $ace <= 93) {our $mmse = 28}
 elsif ($ace >= 94 && $ace <= 98) {our $mmse = 29}
 elsif ($ace >= 99 && $ace <= 100){our $mmse = 30}
 else {print "Out of range\n"}       
-print "The estimated MMSE score is ".  our  $mmse. "/30\n";        
+    print "The estimated MMSE score is ".  our  $mmse. "/30\n";
+    print "\n";
   saver: while (1) {
 print "Do you want to save the output to file (ace.txt) [yes/no]? ";
 my $ans = lc(<STDIN>);
@@ -371,7 +373,7 @@ close(FH);
     last;
 }	
 elsif ($ans eq 'no') {
-    print "not saved\n";
+    print "Not saved\n";
     last;
 	}
 else {

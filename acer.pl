@@ -1,6 +1,7 @@
 #!/usr/perl
 use strict;
 use warnings;
+no warnings 'deprecated';
 
 print "This is Addenrbooke's Cognitive Examination - Revised (ACE-R) Calculator\n";
     print "====================================================================\n";
@@ -197,12 +198,12 @@ while ($M2 < $M4 || $M4 < 0 || $M4 > 7 || $M4 !~ /^[0-9]+$/ || $M4 eq ""){
 	  chomp $M4;
 }
 if ($M4 == 7){
-    my $M5 = $M4 - 2;
+    our $M5 = $M4 - 2;
 print "\n";
 print 'The total ACE-R score is ';    
 print($A1 + $A2 + $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L0 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5);
-    print "/100\n";
-         
+print "/100\n";
+      
     print '- The Attention subset score is '. ($A1 + $A2 + $A3 + $A4) . "/18\n";
     print '- The Memory subset score is '. ($M1 + $M2 + $M3 + $M4 + $M5) . "/26\n";
     print '- The Fluency subset score is ' . ($F1 + $F2) . "/14\n"; 	
@@ -225,11 +226,12 @@ print($A1 + $A2 + $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L0 + $L1+ $L2 + $L3
     print "\n";
     print 'The Total Mini-Mental State Examination (MMSE) score is ' . ($A1 + $A2 + $A3 + $A4 + $M1 + $L0 + $L1 + $L2 + $L5 + $L6A + $V1) . "/30\n";
     print "\n";
+    goto saver;
 }
  else
 {
 print("Memory: Please, type score for recognition of name and address (delayed recognition) [0-5]: ");
-    my $M5 = <>;
+    our $M5 = <>;
     while ($M5 < 0 || $M5 > 5 || $M4 >= 5 && $M5 < 4 || $M4 >= 5 && $M5 < 3 || $M5 !~ /^[0-9]+$/ || $M5 eq ""){
     $M5 = <>;
     chomp $M5;
@@ -238,12 +240,14 @@ print "\n";
 print 'The total ACE-R score is ';    
 print($A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L0 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5);
 print "/100\n";
+
     print '- The Attention subset score is '. ($A1 + $A2 + $A3 + $A4) . "/18\n";
     print '- The Memory subset score is '. ($M1 + $M2 + $M3 + $M4 + $M5) . "/26\n";
     print '- The Fluency subset score is ' . ($F1 + $F2) . "/14\n"; 	
-    print '- The Language subset score is ' . ($L0 + $L1 + $L2 + $L3 + $L4 + $L5 + $L6 + $L6A + $L7 + $L8) . "/26\n";
+    print '- The Language subset score is ' . ($L0 + $L1 + $L2 + $L3 + $L4 + $L5 + + $L6A + $L6 + $L7 + $L8) . "/26\n";
 print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 + $V5) . "/16\n";
     print "\n";
+   
     print 'The total M-ACE score is ';
     print(our $A0 + $F2 + $M2 + $V3 + $M4);
     print"/30\n";
@@ -254,6 +258,59 @@ print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 +
     print "\n";
 print "\n";
     print 'The Total Mini-Mental State Examination (MMSE) score is ' . ($A1 + $A2 + $A3 + $A4 + $M1 + $L0 + $L1 + $L2 + $L5 + $L6A + $V1) . "/30\n";
-    print "\n"
+print "\n";
+ saver:
+our $ace = $A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L0 + $L1+ $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8 + $V1 + $V2 + $V3 + $V4 + $V5 + $M4 + $M5;      
+our $attention = $A1 + $A2 + $A3 + $A4;
+our $memory = $M1 + $M2 + $M3 + $M4 + $M5;
+our $fluency = $F1 + $F2;
+our $language = $L1 + $L2 + $L3 + $L4 + $L5 + $L6 + $L7 + $L8;
+our $visuospatial = $V1 + $V2 + $V3 + $V4 + $V5;
+our $mace = $A0 + $F2 + $M2 + $V3 + $M4;
+our $m_attention = $A0 + 0;
+our $m_memory = $M2 + $M4;
+our $m_fluency = $F2 + 0;
+our $cdt = $V3 + 0;
+our $mmse = $A1 + $A2 + $A3 + $A4 + $M1 + $L0 + $L1 + $L2 + $L5 + $L6A + $V1;
+
+while (1) {
+print "Do you want to save the output to file (ace-r.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = 'ace-r.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+}
+The ACE-III score is $ace/100
+- The Attention subset score is $attention/18
+- The Memory subset score is $memory/26
+- The Fluency subset score is $fluency 	
+- The Language subset score is ' $language/26
+- The Visuospatial Abilities subset score is $visuospatial/16
+
+The Mini-ACE score is $mace/30
+- The M-ACE Attention subset score is $attention/4
+- The M-ACE Memory subset score is $memory/14
+- The M-ACE Fluency subset score is $fluency/7	
+- The M-ACE Visuospatial Abilities subset score is $cdt/5
+
+- The MMSE score is $mmse/30
+
+END
+# print FH $str;
+close(FH);
+    print "written to ace-r.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
+}
 }
 
