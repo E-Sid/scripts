@@ -244,7 +244,7 @@ print "/100\n";
     print '- The Attention subset score is '. ($A1 + $A2 + $A3 + $A4) . "/18\n";
     print '- The Memory subset score is '. ($M1 + $M2 + $M3 + $M4 + $M5) . "/26\n";
     print '- The Fluency subset score is ' . ($F1 + $F2) . "/14\n"; 	
-    print '- The Language subset score is ' . ($L0 + $L1 + $L2 + $L3 + $L4 + $L5 + + $L6A + $L6 + $L7 + $L8) . "/26\n";
+    print '- The Language subset score is ' . ($L0 + $L1 + $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8) . "/26\n";
 print '- The Visuospatial abilities subset score is ' . ($V1 + $V2 + $V3 + $V4 + $V5) . "/16\n";
     print "\n";
    
@@ -264,7 +264,7 @@ our $ace = $A1 + $A2 +  $A3 + $A4 + $M1 + $F1 + $F2 + $M2 + $M3 + $L0 + $L1+ $L2
 our $attention = $A1 + $A2 + $A3 + $A4;
 our $memory = $M1 + $M2 + $M3 + $M4 + $M5;
 our $fluency = $F1 + $F2;
-our $language = $L0 + $L1 + $L2 + $L3 + $L4 + $L5 + L6A + $L6 + $L7 + $L8;
+our $language = $L0 + $L1 + $L2 + $L3 + $L4 + $L5 + $L6A + $L6 + $L7 + $L8;
 our $visuospatial = $V1 + $V2 + $V3 + $V4 + $V5;
 our $mace = $A0 + $F2 + $M2 + $V3 + $M4;
 our $m_attention = $A0 + 0;
