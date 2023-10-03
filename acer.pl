@@ -282,7 +282,7 @@ if ($ans eq 'yes')  {
 open(FH,'>', $output) or die $!;
 print FH 
 my $str = <<END;
-}
+
 The ACE-III score is $ace/100
 - The Attention subset score is $attention/18
 - The Memory subset score is $memory/26
