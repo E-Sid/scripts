@@ -4,7 +4,7 @@ use warnings;
 no warnings 'deprecated';
 
 print "This is Addenrbooke's Cognitive Examination (ACE-III) Calculator\n";
-    print "=================================================================\n";
+print "================================================================\n";
 print 'Attention: Please, type score for orientation in time [0-5]: ';
 my $A1 = <>;
 while ($A1 < 0 || $A1 > 5 || $A1 !~ /^[0-9]+$/ || $A1 eq ""){
