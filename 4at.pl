@@ -40,3 +40,27 @@ my $AT4 = $A + $AMT4 + $AT + $F;
 print "\n";
 print "The total score for 4AT is " . $AT4 . "/12\n";
 print "\n";
+while (1) {
+print "Do you want to save the output to file (ace-r.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = '4at.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+The total score for 4AT is $AT4/12
+END
+# print FH $str;
+close(FH);
+    print "written to 4at.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
+}
