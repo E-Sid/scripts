@@ -46,3 +46,29 @@ sub readline {
     }
     $_;
 }
+while (1) {
+print "Do you want to save the output to file (co.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = 'co.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+The cardiac output formula is CO = SV * HR
+The cardiac output is  $Q  L/min
+The cardiac output is  $CO  mL/min
+END
+# print FH $str;
+close(FH);
+    print "written to co.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
+}
