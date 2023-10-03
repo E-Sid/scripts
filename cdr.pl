@@ -79,6 +79,7 @@ while ($P != 0 || $P != 1 || $P != 2 || $P != 3) {
     }
 }
 {
+    $cdr = $M + $O + $J + $C + $H + $P;
     print 'The total CDR-FTLD score is  ' . ($M + $O + $J + $C + $H + $P) .
 
       '/18 via SOB method';
@@ -91,3 +92,30 @@ sub readline {
     }
     $_;
 }
+
+while (1) {
+print "Do you want to save the output to file (cdr.txt) [yes/no]? ";
+my $ans = lc(<STDIN>);
+chomp($ans);
+if ($ans eq 'yes')  {	   
+    my $output = 'cdr.txt';
+open(FH,'>', $output) or die $!;
+print FH 
+my $str = <<END;
+The CDR score is $cdr/18 via SOB method
+END
+# print FH $str;
+close(FH);
+    print "written to cdr.txt\n";
+    last;
+}	
+elsif ($ans eq 'no') {
+    print "Not saved\n";
+    last;
+	}
+else {
+print "out of range, please answer [yes or no] ";
+ }
+}
+
+
