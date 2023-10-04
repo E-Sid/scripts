@@ -56,6 +56,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
 - Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
+- Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator: `madrs.pl`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9-bc.sh`
 - rTMS dose calculator: `rtms.awk`. `rtms.pl`
 
@@ -188,6 +189,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `kg2lb.pl` refer to Kilograms to pounds converter.
 - `kg2st.pl`: kilogram to stone converter.
 - `lb2kg.pl` Pounds to kilograms converter.
+- `madrs.pl`: Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator
 - `map.pl` refers to mean arterial blood pressure calculator
 - `mace.pl` refers to Mini-Addenbrooke's Cognitive Examination (M-ACE)
 - `mhgap-dementia.pl` is Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website
