@@ -47,10 +47,10 @@ The general guiding concept is that these codes offer more than just a calculato
 - Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - Calgary Depression Scale for Schizophrenia (CDSS): `cdss.pl`
-- ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
+- Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
-- ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
+- Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7.pl`, `gad7-bc.sh`
@@ -62,7 +62,8 @@ The general guiding concept is that these codes offer more than just a calculato
 - Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator: `madrs.pl`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9.pl`, `phq9-bc.sh`
 - Rating Anxiety in Dementia (RAID): `raid.pl`
-- rTMS dose calculator: `rtms.awk`. `rtms.pl`
+- Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
+- Work & Social Adjustment Scale: `wsas.pl`
 
 ## A&E Calculators
 - AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
@@ -214,6 +215,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `rtms.pl` refers to rTMS dose calculator.
 - `st2kg.pl` refers to stone to kilogram converter.
 - `thr.pl` refers to Target Heart Rate
+- `wsas.pl`:  Work & Social Adjustment Scale
 
 ## Instruction for sed Script
 This is a stream editor (sed) converter to make letters and reports more gender neutral.  To make this script work please, use the following commands:
