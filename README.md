@@ -42,7 +42,7 @@ The general guiding concept is that these codes offer more than just a calculato
  
  ## Psychiatric Rating Scales
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
-- Brief Psychiatric Rating Scale (BPRS): `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
+- Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
@@ -172,6 +172,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
 - `avpu2gcs.pl` converts from AVPU score to GCS score
 - `bmi.pl` calculates the BMI
+- `bprs.pl` calculates the Brief Psychiatric Rating Scale
 - `cardiac-outut.pl` calculates the cardiac output
 - `cdr.pl` calculates the clinical dementia rating scale
 `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
