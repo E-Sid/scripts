@@ -51,7 +51,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - ECT Ohm's law `ohms-law.rexx`, `ohms-law.bas`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
-- Generalised Anxiety Disroder (GAD-7) Assessment: `gad7-bc.sh`
+- Generalised Anxiety Disroder (GAD-7) Assessment: `gad7.pl`, `gad7-bc.sh`
 - Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
 - Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
@@ -184,6 +184,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ect-age.pl` is an ECT Age-based and Dose calculator
 - `ect-charge.pl` is an` ECT charge & titration calculator
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
+- `gad7.pl`: Generalised Anxiety Disroder (GAD-7) Assessment
 - `his.pl`: is Hachinski Ischaemic Score (HIS) calculator
 - `hip-waist.pl` is a Hip-Waiste Ratio calculator
 - `kg2lb.pl` refer to Kilograms to pounds converter.
