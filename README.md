@@ -42,6 +42,7 @@ The general guiding concept is that these codes offer more than just a calculato
  
  ## Psychiatric Rating Scales
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.pl`, `audit.rexx`
+- Beck Depression Inventory (BDI) score calculator: `bdi.pl`
 - Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
@@ -172,6 +173,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
 - `audit.pl`: calculates Alcohol Use Disorders Identification Test (AUDIT) score
 - `avpu2gcs.pl` converts from AVPU score to GCS score
+- `bdi.pl`: is Beck Depression Inventory (BDI) score calculator
 - `bmi.pl` calculates the BMI
 - `bprs.pl` calculates the Brief Psychiatric Rating Scale
 - `cardiac-outut.pl` calculates the cardiac output
