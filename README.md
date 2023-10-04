@@ -61,6 +61,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Health of The Nation Ouctome Scale (HoNOS): `honos.pl`, `honos-bc.sh`
 - Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator: `madrs.pl`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9.pl`, `phq9-bc.sh`
+- Rating Anxiety in Dementia (RAID): `raid.pl`
 - rTMS dose calculator: `rtms.awk`. `rtms.pl`
 
 ## A&E Calculators
@@ -209,6 +210,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
 - `phq9.pl`: Patient Health Questionnaire (PHQ-9) Depression
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko with file save option.
+- `raid.pl`: Rating Anxiety in Dementia (RAID)
 - `rtms.pl` refers to rTMS dose calculator.
 - `st2kg.pl` refers to stone to kilogram converter.
 - `thr.pl` refers to Target Heart Rate
