@@ -54,6 +54,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Generalised Anxiety Disroder (GAD-7) Assessment: `gad7.pl`, `gad7-bc.sh`
 - Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
 - Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
+- Hamilton Anxiety Rating Scale (HAM-A): `hama.pl`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
 - Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
 - Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator: `madrs.pl`
@@ -185,6 +186,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ect-charge.pl` is an` ECT charge & titration calculator
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
 - `gad7.pl`: Generalised Anxiety Disroder (GAD-7) Assessment
+- `hama.pl`: Hamilton Anxiety Rating Scale (HAM-A)
 - `his.pl`: is Hachinski Ischaemic Score (HIS) calculator
 - `hip-waist.pl` is a Hip-Waiste Ratio calculator
 - `kg2lb.pl` refer to Kilograms to pounds converter.
