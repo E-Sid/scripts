@@ -41,7 +41,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website `mhgap-dementia.awk`, `mhgap.pl`.
  
  ## Psychiatric Rating Scales
-- Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`
+- Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.pl`, `audit.rexx`
 - Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.bas`, `cage.bat`
 - ECT Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
@@ -170,6 +170,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ace-nosave.pl`: alculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE.
 - `acer.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score, M-ACE & offers file save.
 - `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
+- `audit.pl`: calculates Alcohol Use Disorders Identification Test (AUDIT) score
 - `avpu2gcs.pl` converts from AVPU score to GCS score
 - `bmi.pl` calculates the BMI
 - `bprs.pl` calculates the Brief Psychiatric Rating Scale
