@@ -57,7 +57,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
 - Hamilton Anxiety Rating Scale (HAM-A): `hama.pl`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
-- Health of The Nation Ouctome Scale (HoNOS): `honos-bc.sh`
+- Health of The Nation Ouctome Scale (HoNOS): `honos.pl`, `honos-bc.sh`
 - Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator: `madrs.pl`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9.pl`, `phq9-bc.sh`
 - rTMS dose calculator: `rtms.awk`. `rtms.pl`
@@ -191,6 +191,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `hama.pl`: Hamilton Anxiety Rating Scale (HAM-A)
 - `his.pl`: is Hachinski Ischaemic Score (HIS) calculator
 - `hip-waist.pl` is a Hip-Waiste Ratio calculator
+- `honos.pl`: Health of The Nation Ouctome Scale (HoNOS)
 - `kg2lb.pl` refer to Kilograms to pounds converter.
 - `kg2st.pl`: kilogram to stone converter.
 - `lb2kg.pl` Pounds to kilograms converter.
