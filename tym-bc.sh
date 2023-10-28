@@ -18,7 +18,7 @@ while :; do
     read W
     if [[ -z $W ]]; then
 	echo "Entry cannot be empty"
-    elif [[ $W -ge 0 && $W -le 10 ]]; then
+    elif [[ $W -ge 0 && $W -le 2 ]]; then
 	break
     else
 	echo "Value is out of range. Please, enter a valid number"
