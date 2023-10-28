@@ -14,9 +14,10 @@ The general guiding concept is that these codes offer more than just a calculato
  - Addenbrooke's Cognitive Examination - Revised (ACE-R): `acer.pl`, `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`, `ace-nosave.pl`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, and `m-ace-pwsh.ps1`
  - ACE-III to MMSE converter: `ace2mmse.pl`, `ace-mmse-converter.sh`
- - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`
- - Abbreviated Mental Test-4 (AMT4): `amt4-bc.sh` & `amt4.bas`
+ - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`, `amts.pl`
+ - Abbreviated Mental Test-4 (AMT4): `amt4.pl`, `amt4-bc.sh` & `amt4.bas`
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.pl`
+ - Assessment of Parkinsonism: `updrs.pl`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
  - Clinical Dementia Rating Scale `cdr-pwsh.ps1`, `cdr.awk`, `cdr.pl`
@@ -175,7 +176,10 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes pre-bundled in GNU/Linux distros & MacOS, to download the latest update it could be done via the distro's update command or else from [Perl website](https://www.perl.org/get.html). For MS-Windows, Perl is freely downloadable from [Strawberry Perl](https://strawberryperl.com/) & [Active Perl](https://www.activestate.com/products/perl/)
 
 ### Perl Scripts
-- `4AT.pl`: calaculates The Assessment Test for Delirium (4AT).
+- `4AT.pl`: calculates The Assessment Test for Delirium (4AT).
+- `amt4.pl`:calculates the Abbreviated Mental Test Score 4-item
+- `amts.pl`: calculates the Abbreviated Mental Test Score
+- `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
 - `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter & offers file save.
 - `ace-nosave.pl`: alculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE.
 - `acer.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score, M-ACE & offers file save.
