@@ -24,7 +24,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`, `cdr-ftld.pl`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
- - Frontal Assessment Battery (FAB): `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
+ - Frontal Assessment Battery (FAB): `fab.pl`, `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
  - Hachinski Ischaemic Score (HIS): `his.rexx`, `his.pl`
  - Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE): `iqcode.pl`
  - Retrospective Form of the Informant Questionnaire on Cognitive Decline in the Elderly (Retrospective IQCODE): `iqcoder.pl`
@@ -200,6 +200,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ect-age.pl` is an ECT Age-based and Dose calculator
 - `ect-charge.pl` is an` ECT charge & titration calculator
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
+- `fab.pl`: Frontal Assessment Battery (FAB)
 - `gad7.pl`: Generalised Anxiety Disroder (GAD-7) Assessment
 - `hama.pl`: Hamilton Anxiety Rating Scale (HAM-A)
 - `his.pl`: is Hachinski Ischaemic Score (HIS) calculator
