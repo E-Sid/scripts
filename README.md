@@ -77,7 +77,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 
 ## Cardiovascular Calculators
-- Age calculator: `age.pl`
+- Age calculator: `age.awk`, `age.pl`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
 - Fahrenheit to Celsius: Temperature scale converter: `celsius.pl` 
@@ -154,6 +154,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `qtc.awk` is more accurate and provide more data than `qtc.bas`
 
 ### List AWK scripts
+- `age.awk`: age calculator
 - `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
 - `bmi.awk` refers to body mass index (metric) calculator
 - `cardiac-output.awk` refers to cardiac output
