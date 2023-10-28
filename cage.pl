@@ -56,7 +56,7 @@ if ($ans eq 'yes')  {
 open(FH,'>', $output) or die $!;
 print FH 
 my $str = <<END;
-The SADPERSONS Score is $total_score
+The CAGE Questionnaire Score is $total_score
 END
 # print FH $str;
 close(FH);
