@@ -77,6 +77,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 
 ## Cardiovascular Calculators
+- Age calculator: `age.pl`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
 - Fahrenheit to Celsius: Temperature scale converter: `celsius.pl` 
@@ -179,6 +180,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 
 ### Perl Scripts
 - `4AT.pl`: calculates The Assessment Test for Delirium (4AT).
+- `age.pl`: age calculator
 - `amt4.pl`:calculates the Abbreviated Mental Test Score 4-item
 - `amts.pl`: calculates the Abbreviated Mental Test Score
 - `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
