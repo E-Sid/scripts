@@ -67,6 +67,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9.pl`, `phq9-bc.sh`
 - Rating Anxiety in Dementia (RAID): `raid.pl`
 - Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
+- SADPERSONS scale calculator: `sadpersons.pl`
 - Work & Social Adjustment Scale: `wsas.pl`
 
 ## A&E Calculators
@@ -223,6 +224,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko with file save option.
 - `raid.pl`: Rating Anxiety in Dementia (RAID)
 - `rtms.pl` refers to rTMS dose calculator.
+- `sadpersons.pl`: SADPERSONS scale calculator
 - `st2kg.pl` refers to stone to kilogram converter.
 - `thr.pl` refers to Target Heart Rate
 - `wsas.pl`:  Work & Social Adjustment Scale
