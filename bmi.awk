@@ -2,6 +2,7 @@
 
 BEGIN {
     printf("BMI Calculator    ")
+    print ""
     print "Please, enter weight in kilograms:  "
     getline W
      while ( W < 0 || W > 800 ) {
@@ -13,7 +14,7 @@ BEGIN {
     print "Please, enter height in metres: "
     getline H
      while ( H < 0 || H > 6 ) {
-	print "out of range, please, retype the weight"
+	print "out of range, please, retype the height in metres"
 	getline H
     if (H > 0 && H < 6)
 	break
