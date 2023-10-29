@@ -104,7 +104,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - `.bas` files are BASIC files that run under FreeBASIC which could be installed on GNU/Linux or MS-Windows or run online on a browser
 - `.bat` files are batch files that run under FreeDOS, and could be used on MS-Windows command prompt `cmd.exe`
 - `.html` files refer to platform independent that works on any browser that can run Javascript
-- `.pl` files refer to Perl files, they are platform independent, and come prebundled in GNU/Linux distros.
+- `.pl` files refer to Perl files, they are platform independent, and come prebundled in GNU/Linux distros, possibly MacOS X & Haiku.
 - `.ps1` files refer to MS-PowerShell works under Mircosoft Windows, and works under GNU/Linux Bash Shell (if Ms-PowerShell is installed)
 - `.rexx` files refer to REXX files which are platform independent, they run under Unix, Amiga & Amiga-like OS (eg Amiga OS4, MorphOS & AROS), they can run under GNU/Linux if REXX is installed
 - `.sh` files refer to BASH Shell scripts which could be used GNU/Linux Bash Shell Script on GNU/Linux, BSD, MacOS-X, or Haiku
@@ -113,7 +113,7 @@ The general guiding concept is that these codes offer more than just a calculato
 ## General Instructions
 - In all the files. You can type the entry (numerical number) and press `ENTER` (Return)
 - If you do not have a compiler for the scripting language used, you can use an online compiler via a web browser as [JDoodle](https://www.jdoodle.com/) or [Tutorials Point ](https://www.tutorialspoint.com) and select the scripting language of your choice.
-- If there is the same calculator in AWK &/or and other language, AWK & Perl scripts are the more comprehensive and up-to-date
+- If there is the same calculator in AWK &/or and other language, AWK & Perl scripts are the more comprehensive and up-to-date. The only exception is `audit.pl` where `audit.rexx` offers tighter data validation.
 - If there are different versions of a calculator in BASH Shell Script `filename-bc.sh` would be the most up-to-date
 
 ## Instructions for GNU/Linux Bash Shell Script on GNU/Linux, BSD (FreeBSD, OpenBSD, NetBSD), Unix, MacOS-X or Haiku
