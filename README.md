@@ -81,7 +81,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 
 ## Cardiovascular Calculators
-- Age calculator: `age.awk`, `age.pl`
+- Age calculator: `age.bat`, `age.awk`, `age.pl`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
 - Fahrenheit to Celsius: Temperature scale converter: `celsius.pl` 
@@ -310,6 +310,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 ## FreeDOS
 [FreeDOS](https://www.freedos.org/) is licensed under GNU/GPL-3
 
+- `age.bat`: Age calculator
 - `avpu.bat` refers to AVPU score 
 - `avpu2gcs.bat` refer to AVPU to GCS converter
 - `cage.bat` refers to CAGE Questionnaire for alcohol dependence
