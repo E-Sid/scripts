@@ -63,6 +63,10 @@ The general guiding concept is that these codes offer more than just a calculato
 - Hamilton Anxiety Rating Scale (HAM-A): `hama.pl`
 - Hamilton Depression Rating Scale (HRSD): `hrsd-bs.sh`
 - Health of The Nation Ouctome Scale (HoNOS): `honos.pl`, `honos-bc.sh`
+- Health of The Nation Ouctome Scale 65+ (HoNOS65+): `honos65.pl`
+- Health of The Nation Ouctome Scale - Acquired Brain Injry (HoNOS-ABI): `honosabi.pl`
+- Health of The Nation Ouctome Scale - Child & Adolescent Mental Health (HoNOSCA): `honosca.pl`
+- Health of The Nation Ouctome Scale - Secure (HoNOS-Secure): `honos-secure.pl`
 - Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator: `madrs.pl`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9.pl`, `phq9-bc.sh`
 - Rating Anxiety in Dementia (RAID): `raid.pl`
@@ -212,6 +216,10 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `his.pl`: is Hachinski Ischaemic Score (HIS) calculator
 - `hip-waist.pl` is a Hip-Waiste Ratio calculator
 - `honos.pl`: Health of The Nation Ouctome Scale (HoNOS)
+- `honos65.pl`: Health of The Nation Ouctome Scale 65+ (HoNOS65+)
+- `honosabi.pl`: Health of The Nation Ouctome Scale - Acquired Brain Injry (HoNOS-ABI)
+- `honosca.pl`: Health of The Nation Ouctome Scale - Child & Adolescent Mental Health (HoNOSCA)
+- `honos-secure.pl`: Health of The Nation Ouctome Scale - Secure (HoNOS-Secure) 
 - `iqcode.pl`: Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE).
 - `iqcoder.pl`: Retrospective Form of the Informant Questionnaire on Cognitive Decline in the Elderly (Retrospective IQCODE)
 - `iqcodes.pl`: Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE-Short)
