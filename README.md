@@ -96,6 +96,9 @@ The general guiding concept is that these codes offer more than just a calculato
 - QTc Interval calculator: `qtc.awk`, `qtc.pl` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
 - Stone to kilogram converter: `st2kg.awk`, `st2kg.pl`
 
+## Surgery
+- Lesion size estimation helpers: `triangle.awk`, `rectangle.awk`, `circle.awk`
+
 ## Report writing helper
 - `neutralise.sed` & `neutralise.pl` attempt to change the language of a report or a letter to be more gender neutral, with respect to pronouns, jobs and relationships.
 
@@ -165,6 +168,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `cardiac-output.awk` refers to cardiac output
 - `cdr.awk` refers to Clinical Dementia Rating Scale
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
+- `circle.awk`: calculates the area of a circle
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
 - `ect-charge.awk` refers to ECT charge & titration calculator
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator.
@@ -179,8 +183,10 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `moca-mis-awk` calculates the Memory Index Score (MIS) of the Montreal Cognitive Examination (MocA) or MoCA-Blind
 - `packyr.awk` pack years of cigarettes calculator
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
+- `rectangle.awk` calculates the area of a rectangle
 - `rtms.awk` refers to rTMS dose calculator.
 - `st2kg.awk` refers to stone to kilogram converter.
+- `triangle.awk` calculates the area of a triangle
 
 ## Instructions for Perl Script
 Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes pre-bundled in GNU/Linux distros & MacOS, to download the latest update it could be done via the distro's update command or else from [Perl website](https://www.perl.org/get.html). For MS-Windows, Perl is freely downloadable from [Strawberry Perl](https://strawberryperl.com/) & [Active Perl](https://www.activestate.com/products/perl/)
