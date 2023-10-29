@@ -5,18 +5,18 @@ use warnings;
 
 sub calculate_honos_total_score {
     my @honos_items = (
-        'Overactive, aggressive, disruptive or agitated behaviour',
-        'Non-accidental self-injury',
-        'Problem drinking or drug-taking',
+        'Active disturbance of social behaviour',
+        'Self-directed injury',
+        'Problem drinking or drug-use',
         'Cognitive problems',
         'Physical illness or disability problems',
-        'Problems associated with hallucinations and delusions',
-        'Problems with depressed mood',
+        'Problems associated with hallucinations/delusions/confabulation',
+        'Problems with depressive symptoms',
         'Other mental and behavioural problems',
         'Problems with relationships',
         'Problems with activities of daily living',
         'Problems with living conditions',
-        'Problems with occupation and activities',
+        'Problems with activities',
     
     );
 
@@ -51,23 +51,23 @@ sub calculate_honos_total_score {
 }
 
 # Main program
-print "Health of the Nation Outcome Scales (HoNOS) Total Score Calculator\n";
+print "Health of the Nation Outcome Scales Acquired Brain Injury (HoNOS-ABI) Total Score Calculator\n";
 my %honos_scores = calculate_honos_total_score();
 
 # Print the total score
-print "\nHoNOS Item Scores:\n";
+print "\nHoNOS-ABI Item Scores:\n";
 for my $item (keys %honos_scores) {
     print "$item: $honos_scores{$item}\n";
 }
-print "\nTotal HoNOS Score: $honos_scores{total_score}\n";
+print "\nTotal HoNOS-ABI Score: $honos_scores{total_score}\n";
 
 # Saving output
 while (1) {
-print "Do you want to save the output to file (HoNOS.txt) [yes/no]? ";
+print "Do you want to save the output to file (HoNOS-ABI.txt) [yes/no]? ";
 my $ans = lc(<STDIN>);
 chomp($ans);
 if ($ans eq 'yes')  {	   
-    my $output = 'HoNOS.txt';
+    my $output = 'HoNOS-ABI.txt';
 open(FH,'>', $output) or die $!;
 print FH 
 my $str = <<END;
@@ -75,7 +75,7 @@ The total score for HoNOS is $honos_scores{total_score}
 END
 # print FH $str;
 close(FH);
-    print "written to HoNOS.txt\n";
+    print "written to HoNOS-ABI.txt\n";
     last;
 }	
 elsif ($ans eq 'no') {

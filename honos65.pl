@@ -51,31 +51,31 @@ sub calculate_honos_total_score {
 }
 
 # Main program
-print "Health of the Nation Outcome Scales (HoNOS) Total Score Calculator\n";
+print "Health of the Nation Outcome Scales (HoNOS65+) Total Score Calculator\n";
 my %honos_scores = calculate_honos_total_score();
 
 # Print the total score
-print "\nHoNOS Item Scores:\n";
+print "\nHoNOS65+ Item Scores:\n";
 for my $item (keys %honos_scores) {
     print "$item: $honos_scores{$item}\n";
 }
-print "\nTotal HoNOS Score: $honos_scores{total_score}\n";
+print "\nTotal HoNOS65+ Score: $honos_scores{total_score}\n";
 
 # Saving output
 while (1) {
-print "Do you want to save the output to file (HoNOS.txt) [yes/no]? ";
+print "Do you want to save the output to file (HoNOS65.txt) [yes/no]? ";
 my $ans = lc(<STDIN>);
 chomp($ans);
 if ($ans eq 'yes')  {	   
-    my $output = 'HoNOS.txt';
+    my $output = 'HoNOS65.txt';
 open(FH,'>', $output) or die $!;
 print FH 
 my $str = <<END;
-The total score for HoNOS is $honos_scores{total_score}
+The total score for HoNOS65+ is $honos_scores{total_score}
 END
 # print FH $str;
 close(FH);
-    print "written to HoNOS.txt\n";
+    print "written to HoNOS65.txt\n";
     last;
 }	
 elsif ($ans eq 'no') {
