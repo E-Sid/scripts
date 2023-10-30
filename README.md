@@ -84,7 +84,8 @@ The general guiding concept is that these codes offer more than just a calculato
 - Age calculator: `age.bat`, `age.awk`, `age.pl`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
-- Fahrenheit to Celsius: Temperature scale converter: `celsius.awk`, `celsius.pl` 
+- Celsius to Fahrenheit temperature scale converter: `fahrenheit.awk` 
+- Fahrenheit to Celsius temperature scale converter: `celsius.awk`, `celsius.pl` 
 - Hip-Waiste Ratio calculator: `hip-waist.awk`, `hip-waist.pl` & `hip-waiste.rexx`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`, `kg2lb.pl`
 - Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl
@@ -171,6 +172,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
 - `ect-charge.awk` refers to ECT charge & titration calculator
 - `ect-formulae.awk` refers to ECT Dosing formulae and equations' calculator.
+- `fahrenheit.awk` Celsius to Fahrenheit temperature scale converter
 - `hip-waist.awk` refers to hip-waist ratio calculator.
 - `kg2lb.awk` refer to Kilograms to pounds converter. 
 - `kg2st.awk`: kilogram to stone converter.
