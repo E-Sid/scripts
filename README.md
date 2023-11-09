@@ -72,6 +72,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9.pl`, `phq9-bc.sh`
 - Rating Anxiety in Dementia (RAID): `raid.pl`
 - Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
+- Rockwood Clinical Frailty Scale: `cfs.awk`
 - SADPERSONS scale calculator: `sadpersons.pl`
 - Work & Social Adjustment Scale: `wsas.pl`
 
@@ -169,6 +170,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `cdr.awk` refers to Clinical Dementia Rating Scale
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
 - `celsius.awk` Fahrenheit to Celsius: Temperature scale converter
+- `cfs.awk`: Rockwoxod Clinical Frailty Scale
 - `circle.awk` calculates the area of a circle
 - `ect-age.awk` refers to ECt Age-based dosing and half-age-based dosing
 - `ect-charge.awk` refers to ECT charge & titration calculator
