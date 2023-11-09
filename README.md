@@ -46,6 +46,7 @@ The general guiding concept is that these codes offer more than just a calculato
  
  ## Psychiatric Rating Scales
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.pl`, `audit.rexx`
+- Bristol Activities of Daily Living Scale calculator: `badls.pl`
 - Beck Anxiety Inventory (BAI) calculator: `bai.pl`
 - Beck Depression Inventory (BDI) score calculator: `bdi.pl`
 - Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
@@ -197,13 +198,14 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `age.pl`: age calculator
 - `amt4.pl`:calculates the Abbreviated Mental Test Score 4-item
 - `amts.pl`: calculates the Abbreviated Mental Test Score
-- `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
 - `ace.pl`: calculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE converter & offers file save.
 - `ace-nosave.pl`: alculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE.
 - `acer.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score, M-ACE & offers file save.
 - `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
 - `audit.pl`: calculates Alcohol Use Disorders Identification Test (AUDIT) score
 - `avpu2gcs.pl` converts from AVPU score to GCS score
+- `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
+- `badls.pl`: Bristol Activities of Daily Living Scale calculator
 - `bai.pl`: Beck Anxiety Inventory (BAI) calculator
 - `bdi.pl`: is Beck Depression Inventory (BDI) score calculator
 - `bmi.pl` calculates the BMI
