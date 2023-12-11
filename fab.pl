@@ -17,7 +17,7 @@ sub Calculate_FAB_TotalScore {
 	my $valid_input = 0;
 
 	while (!$valid_input) {
-	    print "Pleasem type score for: $item [0-3]: ";
+	    print "Please, type score for: $item [0-3]: ";
 	    my $score = <STDIN>;
 		chomp($score);
 
