@@ -87,13 +87,13 @@ The general guiding concept is that these codes offer more than just a calculato
 ## Cardiovascular Calculators
 - Age calculator: `age.bat`, `age.awk`, `age.pl`
 - Body Mass Index (BMI) calculator: `bmi.awk`,`bmi.bas` (metric calculator), `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1` & `bmi-lb-inch.bas` (imperial calculator), `bmi.pl`
-- Calories to joules converter `c2j.pl`
+- Calories to joules converter `c2j.awk`, `c2j.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
 - Celsius to Fahrenheit temperature scale converter: `fahrenheit.awk` 
 - Fahrenheit to Celsius temperature scale converter: `celsius.awk`, `celsius.pl` 
 - Hip-Waiste Ratio calculator: `hip-waist.awk`, `hip-waist.pl` & `hip-waiste.rexx`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`, `kg2lb.pl`
-- Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl
+- Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl`
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.pl`, `map.py`, & `map.rexx`
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`, `mhr.awk`, `mhr.pl`
 - Pack years of cigarettes calculator: `packyr.awk`
@@ -160,7 +160,7 @@ The general guiding concept is that these codes offer more than just a calculato
 The shell scripts with `-bc` in their names require basic calculator `bc`. Most GNU/Lnux distros would ship with `bc` including Haiku bash terminal. The shell scripts with -calc in their names require `calc` calculator. The shell scripts with -echo in their names calculate via `echo` command. `-echo` files are the most basic, possibly all of the aforementioned operating systems have and distros would ship with `echo` command, `bc` is the most popular calculator, and `calc` might not be available by default. So, user may want to check dependencies, or use the version that suits them. Each version operates more or less identical two others. It is recommended to use `-bc.sh` files first for calculators as they are the most updated and they could have converters to MMSE also.
 
 ## Instructions to use AWK scripts
-- AWK works under Unix, GNU/Linux, BSD. MacOS-X, Haiku. Either on TTY or terminal type `awk -f filename.awk` and the programme will be executed
+- AWK works under Unix, GNU/Linux, BSD. MacOS-X, Haiku. Either on TTY or terminal type, type chmod +x `filename.awk` & type `awk -f filename.awk` and the programme will be executed
 - `cdr.awk` & `cdr-fltd.awk` have more strict data validation than their MS-PowerShell counterparts `cdr-pwsh.ps1` & `cdr-fltd-pwsh.ps1`
 - ECT charge & age-based calculators in AWK work better than BASH shell coutnerpart scripts. ECT Charge uses `IGNORECASE` which is typical of GNU/AWK (gAWK), if used under a different non-GNU platform consider adding `#` and space before it to comment it out. The rest of the script should not be affected.
 - `qtc.awk` is more accurate and provide more data than `qtc.bas`
@@ -169,6 +169,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `age.awk`: age calculator
 - `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
 - `bmi.awk` refers to body mass index (metric) calculator
+- `c2j.awk` calories to joules calculator
 - `cardiac-output.awk` refers to cardiac output
 - `cdr.awk` refers to Clinical Dementia Rating Scale
 - `cdr-ftld.awk` refers to Clinical Dementia Rating Scale + Frontotemporal Lobar Dementia scale
