@@ -82,6 +82,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - AcVPU score to Glasgow Coma Scale `acvpu2gcs.pl`
 - AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
 - AVPU to GCS converter: `avpu2gcs.awk`,`avpu2gcs.bat`, `avpu.pl` and `avpu.sh`
+- GCS to AcVPU score converter `gcs2acvpu.sh`
 - GCS to AVPU score converter `gcs2avpu.sh`
 - Glasgow Coma Scale Calcultator (GCS) `gcs-echo.sh`this also converts from GCS to AVPU score
 
@@ -147,6 +148,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - `fab-bc.sh` refers to Frontal Assessment Battery (FAB)
 - `gad7-bc.sh` refers to GAD-7
 - `gcs-echo.sh` refers to Glasgow Comas Scale Calculator (GCS)
+- `gcs2acvpu.sh` refers to GCS score calculator to AcVPU score converter
 - `gcs2avpu.sh` refers to GCS to AVPU score converter
 - `honos-bc.sh` refers to the Health of the Nation Outcome Scale (HoNOS) 
 - `hrsd-bs.sh`, refers to the 17-item Hamilton Depression Rating Scale (HRSD) or (HAM-D), Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry 1960; 23:56–62
