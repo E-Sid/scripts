@@ -79,6 +79,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Work & Social Adjustment Scale: `wsas.pl`
 
 ## A&E Calculators
+- AcVPU score to Glasgow Coma Scale `acvpu2gcs.pl`
 - AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
 - AVPU to GCS converter: `avpu2gcs.awk`,`avpu2gcs.bat`, `avpu.pl` and `avpu.sh`
 - GCS to AVPU score converter `gcs2avpu.sh`
@@ -208,6 +209,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ace-nosave.pl`: alculates The Addenbrooke's Cognitive Examination - III (ACE-III) score, with ACE to MMSE.
 - `acer.pl`: calculates The Addenbrooke's Cognitive Examination - Revised (ACE-R) score, M-ACE & offers file save.
 - `ace2mmse.pl`: converts the The Addenbrooke's Cognitive Examination - III (ACE-III) score to MMSE score.
+- `acvpu2gcs.pl`: AcVPU score to Glasgow Coma Scale 
 - `audit.pl`: calculates Alcohol Use Disorders Identification Test (AUDIT) score
 - `avpu2gcs.pl` converts from AVPU score to GCS score
 - `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
