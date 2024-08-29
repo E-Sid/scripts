@@ -52,6 +52,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.pl`, `cage.bas`, `cage.bat`
 - Calgary Depression Scale for Schizophrenia (CDSS): `cdss.pl`
+- Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar): `ciwa.pl`
 - Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
@@ -225,8 +226,9 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `cardiac-outut.pl` calculates the cardiac output
 - `cdr.pl` calculates the clinical dementia rating scale
 `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
-- `cdss.pl': Calgary Depression Scale for Schizophrenia (CDSS)
-- `celsius.pl` Fahrenheit to Celsius: Temperature scale converter
+- `cdss.pl`: Calgary Depression Scale for Schizophrenia (CDSS)
+- `celsius.pl`: Fahrenheit to Celsius: Temperature scale converter
+- `ciwa.pl`: Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar)
 - `ect-age.pl` is an ECT Age-based and Dose calculator
 - `ect-charge.pl` is an` ECT charge & titration calculator
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
