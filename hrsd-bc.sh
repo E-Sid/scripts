@@ -1,6 +1,6 @@
 #/!/bin/bash
 
-echo "Hamilton Depression Rating Scale (HRSD)"
+echo "Hamilton Depression Rating Scale (HRSD-17)"
 echo "======================================="
 echo "Depressed mood [0-4]"
 while :; do
