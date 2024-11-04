@@ -221,6 +221,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `bai.pl`: Beck Anxiety Inventory (BAI) calculator
 - `bdi.pl`: is Beck Depression Inventory (BDI) score calculator
 - `bmi.pl` calculates the BMI
+- `bmi-lb-inch.pl`: calculates the imperial BMI
 - `bprs.pl` calculates the Brief Psychiatric Rating Scale
 - `c2j.pl` converts calories to joules
 - `cage.pl`: calculates CAGE Questionnaire
