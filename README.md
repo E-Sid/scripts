@@ -89,7 +89,7 @@ The general guiding concept is that these codes offer more than just a calculato
 
 ## Cardiovascular Calculators
 - Age calculator: `age.bat`, `age.awk`, `age.pl`
-- Body Mass Index (BMI) metric calculator: `bmi.awk`,`bmi.bas`  `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1`, & `bmi.pl`
+- Body Mass Index (BMI) metric calculator: `bmi.awk`,`bmi.bas`, `bmi.bat`, `bmi.rexx`, `bmi.py`, `bmi-pwsh.ps1`, & `bmi.pl`
 - Body Mass Index (BMI) imperial calculator `bmi-lb-inch.bas`, `bmi-lb-inch.pl` 
 - Calories to joules converter `c2j.awk`, `c2j.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
@@ -340,6 +340,7 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 -  `age.bat`: Age calculator
 - `avpu.bat` refers to AVPU score 
 - `avpu2gcs.bat` refer to AVPU to GCS converter
+- `bmi.bat` BMI calculator
 - `cage.bat` refers to CAGE Questionnaire for alcohol dependence
 - `cardiac.bat` refers to cardiac output calculator.
 - `ect-age.bat` refers to ECT dose calculation via Age-Based Method & Half Age-Based Method.
