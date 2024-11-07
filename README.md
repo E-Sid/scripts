@@ -16,7 +16,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - ACE-III to MMSE converter: `ace2mmse.pl`, `ace-mmse-converter.sh`
  - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`, `amts.pl`
  - Abbreviated Mental Test-4 (AMT4): `amt4.pl`, `amt4-bc.sh` & `amt4.bas`
- - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.pl`
+ - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.bat`, & `4at.pl`
  - Assessment of Parkinsonism: `updrs.pl`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
@@ -336,7 +336,8 @@ These scripts are written in REXX. It could be used for z/OS, Unix, GNU/Linux (v
 ## FreeDOS
 [FreeDOS](https://www.freedos.org/) is licensed under GNU/GPL-3
 
-- `age.bat`: Age calculator
+-`4at.bat`: 4AT test
+-  `age.bat`: Age calculator
 - `avpu.bat` refers to AVPU score 
 - `avpu2gcs.bat` refer to AVPU to GCS converter
 - `cage.bat` refers to CAGE Questionnaire for alcohol dependence
