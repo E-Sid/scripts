@@ -63,7 +63,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
 - Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
 - Hamilton Anxiety Rating Scale (HAM-A): `hama.pl`
-- Hamilton Depression Rating Scale (HDRS): `hrsd-bs.sh`, `hdrs21.pl`, `hdrs17.pl`
+- Hamilton Depression Rating Scale (HDRS): `hrsd-bs.sh`, `hdrs21.pl`, `hdrs17.pl`, `hdrs7.pl`
 - Health of The Nation Ouctome Scale (HoNOS): `honos.pl`, `honos-bc.sh`
 - Health of The Nation Ouctome Scale 65+ (HoNOS65+): `honos65.pl`
 - Health of The Nation Ouctome Scale - Acquired Brain Injry (HoNOS-ABI): `honosabi.pl`
@@ -238,6 +238,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `fab.pl`: Frontal Assessment Battery (FAB)
 - `gad7.pl`: Generalised Anxiety Disroder (GAD-7) Assessment
 - `hama.pl`: Hamilton Anxiety Rating Scale (HAM-A)
+- `hdrs7.pl`: Hamilton Depression Rating Scale (HDRS-7)
 - `hdrs17.pl`: Hamilton Depression Rating Scale (HDRS-17)
 - `hdrs21.pl`: Hamilton Depression Rating Scale (HDRS-21)
 - `his.pl`: is Hachinski Ischaemic Score (HIS) calculator
