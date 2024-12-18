@@ -49,7 +49,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Bristol Activities of Daily Living Scale calculator: `badls.pl`
 - Beck Anxiety Inventory (BAI) calculator: `bai.pl`
 - Beck Depression Inventory (BDI) score calculator: `bdi.pl`
-- Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
+- Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs.awk` `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - CAGE Questionnaire: `cage.pl`, `cage.bas`, `cage.bat`
 - Calgary Depression Scale for Schizophrenia (CDSS): `cdss.pl`
 - Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar): `ciwa.pl`
@@ -174,6 +174,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `age.awk`: age calculator
 - `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
 - `bmi.awk` refers to body mass index (metric) calculator
+- `bprs.awk`  Brief Psychiatric Rating Scale (BPRS)
 - `c2j.awk` calories to joules calculator
 - `cardiac-output.awk` refers to cardiac output
 - `cdr.awk` refers to Clinical Dementia Rating Scale
