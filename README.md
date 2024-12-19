@@ -50,11 +50,12 @@ The general guiding concept is that these codes offer more than just a calculato
 - CAGE Questionnaire: `cage.pl`, `cage.bas`, `cage.bat`
 - Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar): `ciwa.pl`
 
+### Psychopathology rating scales
+- Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs.awk` `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 
-
+### Mood and anxiety disorders rating scales
 - Beck Anxiety Inventory (BAI) calculator: `bai.pl`
 - Beck Depression Inventory (BDI) score calculator: `bdi.pl`
-- Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs.awk` `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
 - Calgary Depression Scale for Schizophrenia (CDSS): `cdss.pl`
 - Generalised Anxiety Disorder (GAD-7) Assessment: `gad7.pl`, `gad7-bc.sh`
 - Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
@@ -84,7 +85,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
-- Ohm's law `ohms-law.rexx`, `ohms-law.bas`, `ohmslaw.pl`
+- Ohm's law `ohms-law.rexx`, `ohms-law.bas`, `ohmslaw.awk`, `ohmslaw.pl`
 - ECT Power Calculator in watts `power.rexx`
 - ECT Energy Calculator in joules `energy.rexx`
 - Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
@@ -206,6 +207,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `mhr.awk`: Maximum Heart Rate Calculator
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 - `moca-mis-awk` calculates the Memory Index Score (MIS) of the Montreal Cognitive Examination (MocA) or MoCA-Blind
+- `ohmslaw.awk` calculates volts, current, resistance according to Ohm's law
 - `packyr.awk` pack years of cigarettes calculator
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rectangle.awk` calculates the area of a rectangle
