@@ -45,39 +45,50 @@ The general guiding concept is that these codes offer more than just a calculato
  - Dementia algorithm from the [WHO mhGAP](https://www.who.int/publications/i/item/9789241549790) version 2.0 website `mhgap-dementia.awk`, `mhgap.pl`.
  
  ## Psychiatric Rating Scales
+ ### Alcohol Use Assessment scales
 - Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.pl`, `audit.rexx`
-- Bristol Activities of Daily Living Scale calculator: `badls.pl`
+- CAGE Questionnaire: `cage.pl`, `cage.bas`, `cage.bat`
+- Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar): `ciwa.pl`
+
+
+
 - Beck Anxiety Inventory (BAI) calculator: `bai.pl`
 - Beck Depression Inventory (BDI) score calculator: `bdi.pl`
 - Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs.awk` `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
-- CAGE Questionnaire: `cage.pl`, `cage.bas`, `cage.bat`
 - Calgary Depression Scale for Schizophrenia (CDSS): `cdss.pl`
-- Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar): `ciwa.pl`
-- Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
-- ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
-- ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
-- Ohm's law `ohms-law.rexx`, `ohms-law.bas`
-- ECT Power Calculator in watts `power.rexx`
-- ECT Energy Calculator in joules `energy.rexx`
-- Generalised Anxiety Disroder (GAD-7) Assessment: `gad7.pl`, `gad7-bc.sh`
+- Generalised Anxiety Disorder (GAD-7) Assessment: `gad7.pl`, `gad7-bc.sh`
 - Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
 - Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
 - Hamilton Anxiety Rating Scale (HAM-A): `hama.pl`
 - Hamilton Depression Rating Scale (HDRS): `hrsd-bs.sh`, `hdrs21.pl`, `hdrs17.pl`, `hdrs7.pl`
-- Health of The Nation Ouctome Scale (HoNOS): `honos.pl`, `honos-bc.sh`
-- Health of The Nation Ouctome Scale 65+ (HoNOS65+): `honos65.pl`
-- Health of The Nation Ouctome Scale - Acquired Brain Injry (HoNOS-ABI): `honosabi.pl`
-- Health of The Nation Ouctome Scale - Child & Adolescent Mental Health (HoNOSCA): `honosca.pl`
-- Health of The Nation Ouctome Scale - Secure (HoNOS-Secure): `honos-secure.pl`
 - Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score Calculator: `madrs.pl`
 - Patient Health Questionnaire (PHQ-4): `phq4.pl`
 - Patient Health Questionnaire (PHQ-8): `phq8.pl`
 - Patient Health Questionnaire (PHQ-9) Depression: `phq9.pl`
 - Rating Anxiety in Dementia (RAID): `raid.pl`
-- Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
-- Rockwood Clinical Frailty Scale: `cfs.awk`
 - SADPERSONS scale calculator: `sadpersons.pl`
+
+## Psychosocial Assessments
 - Work & Social Adjustment Scale: `wsas.pl`
+- Bristol Activities of Daily Living Scale calculator: `badls.pl`
+- Rockwood Clinical Frailty Scale: `cfs.awk`
+ 
+### Health of the Nation Outcome Scale
+- Health of The Nation Ouctome Scale (HoNOS): `honos.pl`, `honos-bc.sh`
+- Health of The Nation Ouctome Scale 65+ (HoNOS65+): `honos65.pl`
+- Health of The Nation Ouctome Scale - Acquired Brain Injry (HoNOS-ABI): `honosabi.pl`
+- Health of The Nation Ouctome Scale - Child & Adolescent Mental Health (HoNOSCA): `honosca.pl`
+- Health of The Nation Ouctome Scale - Secure (HoNOS-Secure): `honos-secure.pl`
+
+### ECT & Neurostimulation
+- Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
+- ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
+- ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
+- Ohm's law `ohms-law.rexx`, `ohms-law.bas`, `ohmslaw.pl`
+- ECT Power Calculator in watts `power.rexx`
+- ECT Energy Calculator in joules `energy.rexx`
+- Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
+
 
 ## A&E Calculators
 - AcVPU score to Glasgow Coma Scale `acvpu2gcs.pl`
@@ -264,6 +275,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `moca-5-min.pl`refers to Montreal Cognitive Assessment 5-minute protocol
 - `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
 - `neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
+- `ohmslaw.pl`: Calculates Ohm's law, select the parameter you want to calculate and enter the other two, it will calculate the third
 - `phq4.pl`: Patient Health Questionnaire (PHQ-4)
 - `phq8.pl`: Patient Health Questionnaire (PHQ-8)
 - `phq9.pl`: Patient Health Questionnaire (PHQ-9) Depression
