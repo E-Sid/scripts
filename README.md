@@ -87,7 +87,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
 - Ohm's law `ohms-law.rexx`, `ohms-law.bas`, `ohmslaw.awk`, `ohmslaw.pl`
 - ECT Power Calculator in watts `power.rexx`
-- ECT Energy Calculator in joules `energy.rexx`
+- ECT Energy Calculator in joules `energy.rexx`, `energy.pl`
 - Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
 
 
@@ -252,6 +252,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ect-age.pl` is an ECT Age-based and Dose calculator
 - `ect-charge.pl` is an` ECT charge & titration calculator
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
+- `energy.pl`: energy calculator in joules for ECT
 - `fab.pl`: Frontal Assessment Battery (FAB)
 - `gad7.pl`: Generalised Anxiety Disroder (GAD-7) Assessment
 - `hama.pl`: Hamilton Anxiety Rating Scale (HAM-A)
