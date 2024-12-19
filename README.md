@@ -46,7 +46,7 @@ The general guiding concept is that these codes offer more than just a calculato
  
  ## Psychiatric Rating Scales
  ### Alcohol Use Assessment scales
-- Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.pl`, `audit.rexx`
+- Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.pl`, `audit.rexx`, `audit.awk`
 - CAGE Questionnaire: `cage.pl`, `cage.bas`, `cage.bat`
 - Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar): `ciwa.pl`
 
@@ -188,6 +188,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `amt4.awk`: Abbreviated Mental Test-4 (AMT4)
 - `age.awk`: age calculator
 - `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
+- `audit.awk`: AUDIT tool for assessment of alcohol intake
 - `bmi.awk` refers to body mass index (metric) calculator
 - `bprs.awk`  Brief Psychiatric Rating Scale (BPRS)
 - `c2j.awk` calories to joules calculator
