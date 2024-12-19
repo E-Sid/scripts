@@ -15,7 +15,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, `m-ace-pwsh.ps1`, & `mace.pl`
  - ACE-III to MMSE converter: `ace2mmse.pl`, `ace-mmse-converter.sh`
  - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`, `amts.pl`
- - Abbreviated Mental Test-4 (AMT4): `amt4.pl`, `amt4-bc.sh` & `amt4.bas`
+ - Abbreviated Mental Test-4 (AMT4): `amt4.pl`, `amt4.awk`, `amt4-bc.sh` & `amt4.bas`
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.bat`, `4at.awk` & `4at.pl`
  - Assessment of Parkinsonism: `updrs.pl`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
@@ -184,6 +184,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 
 ### List AWK scripts
 - `4at.awk`: 4AT delirium test
+- `amt4.awk`: Abbreviated Mental Test-4 (AMT4)
 - `age.awk`: age calculator
 - `avpu2gcs.awk` is an AVPU score calculator and converter to Glasgow Coma Scale (GCS)
 - `bmi.awk` refers to body mass index (metric) calculator
