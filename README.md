@@ -18,8 +18,8 @@ The general guiding concept is that these codes offer more than just a calculato
  - Abbreviated Mental Test-4 (AMT4): `amt4.pl`, `amt4.awk`, `amt4-bc.sh` & `amt4.bas`
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.bat`, `4at.awk` & `4at.pl`
  - Assessment of Parkinsonism: `updrs.pl`
- - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, & `cbi-echo.sh`, 
- - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, & `cbi-r-pwsh.ps1`
+ - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, `cbi-echo.sh`, & `cbi.pl` 
+ - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, `cbi-r-pwsh.ps1`, & `cbir.pl`
  - Clinical Dementia Rating Scale `cdr-pwsh.ps1`, `cdr.awk`, `cdr.pl`
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`, `cdr-ftld.pl`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
@@ -244,6 +244,8 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `c2j.pl` converts calories to joules
 - `cage.pl`: calculates CAGE Questionnaire
 - `cardiac-outut.pl` calculates the cardiac output
+- `cbi.pl`: Cambridge Behavioural Inventory
+- `cbir.pl`@ Cambridge Behavioural Inventory - Revised (CBI-R)
 - `cdr.pl` calculates the clinical dementia rating scale
 `cdr-ftld.pl` calculates Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD)
 - `cdss.pl`: Calgary Depression Scale for Schizophrenia (CDSS)
