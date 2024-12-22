@@ -18,6 +18,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Abbreviated Mental Test-4 (AMT4):`amt4.awk`, `amt4-bc.sh` & `amt4.bas`, `amt4.pl`, 
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.bat`, `4at.awk` & `4at.pl`
  - Assessment of Parkinsonism: `updrs.pl`
+ - Brief Cognitive Rating Scale: `bcrs.pl`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, `cbi-echo.sh`, & `cbi.pl` 
  - Cambridge Behavioural Inventory - Revised (CBI-R): `cbi-r-bc.sh` `cbi-r-calc.sh`, `cbi-r-echo.sh`, `cbi-r-pwsh.ps1`, & `cbir.pl`
  - Clinical Dementia Rating Scale `cdr-pwsh.ps1`, `cdr.awk`, `cdr.pl`
@@ -237,6 +238,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
 - `badls.pl`: Bristol Activities of Daily Living Scale calculator
 - `bai.pl`: Beck Anxiety Inventory (BAI) calculator
+- `bcrs.pl`: Brief Cognitive Rating Scale (BCRS)
 - `bdi.pl`: is Beck Depression Inventory (BDI) score calculator
 - `bmi.pl` calculates the BMI
 - `bmi-lb-inch.pl`: calculates the imperial BMI
