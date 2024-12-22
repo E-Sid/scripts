@@ -10,12 +10,12 @@ The general guiding concept is that these codes offer more than just a calculato
 *List of scripts*
 
 ## Cognitive Tests:
- - Addenbrooke's Cognitive Examination (ACE-III): `ace.pl` (most up-to-date, with ACE to MMSE converter),  `ace-iii-bc.sh` (most up-to-date in shell scripts), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, & `ace-pwsh.ps1`
- - Addenbrooke's Cognitive Examination - Revised (ACE-R): `acer.pl`, `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`, `ace-nosave.pl`
+ - Addenbrooke's Cognitive Examination (ACE-III): `ace-iii-bc.sh` (most up-to-date in shell scripts), `ace-bc.sh`, `ace-calc.sh`, `ace-echo.sh`, `ace-pwsh.ps1`, & `ace.pl` (most up-to-date, with ACE to MMSE converter),
+ - Addenbrooke's Cognitive Examination - Revised (ACE-R):  `ace-r-bc.sh`, `ace-r-calc.sh`, `ace-r-echo.sh`, & `ace-r-pwsh.ps1`, `ace-nosave.pl`, `acer.pl`
  - Mini-Addenbrooke's Cognitive Examination (M-ACE): `m-ace-bc.sh`, `mace.sh`, `m-ace-calc.sh`, `m-ace-echo.sh`, `m-ace-pwsh.ps1`, & `mace.pl`
- - ACE-III to MMSE converter: `ace2mmse.pl`, `ace-mmse-converter.sh`
- - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`, `amts.pl`, `amt.awk`
- - Abbreviated Mental Test-4 (AMT4): `amt4.pl`, `amt4.awk`, `amt4-bc.sh` & `amt4.bas`
+ - ACE-III to MMSE converter: `ace-mmse-converter.sh`, `ace2mmse.pl`,
+ - Abbreviated Mental Test Score (AMTS): `amts-bc.sh`, `amt.awk`, `amts.pl`
+ - Abbreviated Mental Test-4 (AMT4):`amt4.awk`, `amt4-bc.sh` & `amt4.bas`, `amt4.pl`, 
  - Assessment test for delirium & cognitive impairment (4AT): `4at.rexx`, `4at.bat`, `4at.awk` & `4at.pl`
  - Assessment of Parkinsonism: `updrs.pl`
  - Cambridge Behavioural Inventory (CBI): `cbi-bc.sh`, `cbi-calc.sh`, `cbi-echo.sh`, & `cbi.pl` 
@@ -24,7 +24,7 @@ The general guiding concept is that these codes offer more than just a calculato
  - Clinical Dementia Rating, Clinical Dementia Rating + National Alzheimer's Disease Coordinating Centre (NACC) Frontotemporal Lobar Degeneration (CDR-FTLD): `cdr-ftld-pwsh.ps1`, `cdr-ftld.pl`
  - Dementia Severity Rating Scale (DSRS): `dsrs.rexx`
  - Free-Cog Examination (Free-Cog): `free-cog-bc.sh`
- - Frontal Assessment Battery (FAB): `fab.pl`, `fab-bc.sh` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
+ - Frontal Assessment Battery (FAB): `fab-bc.sh`, `fab.pl` Bubois, B. ; Litvan, I.; The FAB: A frontal assessment battery at bedside. _Neurology_. 55(11):1621-1626, 
  - Hachinski Ischaemic Score (HIS): `his.rexx`, `his.pl`
  - Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE): `iqcode.pl`
  - Retrospective Form of the Informant Questionnaire on Cognitive Decline in the Elderly (Retrospective IQCODE): `iqcoder.pl`
@@ -46,18 +46,18 @@ The general guiding concept is that these codes offer more than just a calculato
  
  ## Psychiatric Rating Scales
  ### Alcohol Use Assessment scales
-- Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.pl`, `audit.rexx`, `audit.awk`
-- CAGE Questionnaire: `cage.pl`, `cage.bas`, `cage.bat`
+- Alcohol Use Disorders Identification Test (AUDIT) calculator: `audit.rexx`, `audit.awk`, `audit.pl`
+- CAGE Questionnaire: `cage.bas`, `cage.bat`, `cage.pl`
 - Clinical Institute Withdrawal Assessment for Alcohol–Revised (CIWA-Ar): `ciwa.pl`
 
 ### Psychopathology rating scales
-- Brief Psychiatric Rating Scale (BPRS): `bprs.pl`, `bprs.awk` `bprs-bc.sh`, `bprs-calc.sh`, and `bprs-echo.sh`
+- Brief Psychiatric Rating Scale (BPRS): `bprs.awk` `bprs-bc.sh`, `bprs-calc.sh`, `bprs-echo.sh` & `bprs.pl`
 
 ### Mood and anxiety disorders rating scales
 - Beck Anxiety Inventory (BAI) calculator: `bai.pl`
 - Beck Depression Inventory (BDI) score calculator: `bdi.pl`
 - Calgary Depression Scale for Schizophrenia (CDSS): `cdss.pl`
-- Generalised Anxiety Disorder (GAD-7) Assessment: `gad7.pl`, `gad7-bc.sh`
+- Generalised Anxiety Disorder (GAD-7) Assessment: `gad7-bc.sh`, `gad7.pl`
 - Geriatric Depression Scale (15-item) (GDS-15) `gds-15.bat`
 - Geriatric Depression Scale (4-item) (GDS-4) `gds-4.bat`
 - Hamilton Anxiety Rating Scale (HAM-A): `hama.pl`
@@ -82,7 +82,7 @@ The general guiding concept is that these codes offer more than just a calculato
 - Health of The Nation Ouctome Scale - Secure (HoNOS-Secure): `honos-secure.pl`
 
 ### ECT & Neurostimulation
-- Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.pl` & `ect-age.bat`
+- Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.bat` & `ect-age.pl`
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
 - Ohm's law `ohms-law.rexx`, `ohms-law.bas`, `ohmslaw.awk`, `ohmslaw.pl`
@@ -93,7 +93,7 @@ The general guiding concept is that these codes offer more than just a calculato
 
 ## A&E Calculators
 - AcVPU score to Glasgow Coma Scale `acvpu2gcs.pl`
-- AVPU score: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
+- AVPU score to GCS: `avpu2gcs.awk` `avpu.bat` and `avpu.sh`
 - AVPU to GCS converter: `avpu2gcs.awk`,`avpu2gcs.bat`, `avpu.pl` and `avpu.sh`
 - GCS to AcVPU score converter `gcs2acvpu.sh`
 - GCS to AVPU score converter `gcs2avpu.sh`
@@ -107,10 +107,10 @@ The general guiding concept is that these codes offer more than just a calculato
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
 - Celsius to Fahrenheit temperature scale converter: `fahrenheit.awk` 
 - Fahrenheit to Celsius temperature scale converter: `celsius.awk`, `celsius.pl` 
-- Hip-Waiste Ratio calculator: `hip-waist.awk`, `hip-waist.pl` & `hip-waiste.rexx`
+- Hip-Waiste Ratio calculator: `hip-waist.awk`,  `hip-waiste.rexx`, `hip-waist.pl`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`, `kg2lb.pl`
 - Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl`
-- Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.pl`, `map.py`, & `map.rexx`
+- Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, `map.rexx`, `map.pl`
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`, `mhr.awk`, `mhr.pl`
 - Pack years of cigarettes calculator: `packyr.awk`
 - Target Heart Rate (THR) calculator `thr.pl`according to [CDC](https://www.cdc.gov/physicalactivity/basics/measuring/heartrate.htm)
