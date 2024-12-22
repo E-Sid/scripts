@@ -6,94 +6,95 @@ use warnings;
 # CBI score items, subroutine (pronoun they/their/them added in square brackets)
 sub calculate_cbi_total_score {
     my @cbi_items = (
-        'Memory: 1. Forgets to pass on phone messages',
-        'Memory: 2. Has poor day-to-day memory (e.g. about conversations, trips etc.)',
-	'Memory: 3. Asks the same question over and over again',
-	'Memory: 4. Loses or misplaces things',
-	'Memory: 5. Forgets the names of familiar people',
-	'Memory: 6. Forgets the names of objects and things',
-	'Orientation & attention:  7. Has difficulty completing activities once started',
-	'Orientation & attention:  8. Shows poor concentration when reading or watching television',
-	'Orientation & attention:  9. Forgets what day it is',
-	'Orientation & attention: 10. Forgets what time of day it is',
-	'Orientation & attention: 11. Gets the present mixed up with past situations',
-	'Orientation & attention: 12. Becomes confused or muddled in unusual surroundings',
-	'Orientation & attention: 13. Gets lost inside the house',
-	'Everyday Skills: 14. Has difficulties using electrical appliances (e.g. TV, radio, cooker, washing machine)',
-	'Everyday skills: 15. Has problems preparing meals',
-	'Everyday skills: 16. Has difficulties writing (letters, Christmas cards, lists etc.)',
-	'Everyday skills: 17. Has difficulties using the telephone',
-	'Everyday skills: 18. Has difficulties making a hot drink (e.g. tea/coffee)',
-	'Everyday skills: 19. Has difficulties shopping',
-	'Everyday skills: 20. Has problems handling money or paying bills',
-	'Everyday skills: 21. Has difficulties with household chores',
-	'Self care: 22. Has difficulties travelling to places by self (either by driving or on public transportation',
-	'Self care: 23. Has difficulties grooming self (e.g. shaving or putting on make-up)',
-	'Self care: 24. Has difficulties dressing self',
-	'Self care: 25. Has problems feeding self without assistance',
-	'Self care: 26. Has problems bathing or showering self',
-	'Self care: 27. Has difficulties using toilet by self',
-	'Self care: 28. Wets self with urine',
-	'Mood: 29. Cries',
-	'Mood: 30. Appears sad or depressed',
-	'Mood: 31. Is anxious or fearful',
-	'Mood: 32. Is very restless or agitated',
-	'Mood: 33. Is very irritable',
-	'Mood: 34. Has rapid shifts between different emotions',
-	'Mood: 35. Appears inappropriately cheerful',
-	'Mood: 36. Talks big e.g. claims more welath than true',
-	'Mood: 37. Finds humour or laughs at things others do not find funny',
-	'Beliefs: 38. Is suspicious or accusative',
-	'Beliefs: 39. Sees things that are not really there (visual hallucinations)',
-	'Beliefs: 40. Hears voices that are not really there (auditory hallucinations)',
-	'Beliefs: 41. Has odd or bizarre ideas that cannot be true',
-	'Beliefs: 42. Believs that additional people are living in the house',
-	'Beliefs: 43 Thinks that a family member has been replaced by an impostor',
-	'Beliefs: 44. Thinks that people on the TV are actually in the room',
-	'Challenging behaviour: 45. Has temper outbursts',
-	'Challenging behaviour: 46. Threatens to harm self/others or property',
-	'Challenging behaviour: 47. Is uncooperative when asked to do something',
-	'Challenging behaviour: 48. Disturbs others by shouting or yelling',
-	'Disinhibition: 49. Shows socially embarassing behaviour',
-	'Disinhibition: 50. Makes tactless or suggestive remarks',
-	'Disnihibition: 51. Displays suggestive behaviour (e.g. touching inappropriately)',
-	'Disinhibition: 52. Acts impulsively without thinking',
-	'Disnihibition: 53. Talks to total strangers as if they know them',
-	'Eating habits: 54. Prefers sweet foods more than before',
-	'Eating habits: 55. Wants to eat the same foods repeatedly',
-	'Eating habits: 56. Her/his appetite is greater, s/he/[they] eat[s] more than before',
-	'Eating habits: 57. Table manners are declining eg stuffing food into mouth',
-	'Eating Habits: 58. Eats non-edible foodstuffs or things not normally eaten',
-	'Sleep: 59. Sleep is disturbed at night',
-	'Sleep: 60. Sleeps more by day than before (cat naps etc.)',
-	'Stereotypic & motor behaviours: 61. Is rigid in her/his/[their] ideas and opinions',
-	'Stereotypic & motor behaviours: 62. Develops routines from which s/he/[they] cannot easily be discouraged eg wanting to eat or go for walks at fixed times',
-	'Stereotypic & motor behaviours: 63. Exhibits rituals eg takes the same route across the kitchen, only steps on certain floor tiles',
-	'Stereotypic & motor behaviours: 64. Clock watches or appears pre-occupied with time',
-	'Sterotypic & motor behaviours: 65. Appears pre-occupied with counting, numbers, puzzles or jigsaws',
-	'Stereotypic & motor behaviours: 66. Takes, hides or heards things, or packs away special items',
-	'Stereotypic & motor behaviours: 67. Repeatedly uses the same expression or catch phrase',
-	'Stereotypic & motor mehaviours: 68. S/he/[they] immediately repeat[s] words and sentences that you or others have just said (echolalia)',
-	'Stereotypic & motor behaviours: 69. Paces around without purpose',
-	'Stereotypic & motor behaviours: 70. Rummages around excessively',
-	'Stereotypic & motor behaviours: 71. S/he/[they] fidget[s] (eg bounces, taps feet/hands) a lot',
-	'Motivation: 72. Shows less enthusiasm for her/his/[their] usual interests',
-	'Motivation: 73. Shows little interest in doing new things',
-	'Motivation: 74. Requires nagging to start activities and chores',
-	'Motivation: 75. Shows no interest in attending social functions',
-	'Motivation: 76. Fails to maintain motivation to keep in contact with friends and family',
-	'Motivation: 77. Withdraws from others, fails to start conversations',
-	'Motivation: 78. Appears indifferent to the worries and concerns of family members',
-	'Motivation: 79. Shows reduced affection',
-	'Insight/Awareness: 80. Shows insight into changes in behaviour and personality (if appropriate)',
-	'Insight/Awareness: 81. Shows insight into memory problems'
+        '01. Memory: Forgets to pass on phone messages',
+        '02. Memory: Has poor day-to-day memory (e.g. about conversations, trips etc.)',
+	'03. Memory: Asks the same question over and over again',
+	'04. Memory: Loses or misplaces things',
+	'05. Memory: Forgets the names of familiar people',
+	'06. Memory: Forgets the names of objects and things',
+	'07. Orientation & attention: Has difficulty completing activities once started',
+	'08. Orientation & attention:Shows poor concentration when reading or watching television',
+	'09. Orientation & attention: Forgets what day it is',
+	'10. Orientation & attention: Forgets what time of day it is',
+	'11. Orientation & attention: Gets the present mixed up with past situations',
+	'12. Orientation & attention: Becomes confused or muddled in unusual surroundings',
+	'13. Orientation & attention: Gets lost inside the house',
+	'14. Everyday Skills: Has difficulties using electrical appliances (e.g. TV, radio, cooker, washing machine)',
+	'15. Everyday skills: Has problems preparing meals',
+	'16. Everyday skills: Has difficulties writing (letters, Christmas cards, lists etc.)',
+	'17. Everyday skills: Has difficulties using the telephone',
+	'18. Everyday skills: Has difficulties making a hot drink (e.g. tea/coffee)',
+	'19. Everyday skills: Has difficulties shopping',
+	'20. Everyday skills: Has problems handling money or paying bills',
+	'21. Everyday skills: Has difficulties with household chores',
+	'22. Self care: Has difficulties travelling to places by self (either by driving or on public transportation',
+	'23. Self care: Has difficulties grooming self (e.g. shaving or putting on make-up)',
+	'24. Self care: Has difficulties dressing self',
+	'25. Self care: Has problems feeding self without assistance',
+	'26. Self care: Has problems bathing or showering self',
+	'27. Self care: Has difficulties using toilet by self',
+	'28. Self care: Wets self with urine',
+	'29. Mood: Cries',
+	'30. Mood: Appears sad or depressed',
+	'31. Mood: Is anxious or fearful',
+	'32. Mood: Is very restless or agitated',
+	'33. Mood: Is very irritable',
+	'34. Mood: Has rapid shifts between different emotions',
+	'35. Mood: Appears inappropriately cheerful',
+	'36. Mood: Talks big e.g. claims more welath than true',
+	'37. Mood: Finds humour or laughs at things others do not find funny',
+	'38. Beliefs: Is suspicious or accusative',
+	'39. Beliefs: Sees things that are not really there (visual hallucinations)',
+	'40. Beliefs: Hears voices that are not really there (auditory hallucinations)',
+	'41. Beliefs: Has odd or bizarre ideas that cannot be true',
+	'42. Beliefs: Believs that additional people are living in the house',
+	'43. Beliefs: Thinks that a family member has been replaced by an impostor',
+	'44. Beliefs: Thinks that people on the TV are actually in the room',
+	'45. Challenging behaviour: Has temper outbursts',
+	'46. Challenging behaviour: Threatens to harm self/others or property',
+	'47. Challenging behaviour: Is uncooperative when asked to do something',
+	'48. Challenging behaviour: 48. Disturbs others by shouting or yelling',
+	'49. Disinhibition: Shows socially embarassing behaviour',
+	'50. Disinhibition: Makes tactless or suggestive remarks',
+	'51. Disnihibition: Displays suggestive behaviour (e.g. touching inappropriately)',
+	'52. Disinhibition: Acts impulsively without thinking',
+	'53. Disnihibition: Talks to total strangers as if they know them',
+	'54. Eating habits: Prefers sweet foods more than before',
+	'55. Eating habits: Wants to eat the same foods repeatedly',
+	'56. Eating habits: Her/his appetite is greater, s/he/[they] eat[s] more than before',
+	'57. Eating habits: Table manners are declining eg stuffing food into mouth',
+	'58. Eating Habits: Eats non-edible foodstuffs or things not normally eaten',
+	'59. Sleep: Sleep is disturbed at night',
+	'60. Sleep: Sleeps more by day than before (cat naps etc.)',
+	'61. Stereotypic & motor behaviours: Is rigid in her/his/[their] ideas and opinions',
+	'62. Stereotypic & motor behaviours: Develops routines from which s/he/[they] cannot easily be discouraged eg wanting to eat or go for walks at fixed times',
+	'63. Stereotypic & motor behaviours: Exhibits rituals eg takes the same route across the kitchen, only steps on certain floor tiles',
+	'64. Stereotypic & motor behaviours: Clock watches or appears pre-occupied with time',
+	'65. Stereotypic & motor behaviours: Appears pre-occupied with counting, numbers, puzzles or jigsaws',
+	'66. Stereotypic & motor behaviours: Takes, hides or heards things, or packs away special items',
+	'67. Stereotypic & motor behaviours: Repeatedly uses the same expression or catch phrase',
+	'68. Stereotypic & motor mehaviours: S/he/[they] immediately repeat[s] words and sentences that you or others have just said (echolalia)',
+	'69. Stereotypic & motor behaviours: Paces around without purpose',
+	'70. Stereotypic & motor behaviours: Rummages around excessively',
+	'71. Stereotypic & motor behaviours: S/he/[they] fidget[s] (eg bounces, taps feet/hands) a lot',
+	'72. Motivation: Shows less enthusiasm for her/his/[their] usual interests',
+	'73. Motivation: Shows little interest in doing new things',
+	'74. Motivation: Requires nagging to start activities and chores',
+	'75. Motivation: Shows no interest in attending social functions',
+	'76. Motivation: Fails to maintain motivation to keep in contact with friends and family',
+	'77. Motivation: Withdraws from others, fails to start conversations',
+	'78. Motivation: Appears indifferent to the worries and concerns of family members',
+	'79. Motivation: Shows reduced affection',
+	'80. Insight/Awareness: Shows insight into changes in behaviour and personality (if appropriate)',
+	'81. Insight/Awareness: Shows insight into memory problems'
 	# Add more items as needed
     );
 
     my %cbi_scores;
 
     # Get user input for each CBI item
-    foreach my $item (@cbi_items) {
+    foreach my $item (sort @cbi_items) {
+# added sort
         my $valid_input = 0;
 
         while (!$valid_input) {
@@ -113,7 +114,7 @@ sub calculate_cbi_total_score {
 
     # Calculate total CBI score
     my $total_score = 0;
-    foreach my $item_score (values %cbi_scores) {
+    foreach my $item_score (sort values %cbi_scores) {
         $total_score += $item_score;
     }
 
@@ -130,7 +131,7 @@ sub save_result_to_file {
     open my $fh, '>', $filename or die "Cannot open file '$filename' for writing: $!";
 
     print $fh "CBI item scores:\n";
-    for my $item (keys %scores) {
+    for my $item (sort keys %scores) {
         print $fh "$item: $scores{$item}\n";
     }
     print $fh "\nTotal CBI score: $scores{total_score}\n";
@@ -169,7 +170,7 @@ my $save_option = lc(<STDIN>);
 chomp($save_option);
 
 if ($save_option eq 'yes') {
-    save_result_to_file(%cbi_scores);
+    save_result_to_file(%cbi_scores) && exit print "saved\n"
 }
 elsif ($save_option eq 'no') {exit print "not saved\n"
 				
