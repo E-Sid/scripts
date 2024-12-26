@@ -100,7 +100,7 @@ Each code strives to abide by Unix philosophy _'Do one thing and do it well'_
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
 - Ohm's law `ohms-law.rexx`, `ohms-law.bas`, `ohmslaw.awk`, `ohmslaw.pl`
-- ECT Power Calculator in watts `power.rexx`
+- ECT Power Calculator in watts `power.rexx`, `power.awk`
 - ECT Energy Calculator in joules `energy.rexx`, `energy.pl`
 - Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
 
@@ -226,6 +226,7 @@ The shell scripts with `-bc` in their names require basic calculator `bc`. Most 
 - `moca-5-min.awk`refers to Montreal Cognitive Assessment 5-minute protocol
 - `moca-mis-awk` calculates the Memory Index Score (MIS) of the Montreal Cognitive Examination (MocA) or MoCA-Blind
 - `ohmslaw.awk` calculates volts, current, resistance according to Ohm's law
+- `power.awk` calculates power in watts
 - `packyr.awk` pack years of cigarettes calculator
 - `qtc.awk` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko
 - `rectangle.awk` calculates the area of a rectangle
