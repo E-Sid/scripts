@@ -2,40 +2,43 @@
 use strict;
 use warnings;
 
-# Function to get valid numeric input from the user
+# Subroutine to validate numeric input
 sub get_valid_input {
-    my ($prompt, $min) = @_;
-    my $value;
+    my ($prompt) = @_;
+    my $input;
 
     while (1) {
         print $prompt;
-        chomp($value = <STDIN>);
+        $input = <STDIN>;
+        chomp($input);
 
-        # Check if the input is a valid positive number
-        if ($value =~ /^\d+(\.\d+)?$/ && $value >= $min) {
-            return $value;  # Valid input
+        # Validate that the input is numeric and positive
+        if ($input =~ /^\d+(\.\d+)?$/ && $input > 0) {
+            return $input;
         } else {
-            print "Invalid input! Please enter a number greater than or equal to $min.\n";
+            print "Invalid input. Please enter a positive numeric value.\n";
         }
     }
 }
 
-# Introduction
-print "Electrical Energy Calculator\n";
-print "This program calculates electrical energy in joules using the formula: Energy (J) = Power (W) × Time (s).\n";
-print "----------------------------------------\n";
+# Main program
+print "Calculate Energy (Joules) from Resistance (Ohms), Charge (millicoulombs), and Current (Amperes)\n";
 
-# Get valid inputs for power and time
-my $volt = get_valid_input("Enter power in voltage (V): ", 0);
-my $current = get_valid_input("Enter current in amperes (I): ", 0);
-my $time = get_valid_input("Enter time in seconds (s): ", 0);
+# Get valid resistance input
+my $resistance = get_valid_input("Enter resistance in ohms: ");
 
-# Calculate energy
-my $energy = $volt * $current * $time;
-my $power = $volt * $current;
+# Get valid charge input
+my $charge_mC = get_valid_input("Enter charge in millicoulombs: ");
 
-# Display the result
-print "----------------------------------------\n";
-print "Power (W): $power\n";
-print "Energy (J): $energy\n";
-print "----------------------------------------\n";
+# Convert charge from millicoulombs to coulombs
+my $charge_C = $charge_mC / 1000;
+
+# Get valid current input
+my $current = get_valid_input("Enter current in amperes: ");
+
+# Calculate energy using the formula E = I^2 * R * Q
+# Q represents the time equivalent (in seconds) for the given charge
+my $energy = $current**2 * $resistance * $charge_C;
+
+# Output the result
+print "Energy = $energy joules\n";
