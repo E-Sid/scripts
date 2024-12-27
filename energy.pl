@@ -25,16 +25,16 @@ sub get_valid_input {
 print "Calculate Energy (Joules) from Resistance (Ohms), Charge (millicoulombs), and Current (Amperes)\n";
 
 # Get valid resistance input
-my $resistance = get_valid_input("Enter resistance in ohms: ");
+my $resistance = get_valid_input("Please, enter resistance (dynamic impedance) in ohms: ");
 
 # Get valid charge input
-my $charge_mC = get_valid_input("Enter charge in millicoulombs: ");
+my $charge_mC = get_valid_input("Please, enter charge in millicoulombs: ");
 
 # Convert charge from millicoulombs to coulombs
 my $charge_C = $charge_mC / 1000;
 
 # Get valid current input
-my $current = get_valid_input("Enter current in amperes: ");
+my $current = get_valid_input("Please, enter current in amperes: ");
 
 # Calculate energy using the formula E = I^2 * R * Q
 # Q represents the time equivalent (in seconds) for the given charge
