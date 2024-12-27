@@ -100,7 +100,7 @@ Each code strives to abide by Unix philosophy _'Do one thing and do it well'_
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
 - Ohm's law `ohms-law.rexx`, `ohms-law.bas`, `ohmslaw.awk`, `ohmslaw.pl`
-- ECT Power Calculator in watts `power.rexx`, `power.awk`
+- ECT Power Calculator in watts `power.rexx`, `power.awk`, `power.pl`
 - ECT Energy Calculator in joules `energy.rexx`, `energy.pl`
 - Repetitive Transcranial Magnetic Stimulation (rTMS) dose calculator: `rtms.awk`. `rtms.pl`
 
@@ -304,6 +304,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `phq4.pl`: Patient Health Questionnaire (PHQ-4)
 - `phq8.pl`: Patient Health Questionnaire (PHQ-8)
 - `phq9.pl`: Patient Health Questionnaire (PHQ-9) Depression
+- `power.pl`: ECT power calculator in watts
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko with file save option.
 - `raid.pl`: Rating Anxiety in Dementia (RAID)
 - `rtms.pl` refers to rTMS dose calculator.
