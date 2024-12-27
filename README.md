@@ -270,7 +270,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ect-age.pl` is an ECT Age-based and Dose calculator
 - `ect-charge.pl` is an` ECT charge & titration calculator
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
-- `energy.pl`: energy calculator in joules for ECT
+- `energy.pl`: energy calculator in joules for ECT using dynamic impedance, charge and current (E=I^2*R*Q)
 - `fab.pl`: Frontal Assessment Battery (FAB)
 - `gad7.pl`: Generalised Anxiety Disroder (GAD-7) Assessment
 - `hama.pl`: Hamilton Anxiety Rating Scale (HAM-A)
