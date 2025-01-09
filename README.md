@@ -2,10 +2,19 @@
 _These are mostly GNU/Linux [BASH Shell](https://www.gnu.org/software/bash/), AWK, [Perl](https://www.perl.org/), Sed & [MS-PowerShell](https://learn.microsoft.com/en-gb/powershell/) calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Perl, [REXX](https://www.rexxla.org/), [FreeBASIC](https://www.freebasic.net/), and other Batch files for [FreeDOS](https://www.freedos.org/)_. _Some scripts are designed for GNU/Linux and other POSIX compatible OS, others are geared to MS-PowerShell, and some others eg platform independent eg Perl._ 
 
 # Rationale
-Medical calculators help provide numerical values which makes quantification, and tracking of progress easier. Medicine is not a pure scientific endeavour, hence, some medical calculators esp. measuring depression severity etc. attempt to put a numerical value to a subjective experience. The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a shell, or terminal. These tests do not require online connection (*apart from downloading them*). The current scripts aim to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux), \*nix/BSD derivatives eg MacOS, platforms that have POSIX compliance layer eg [Haiku](https://www.haiku-os.org/), as well as other operating systems eg FreeDOS & MS-Windows (_via PowerShell or Command Prompt_), as well as other platform independent calculators and algorithms. Also, users have access to the source code, so they are welcome to study, improve, and copy the design for other tests under GNU/GPL-3 license.
+Medical calculators help provide numerical values which makes quantification, and tracking of progress easier. Medicine is not a pure scientific endeavour, hence, some medical calculators esp. measuring depression severity etc. attempt to put a numerical value to a subjective experience.
+
+## System requirements
+The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a shell, or terminal. These tests do not require online connection (*apart from downloading them*). 
+
+## Supported platforms
+The current scripts aim to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux), BSD operating systems _eg_ [FreeBSD (NomadBSD, DragonFlyBSD), NetBSD, OpenBSD], \*nix/BSD derivatives eg MacOS, platforms that have POSIX compliance layer eg [Haiku](https://www.haiku-os.org/), as well as other operating systems eg FreeDOS & MS-Windows (_via PowerShell or Command Prompt_), as well as other platform independent calculators and algorithms. 
+
+## License
+Users have access to the source code, so they are welcome to study, improve, and copy the design for other tests under GNU/GPL-3 license.
 
 # Coding Principles
-### More than just a calculator
+### More than just a calculator (data validation, reporting, saving)
 The general guiding concept is that these codes offer more than just a calculator. They print a report that could be copied from a terminal, or could be saved to a file. They calculate subscores, and they have data validation for each parameter with loops to guard against accidental typos or missed entries, the same goes for saving files. 
 
 ### Subscore calculation
