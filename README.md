@@ -128,7 +128,7 @@ Each code strives to abide by Unix philosophy _'Do one thing and do it well'_
 - Body Mass Index (BMI) imperial calculator `bmi-lb-inch.bas`, `bmi-lb-inch.pl` 
 - Calories to joules converter `c2j.awk`, `c2j.pl`
 - Cardiac Output calculator: `cardiac-output.awk`, `cardiac.bat` & `cardiac-output.pl`
-- Celsius to Fahrenheit temperature scale converter: `fahrenheit.awk` 
+- Celsius to Fahrenheit temperature scale converter: `fahrenheit.awk`, `fahrenheit.pl` 
 - Fahrenheit to Celsius temperature scale converter: `celsius.awk`, `celsius.pl` 
 - Hip-Waiste Ratio calculator: `hip-waist.awk`,  `hip-waiste.rexx`, `hip-waist.pl`
 - Kilogram(s) to pound(s) converter: `kg2lb.awk`, `kg2lb.pl`
@@ -281,6 +281,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `ect-formulae.pl`: is ECT dosing formulae and equations' calculator
 - `energy.pl`: energy calculator in joules for ECT using dynamic impedance, charge and current (E=I^2*R*Q)
 - `fab.pl`: Frontal Assessment Battery (FAB)
+- `fahrenheit.pl`: Celsius to Fahrenheit temperature scale converter
 - `gad7.pl`: Generalised Anxiety Disroder (GAD-7) Assessment
 - `hama.pl`: Hamilton Anxiety Rating Scale (HAM-A)
 - `hdrs7.pl`: Hamilton Depression Rating Scale (HDRS-7)
