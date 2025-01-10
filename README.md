@@ -135,7 +135,7 @@ Each code strives to abide by Unix philosophy _'Do one thing and do it well'_
 - Kilogram(s) to stone(s) converter: `kg2st.awk`, `kg2st.pl`
 - Mean Arterial Blood Pressure calculator (MAP): `map.awk`, `map.bas`, `map.py`, `map.rexx`, `map.pl`
 - Maximum Heart Rate (MHR) calculator `mhr.rexx`, `mhr.bat`, `mhr.bas`, `mhr.sh`, `mhr.py`, `mhr.js`, `mhr.awk`, `mhr.pl`
-- Pack years of cigarettes calculator: `packyr.awk`
+- Pack years of cigarettes calculator: `packyr.awk`, `packyear.pl`
 - Target Heart Rate (THR) calculator `thr.pl`according to [CDC](https://www.cdc.gov/physicalactivity/basics/measuring/heartrate.htm)
 - Pounds to kilograms converter: `lb2kg.awk`, `lb2kg.pl`
 - QTc Interval calculator: `qtc.awk`, `qtc.pl` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
@@ -311,6 +311,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `moca-mis.pl`: refers to Montreal Cognitive Examination (MocA) Memory Score Index (MIS)
 - `neutralise.pl`: is a rough helper to make reports more gender neutral. It is by no means complete. To work this file type `perl -pi -w neutralise.pl filename.txt`
 - `ohmslaw.pl`: Calculates Ohm's law, select the parameter you want to calculate and enter the other two, it will calculate the third
+- `packyear.pl`: Pack years of cigarettes calculator
 - `phq4.pl`: Patient Health Questionnaire (PHQ-4)
 - `phq8.pl`: Patient Health Questionnaire (PHQ-8)
 - `phq9.pl`: Patient Health Questionnaire (PHQ-9) Depression
