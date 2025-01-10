@@ -5,7 +5,7 @@ _These are mostly GNU/Linux [BASH Shell](https://www.gnu.org/software/bash/), AW
 Medical calculators help provide numerical values which makes quantification, and tracking of progress easier. Medicine is not a pure scientific endeavour, hence, some medical calculators esp. measuring depression severity etc. attempt to put a numerical value to a subjective experience.
 
 ## System requirements
-The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a shell, or terminal. These tests do not require online connection (*apart from downloading them*). 
+The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a teletype shell, or terminal. These tests do not require online connection (*apart from downloading them*). The memory requirements are minimal.
 
 ## Supported platforms
 The current scripts aim to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux), BSD operating systems _eg_ [FreeBSD (NomadBSD, DragonFlyBSD), NetBSD, OpenBSD], \*nix/BSD derivatives eg MacOS, platforms that have POSIX compliance layer eg [Haiku](https://www.haiku-os.org/), as well as other operating systems eg FreeDOS & MS-Windows (_via PowerShell or Command Prompt_), as well as other platform independent calculators and algorithms. 
