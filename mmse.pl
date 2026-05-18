@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-print "This is Addenrbooke's Cognitive Examination - Revised (ACE-R) Calculator\n";
+print "This is Mini-Mental State Examination\n";
     print "====================================================================\n";
 print 'Attention: Please, type score for orientation in time [0-5]: ';
 my $A1 = <>;
