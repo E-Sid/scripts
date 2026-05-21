@@ -105,7 +105,7 @@ Each code strives to abide by Unix philosophy _'Do one thing and do it well'_
 - Health of The Nation Ouctome Scale - Secure (HoNOS-Secure): `honos-secure.pl`
 
 ### ECT & Neurostimulation
-- Clinical and Seizure Based Stimulation (CASBAS) `casbas.pl`
+- Clinical and Seizure Based Stimulation (CASBAS) `casbas.pl` (minor modification to quantify clinical improvement via CGI-I)
 - Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.bat` & `ect-age.pl`
 - ECT charge & titration calculator: `ect-charge.awk`, `ect-charge.pl`
 - ECT dosing formulae and equations' calculator: `ect-formulae.awk`. `ect-formulae.pl`
@@ -259,8 +259,6 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `acvpu2gcs.pl`: AcVPU score to Glasgow Coma Scale 
 - `audit.pl`: calculates Alcohol Use Disorders Identification Test (AUDIT) score
 - `avpu2gcs.pl` converts from AVPU score to GCS score
-- `casbas.pl`: calculates Clinical and Seizure-Based Stimulation (CASBAS) for ECT
-- `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
 - `badls.pl`: Bristol Activities of Daily Living Scale calculator
 - `bai.pl`: Beck Anxiety Inventory (BAI) calculator
 - `bcrs.pl`: Brief Cognitive Rating Scale (BCRS)
@@ -271,6 +269,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `c2j.pl` converts calories to joules
 - `cage.pl`: calculates CAGE Questionnaire
 - `cardiac-outut.pl` calculates the cardiac output
+- `casbas.pl`: calculates Clinical and Seizure-Based Stimulation (CASBAS) for ECT (minor modification to quantify clinical improvement via CGI-I)
 - `cbi.pl`: Cambridge Behavioural Inventory
 - `cbir.pl`@ Cambridge Behavioural Inventory - Revised (CBI-R)
 - `cdr.pl` calculates the clinical dementia rating scale
@@ -324,6 +323,7 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `sadpersons.pl`: SADPERSONS scale calculator
 - `st2kg.pl` refers to stone to kilogram converter.
 - `thr.pl` refers to Target Heart Rate
+- `updrs.pl`: calculates Assessment of Parkinsonism UPDRS 5-item
 - `wsas.pl`:  Work & Social Adjustment Scale
 
 ## Instruction for sed Script
