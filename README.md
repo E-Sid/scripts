@@ -2,13 +2,15 @@
 _These are mostly GNU/Linux [BASH Shell](https://www.gnu.org/software/bash/), AWK, [Perl](https://www.perl.org/), Sed & [MS-PowerShell](https://learn.microsoft.com/en-gb/powershell/) calculator scripts for cognitive tests, psychiatric rating scales, cardiovascular calculators. Some calculators are platform independent (Perl, [REXX](https://www.rexxla.org/), [FreeBASIC](https://www.freebasic.net/), and other Batch files for [FreeDOS](https://www.freedos.org/)_. _Some scripts are designed for GNU/Linux and other POSIX compatible OS, others are geared to MS-PowerShell, and some others eg platform independent eg Perl._ 
 
 # Rationale
-Medical calculators help provide numerical values which makes quantification, and tracking of progress easier. Medicine is not a pure scientific endeavour, hence, some medical calculators esp. measuring depression severity etc. attempt to put a numerical value to a subjective experience.
+Medical calculators help provide numerical values which makes quantification, and tracking of progress easier. The availability of a script allows for data validation and saving the ouctome, with clear cues to minimise data entry duplication. Medicine is not a pure scientific endeavour, hence, some medical calculators esp. measuring depression severity etc. attempt to put a numerical value to a subjective experience.
 
 ## System requirements
 The aim of these calculators and algorithms is to provide a simple minimalist effecient command-line interface (CLI) scripts which could work in a teletype shell, or terminal. These tests do not require online connection (*apart from downloading them*). The memory requirements are minimal.
 
 ## Supported platforms
 The current scripts aim to cover multiple platforms eg \*nix (Unix, BSD, GNU/Linux), BSD operating systems _eg_ [FreeBSD (NomadBSD, DragonFlyBSD), NetBSD, OpenBSD], \*nix/BSD derivatives eg MacOS, platforms that have POSIX compliance layer eg [Haiku](https://www.haiku-os.org/), as well as other operating systems eg FreeDOS & MS-Windows (_via PowerShell or Command Prompt_), as well as other platform independent calculators and algorithms. 
+Perl codes could be used on any platform provided that an appropriate installation is done. MS-PowerShell codes could work under GNU/Linux if the appropriate app is installed. ReXX could be used under GNU/Linux, also it could be used under Amiga/AROS etc.
+
 
 ## License
 Users have access to the source code, so they are welcome to study, improve, and copy the design for other tests under GNU/GPL-3 license.
@@ -21,13 +23,16 @@ The general guiding concept is that these codes offer more than just a calculato
 Also, in case of subscores, there are `if` statements to make sure that the score entered is logical eg. in ACE-III if someone scores 4/5 in orientation in time. The test will ask about score for Mini-ACE which is out of 4. Logically, the result could be only 4 or 3. If the ACE-III orientation in time score is 1, the Mini-ACE would only be 1 or 0. The code makes sure that the results are coherent in that sense. The same principle guides registration & recall; one cannot recall, what one did not register. `while` loops ensure that values entered are within the accepted range only to minimise the GIGO effect. 
 
 ### Efficiency
-Whenever possible, the codes are moving more towards the utilisation of `subroutines` esp. in Perl codes, to minimise code redundancy. 
+Whenever possible, the codes are moving more towards the utilisation of `subroutines` esp. in Perl codes, to minimise code redundancy. The codes are compact with no GUI packaging to minimise use of system requirements.
 
 ### TIMTOWTDI
 Scripts (_esp. Perl scripts_) do not all function in the same way or written in the same style. Following Perl's philosophy _('There is more than one way to do it')_  multiple coding styles where used.
 
 ### D1T&DIW
 Each code strives to abide by Unix philosophy _'Do one thing and do it well'_
+
+### Future plans
+The current direction is towards focusing on Perl code due to their inherent versatility and ability to be used on multiple platforms.
 
 # List of scripts
 
