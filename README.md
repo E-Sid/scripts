@@ -145,7 +145,7 @@ The current direction is towards focusing on Perl code due to their inherent ver
 - Pack years of cigarettes calculator: `packyr.awk`, `packyear.pl`
 - Target Heart Rate (THR) calculator `thr.pl`according to [CDC](https://www.cdc.gov/physicalactivity/basics/measuring/heartrate.htm)
 - Pounds to kilograms converter: `lb2kg.awk`, `lb2kg.pl`
-- Pulsometer: counting 30 pulses to get bpm: `pulsometer.pl`
+- Pulsometer: counting 30 pulses to get bpm: `pulsometer.pl`, counting 15 pulses to get bpm `pulsometer15.pl`
 - QTc Interval calculator: `qtc.awk`, `qtc.pl` (calculates Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, Dmitrienko. `qtc.bas`: is less extensive
 - Stone to kilogram converter: `st2kg.awk`, `st2kg.pl`
 - Lesion size estimation helpers: `triangle.awk`, `rectangle.awk`, `circle.awk`
@@ -324,7 +324,8 @@ Type `perl` followed by the file name eg `perl bmi.pl`. Perl almost alway comes 
 - `phq8.pl`: Patient Health Questionnaire (PHQ-8)
 - `phq9.pl`: Patient Health Questionnaire (PHQ-9) Depression
 - `power.pl`: ECT power calculator in watts
-- `pulsometer.pl`: counting 30 pulses to get bpm 
+- `pulsometer.pl`: counting 30 pulses to get bpm
+- `pulsometer15.pl`: counting 30 pulses to get bpm
 - `qtc.pl` calculates QTc interval via Bazett, Fridericia, Hodges (different calculations), Framingham, Rautaharju, & Dmitrienko with file save option.
 - `raid.pl`: Rating Anxiety in Dementia (RAID)
 - `rtms.pl` refers to rTMS dose calculator.
