@@ -109,7 +109,7 @@ The current direction is towards focusing on Perl code due to their inherent ver
 - Health of The Nation Ouctome Scale - Child & Adolescent Mental Health (HoNOSCA): `honosca.pl`
 - Health of The Nation Ouctome Scale - Secure (HoNOS-Secure): `honos-secure.pl`
 
-### ECT & Neurostimulation
+### ECT & Neuromodulation
 - Clinical and Seizure Based Stimulation (CASBAS) `casbas.pl` (minor modification to quantify clinical improvement via CGI-I)
  Brunner, I., Grözinger, M. Brief vs. ultrabrief pulse ECT: focus on seizure quality. Eur Arch Psychiatry Clin Neurosci 268, 831–838 (2018). https://doi.org/10.1007/s00406-018-0925-z
 - Electroconvulsive Therapy (ECT) Age-based and Dose calculator: `ect-age.awk`, `ect-dose.sh`, `ect-age.bat` & `ect-age.pl`
